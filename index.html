@@ -363,12 +363,13 @@
 
     try {
       const url = `https://open.assembly.go.kr/portal/openapi/nfcoioopazrwmjrgs?KEY=${API_KEY}&Type=json&pIndex=1&pSize=100`;
-      const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
 
       const resp = await fetch(proxyUrl);
       if (!resp.ok) throw new Error('응답 오류 ' + resp.status);
 
-      const data = await resp.json();
+      const json = await resp.json();
+      const data = JSON.parse(json.contents);
       const root = data?.nfcoioopazrwmjrgs || [];
       let rows = [];
       for (const block of root) {
