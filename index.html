@@ -57,7 +57,14 @@
 
   /* 테이블 좌우 스크롤 */
   .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  table { min-width: 580px; }
+  table { min-width: 580px; width: max-content; max-width: none; }
+  @media (max-width: 780px) {
+    .table-wrap { overflow-x: scroll; }
+    table { min-width: 640px; }
+    .td-title { min-width: 160px; max-width: 200px; }
+    .td-location { min-width: 80px; }
+    .td-host { min-width: 100px; }
+  }
 
   /* Calendar Header */
   .cal-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--border); }
