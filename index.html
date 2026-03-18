@@ -7,274 +7,75 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0d1117;
-    --surface: #161b22;
-    --surface2: #21262d;
-    --border: #30363d;
-    --accent: #2f81f7;
-    --accent2: #388bfd;
-    --green: #3fb950;
-    --text: #e6edf3;
-    --text2: #8b949e;
-    --text3: #6e7681;
-    --red: #f85149;
+    --bg: #0d1117; --surface: #161b22; --surface2: #21262d;
+    --border: #30363d; --accent: #2f81f7; --accent2: #388bfd;
+    --green: #3fb950; --text: #e6edf3; --text2: #8b949e;
+    --text3: #6e7681; --red: #f85149;
   }
-
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Noto Sans KR', sans-serif;
-    min-height: 100vh;
-    padding: 40px 20px;
-  }
-
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; min-height: 100vh; padding: 40px 20px; }
   .container { max-width: 1000px; margin: 0 auto; }
 
-  header {
-    margin-bottom: 28px;
-  }
+  header { margin-bottom: 28px; }
+  header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+  header p { font-size: 13px; color: var(--text2); margin-top: 6px; }
 
-  header h1 {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-  }
+  .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
 
-  header p {
-    font-size: 13px;
-    color: var(--text2);
-    margin-top: 6px;
-  }
-
-  /* Controls */
-  .controls {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-  }
-
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 9px 20px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    transition: all 0.15s;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
-
-  .btn-primary {
-    background: var(--accent);
-    color: #fff;
-  }
+  .btn { display: inline-flex; align-items: center; gap: 7px; padding: 9px 20px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; border: none; transition: all 0.15s; font-family: 'Noto Sans KR', sans-serif; }
+  .btn-primary { background: var(--accent); color: #fff; }
   .btn-primary:hover { background: var(--accent2); }
-  .btn-primary:disabled {
-    background: var(--surface2);
-    color: var(--text3);
-    cursor: not-allowed;
-  }
-
-  .btn-secondary {
-    background: var(--surface2);
-    color: var(--text);
-    border: 1px solid var(--border);
-  }
+  .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
   .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
 
-  .date-range {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-left: auto;
-    flex-wrap: wrap;
-  }
-
-  .date-range input {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    color: var(--text);
-    font-size: 13px;
-    padding: 8px 10px;
-    outline: none;
-    font-family: 'DM Mono', monospace;
-    transition: border-color 0.2s;
-  }
+  .date-range { display: flex; align-items: center; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+  .date-range input { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-size: 13px; padding: 8px 10px; outline: none; font-family: 'DM Mono', monospace; transition: border-color 0.2s; }
   .date-range input:focus { border-color: var(--accent); }
   .date-range span { color: var(--text3); font-size: 13px; }
 
-  /* Status */
-  .status-bar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 16px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    margin-bottom: 14px;
-    font-size: 13px;
-    color: var(--text2);
-    min-height: 40px;
-  }
-
-  .status-dot {
-    width: 8px; height: 8px;
-    border-radius: 50%;
-    background: var(--text3);
-    flex-shrink: 0;
-  }
+  .status-bar { display: flex; align-items: center; gap: 10px; padding: 10px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 14px; font-size: 13px; color: var(--text2); min-height: 40px; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
   .status-dot.loading { background: var(--accent); animation: pulse 1s infinite; }
   .status-dot.success { background: var(--green); }
-  .status-dot.error   { background: var(--red); }
+  .status-dot.error { background: var(--red); }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
-  @keyframes pulse {
-    0%, 100% { opacity: 1; } 50% { opacity: 0.3; }
-  }
-
-  .stats {
-    display: flex;
-    gap: 14px;
-    margin-left: auto;
-    flex-wrap: wrap;
-  }
-
-  .stat {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: var(--text3);
-  }
+  .stats { display: flex; gap: 14px; margin-left: auto; flex-wrap: wrap; }
+  .stat { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text3); }
   .stat span { color: var(--text); font-weight: 500; }
 
-  /* Table */
-  .table-wrap {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-
+  .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
-
-  thead {
-    background: var(--surface2);
-    border-bottom: 1px solid var(--border);
-  }
-
-  th {
-    padding: 12px 16px;
-    text-align: left;
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--text2);
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    font-family: 'DM Mono', monospace;
-    white-space: nowrap;
-  }
-
-  td {
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--border);
-    vertical-align: top;
-    line-height: 1.5;
-  }
-
+  thead { background: var(--surface2); border-bottom: 1px solid var(--border); }
+  th { padding: 12px 16px; text-align: left; font-size: 11px; font-weight: 500; color: var(--text2); letter-spacing: 0.6px; text-transform: uppercase; font-family: 'DM Mono', monospace; white-space: nowrap; }
+  td { padding: 14px 16px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: var(--surface2); }
 
-  .td-date {
-    font-family: 'DM Mono', monospace;
-    font-size: 13px;
-    color: var(--accent);
-    white-space: nowrap;
-    font-weight: 500;
-  }
-
-  .td-time {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: var(--text2);
-    white-space: nowrap;
-  }
-
-  .td-title a {
-    color: var(--text);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.15s;
-    border-bottom: 1px solid transparent;
-  }
-  .td-title a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-  }
-
-  .td-desc {
-    font-size: 12px;
-    color: var(--text3);
-    margin-top: 5px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
+  .td-date { font-family: 'DM Mono', monospace; font-size: 13px; color: var(--accent); white-space: nowrap; font-weight: 500; }
+  .td-time { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); white-space: nowrap; }
+  .td-title a { color: var(--text); text-decoration: none; font-weight: 500; border-bottom: 1px solid transparent; transition: all 0.15s; }
+  .td-title a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .td-title .no-link { color: var(--text); font-weight: 500; }
+  .td-desc { font-size: 12px; color: var(--text3); margin-top: 5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .td-location { font-size: 13px; color: var(--text2); }
-  .td-host     { font-size: 12px; color: var(--text3); max-width: 180px; }
+  .td-host { font-size: 12px; color: var(--text3); max-width: 180px; }
 
-  .badge {
-    display: inline-block;
-    padding: 2px 7px;
-    border-radius: 99px;
-    font-size: 11px;
-    font-weight: 500;
-    font-family: 'DM Mono', monospace;
-    margin-right: 4px;
-    vertical-align: middle;
-  }
+  .badge { display: inline-block; padding: 2px 7px; border-radius: 99px; font-size: 11px; font-weight: 500; font-family: 'DM Mono', monospace; margin-right: 4px; vertical-align: middle; }
   .badge-today { background: rgba(63,185,80,0.15); color: var(--green); }
   .badge-soon  { background: rgba(47,129,247,0.15); color: var(--accent); }
 
-  .empty {
-    text-align: center;
-    padding: 60px 20px;
-    color: var(--text3);
-  }
+  .empty { text-align: center; padding: 60px 20px; color: var(--text3); }
   .empty .icon { font-size: 36px; margin-bottom: 12px; }
   .empty p { font-size: 14px; }
 
-  .skeleton {
-    background: linear-gradient(90deg, var(--surface2) 25%, var(--border) 50%, var(--surface2) 75%);
-    background-size: 200% 100%;
-    animation: shimmer 1.2s infinite;
-    border-radius: 4px;
-    height: 14px;
-    display: inline-block;
-  }
-  @keyframes shimmer {
-    0% { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-  }
+  .skeleton { background: linear-gradient(90deg, var(--surface2) 25%, var(--border) 50%, var(--surface2) 75%); background-size: 200% 100%; animation: shimmer 1.2s infinite; border-radius: 4px; height: 14px; display: inline-block; }
+  @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-  .footer {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 12px;
-    color: var(--text3);
-  }
+  .footer { margin-top: 20px; text-align: center; font-size: 12px; color: var(--text3); }
 
   @media (max-width: 600px) {
-    th:nth-child(4), td:nth-child(4),
-    th:nth-child(5), td:nth-child(5) { display: none; }
+    th:nth-child(4), td:nth-child(4), th:nth-child(5), td:nth-child(5) { display: none; }
   }
 </style>
 </head>
@@ -283,12 +84,11 @@
 
   <header>
     <h1>🏛️ 국회토론회 일정</h1>
-    <p>열린국회정보 Open API · 실시간 조회</p>
+    <p>열린국회정보 Open API · 매일 자동 업데이트</p>
   </header>
 
-  <!-- Controls -->
   <div class="controls">
-    <button class="btn btn-primary" id="fetchBtn" onclick="fetchForums()">⟳ 일정 조회</button>
+    <button class="btn btn-primary" onclick="loadForums()">⟳ 새로고침</button>
     <button class="btn btn-secondary" onclick="exportCSV()">↓ CSV 내보내기</button>
     <div class="date-range">
       <input type="date" id="dateFrom" />
@@ -297,38 +97,25 @@
     </div>
   </div>
 
-  <!-- Status -->
   <div class="status-bar">
-    <div class="status-dot" id="statusDot"></div>
-    <span id="statusText">조회 버튼을 눌러 일정을 불러오세요</span>
+    <div class="status-dot loading" id="statusDot"></div>
+    <span id="statusText">데이터 불러오는 중...</span>
     <div class="stats" id="statsBar" style="display:none">
       <span class="stat">전체 <span id="totalCount">0</span>건</span>
-      <span class="stat">필터 <span id="filteredCount">0</span>건</span>
+      <span class="stat">표시 <span id="filteredCount">0</span>건</span>
       <span class="stat">업데이트 <span id="lastUpdate">-</span></span>
     </div>
   </div>
 
-  <!-- Table -->
   <div class="table-wrap">
     <table>
       <thead>
         <tr>
-          <th>날짜</th>
-          <th>시간</th>
-          <th>제목</th>
-          <th>장소</th>
-          <th>주최</th>
+          <th>날짜</th><th>시간</th><th>제목</th><th>장소</th><th>주최</th>
         </tr>
       </thead>
       <tbody id="tableBody">
-        <tr>
-          <td colspan="5">
-            <div class="empty">
-              <div class="icon">📋</div>
-              <p>조회 버튼을 눌러 일정을 불러오세요</p>
-            </div>
-          </td>
-        </tr>
+        <tr><td colspan="5"><div class="empty"><div class="icon">⏳</div><p>데이터 불러오는 중...</p></div></td></tr>
       </tbody>
     </table>
   </div>
@@ -337,15 +124,15 @@
 </div>
 
 <script>
-  const API_KEY = '1de3aca785d84135b2e836f54b5ad9b3';
+  // GitHub Pages 저장소 경로에서 자동으로 JSON URL 계산
+  const JSON_URL = location.origin + location.pathname.replace(/\/?$/, '/') + 'data/forums.json';
+
   let allData = [];
 
-  // 날짜 기본값
   const today = new Date();
-  const in30  = new Date(today);
-  in30.setDate(today.getDate() + 30);
+  const in60  = new Date(today); in60.setDate(today.getDate() + 60);
   document.getElementById('dateFrom').value = fmt(today);
-  document.getElementById('dateTo').value   = fmt(in30);
+  document.getElementById('dateTo').value   = fmt(in60);
 
   function fmt(d) { return d.toISOString().split('T')[0]; }
 
@@ -354,46 +141,24 @@
     document.getElementById('statusText').textContent = msg;
   }
 
-  async function fetchForums() {
-    const btn = document.getElementById('fetchBtn');
-    btn.disabled = true;
-    btn.textContent = '조회 중...';
-    setStatus('loading', 'API 호출 중...');
+  async function loadForums() {
+    setStatus('loading', '데이터 불러오는 중...');
     showSkeleton();
-
     try {
-      const url = `https://open.assembly.go.kr/portal/openapi/nfcoioopazrwmjrgs?KEY=${API_KEY}&Type=json&pIndex=1&pSize=100`;
-      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-
-      const resp = await fetch(proxyUrl);
-      if (!resp.ok) throw new Error('응답 오류 ' + resp.status);
-
+      const resp = await fetch(JSON_URL + '?t=' + Date.now());
+      if (!resp.ok) throw new Error('파일을 찾을 수 없습니다 (GitHub Actions가 아직 실행되지 않았을 수 있어요)');
       const json = await resp.json();
-      const data = JSON.parse(json.contents);
-      const root = data?.nfcoioopazrwmjrgs || [];
-      let rows = [];
-      for (const block of root) {
-        if (block.row) {
-          rows = Array.isArray(block.row) ? block.row : [block.row];
-          break;
-        }
-      }
 
-      allData = rows;
+      allData = json.forums || [];
       renderTable();
 
       document.getElementById('statsBar').style.display = 'flex';
-      document.getElementById('totalCount').textContent = rows.length;
-      document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('ko-KR');
-      setStatus('success', `${rows.length}건 로드 완료`);
-
-    } catch (e) {
-      console.error(e);
-      setStatus('error', '조회 실패: ' + e.message);
-      showEmpty('조회에 실패했습니다. 잠시 후 다시 시도해주세요.');
-    } finally {
-      btn.disabled = false;
-      btn.textContent = '⟳ 일정 조회';
+      document.getElementById('totalCount').textContent = allData.length;
+      document.getElementById('lastUpdate').textContent = json.updated_at || '-';
+      setStatus('success', `${allData.length}건 · 마지막 업데이트: ${json.updated_at}`);
+    } catch(e) {
+      setStatus('error', '불러오기 실패: ' + e.message);
+      showEmpty('데이터를 불러오지 못했습니다.<br>GitHub Actions를 먼저 실행해주세요 (Actions → Run workflow)');
     }
   }
 
@@ -402,58 +167,47 @@
     const to   = document.getElementById('dateTo').value;
 
     const filtered = allData
-      .filter(f => {
-        const d = f.SDATE || '';
-        return (!from || d >= from) && (!to || d <= to);
-      })
-      .sort((a, b) => (a.SDATE || '').localeCompare(b.SDATE || ''));
+      .filter(f => { const d = f.SDATE||''; return (!from||d>=from)&&(!to||d<=to); })
+      .sort((a,b) => (a.SDATE||'').localeCompare(b.SDATE||''));
 
     document.getElementById('filteredCount').textContent = filtered.length;
 
-    if (!filtered.length) {
-      showEmpty('해당 기간에 토론회 일정이 없습니다');
-      return;
-    }
+    if (!filtered.length) { showEmpty('해당 기간에 토론회 일정이 없습니다'); return; }
 
     const todayStr = fmt(new Date());
-    const in3 = new Date(); in3.setDate(in3.getDate() + 3);
+    const in3 = new Date(); in3.setDate(in3.getDate()+3);
     const in3str = fmt(in3);
 
     document.getElementById('tableBody').innerHTML = filtered.map(f => {
-      const sdate = f.SDATE || '';
-      const badge = sdate === todayStr
+      const sdate = f.SDATE||'';
+      const badge = sdate===todayStr
         ? '<span class="badge badge-today">오늘</span>'
-        : sdate <= in3str
-        ? `<span class="badge badge-soon">D-${dayDiff(sdate)}</span>`
-        : '';
+        : sdate<=in3str ? `<span class="badge badge-soon">D-${dayDiff(sdate)}</span>` : '';
 
       const title = f.TITLE || '(제목 없음)';
       const link  = f.LINK  || '';
-      const desc  = f.DESCRIPTION
-        ? `<div class="td-desc">${f.DESCRIPTION.replace(/▶/g, '').trim()}</div>`
-        : '';
-
-      const titleCell = link
+      const desc  = f.DESCRIPTION ? `<div class="td-desc">${f.DESCRIPTION.replace(/▶/g,'').trim()}</div>` : '';
+      const titleEl = link
         ? `${badge}<a href="${link}" target="_blank" rel="noopener">${title}</a>${desc}`
-        : `${badge}${title}${desc}`;
+        : `${badge}<span class="no-link">${title}</span>${desc}`;
 
       return `<tr>
         <td class="td-date">${sdate}</td>
-        <td class="td-time">${f.STIME || '-'}</td>
-        <td class="td-title">${titleCell}</td>
-        <td class="td-location">${f.LOCATION || '-'}</td>
-        <td class="td-host">${f.NAME || '-'}</td>
+        <td class="td-time">${f.STIME||'-'}</td>
+        <td class="td-title">${titleEl}</td>
+        <td class="td-location">${f.LOCATION||'-'}</td>
+        <td class="td-host">${f.NAME||'-'}</td>
       </tr>`;
     }).join('');
   }
 
-  function dayDiff(dateStr) {
+  function dayDiff(d) {
     const t = new Date(); t.setHours(0,0,0,0);
-    return Math.round((new Date(dateStr) - t) / 86400000);
+    return Math.round((new Date(d)-t)/86400000);
   }
 
   function showSkeleton() {
-    document.getElementById('tableBody').innerHTML = Array(6).fill(0).map((_, i) => `
+    document.getElementById('tableBody').innerHTML = Array(6).fill(0).map((_,i)=>`
       <tr>
         <td><span class="skeleton" style="width:75px"></span></td>
         <td><span class="skeleton" style="width:80px"></span></td>
@@ -464,35 +218,28 @@
   }
 
   function showEmpty(msg) {
-    document.getElementById('tableBody').innerHTML = `
-      <tr><td colspan="5">
-        <div class="empty"><div class="icon">📭</div><p>${msg}</p></div>
-      </td></tr>`;
+    document.getElementById('tableBody').innerHTML = `<tr><td colspan="5"><div class="empty"><div class="icon">📭</div><p>${msg}</p></div></td></tr>`;
   }
 
-  document.getElementById('dateFrom').addEventListener('change', () => { if (allData.length) renderTable(); });
-  document.getElementById('dateTo').addEventListener('change',   () => { if (allData.length) renderTable(); });
+  document.getElementById('dateFrom').addEventListener('change', ()=>{ if(allData.length) renderTable(); });
+  document.getElementById('dateTo').addEventListener('change',   ()=>{ if(allData.length) renderTable(); });
 
   function exportCSV() {
-    if (!allData.length) { alert('먼저 일정을 조회해주세요'); return; }
+    if (!allData.length) { alert('먼저 새로고침을 눌러주세요'); return; }
     const from = document.getElementById('dateFrom').value;
     const to   = document.getElementById('dateTo').value;
-    const rows = allData.filter(f => {
-      const d = f.SDATE || '';
-      return (!from || d >= from) && (!to || d <= to);
-    });
-    const csv = '날짜,시간,제목,장소,주최,링크\n' + rows.map(f =>
-      [f.SDATE, f.STIME,
-       `"${(f.TITLE||'').replace(/"/g,'""')}"`,
-       f.LOCATION,
-       `"${(f.NAME||'').replace(/"/g,'""')}"`,
-       f.LINK].join(',')
+    const rows = allData.filter(f=>{ const d=f.SDATE||''; return (!from||d>=from)&&(!to||d<=to); });
+    const csv = '날짜,시간,제목,장소,주최,링크\n' + rows.map(f=>
+      [f.SDATE, f.STIME, `"${(f.TITLE||'').replace(/"/g,'""')}"`, f.LOCATION, `"${(f.NAME||'').replace(/"/g,'""')}"`, f.LINK].join(',')
     ).join('\n');
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob(['\uFEFF'+csv], {type:'text/csv;charset=utf-8'}));
+    a.href = URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));
     a.download = `국회토론회_${from}_${to}.csv`;
     a.click();
   }
+
+  // 페이지 로드 시 자동 조회
+  loadForums();
 </script>
 </body>
 </html>
