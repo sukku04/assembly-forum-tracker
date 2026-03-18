@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -16,288 +17,274 @@
   body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; min-height: 100vh; padding: 36px 20px; }
   .container { max-width: 1060px; margin: 0 auto; }
 
-  /* ── Header ── */
-  header { margin-bottom: 28px; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-  header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
-  header p  { font-size: 13px; color: var(--text2); margin-top: 5px; }
-  .header-meta { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text3); text-align: right; }
-  .header-meta span { color: var(--green); }
+/* ── Header ── */
+header { margin-bottom: 28px; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+header p  { font-size: 13px; color: var(–text2); margin-top: 5px; }
+.header-meta { font-family: ‘DM Mono’, monospace; font-size: 12px; color: var(–text3); text-align: right; }
+.header-meta span { color: var(–green); }
 
-  /* ── Layout ── */
-  .layout { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
-  @media (max-width: 780px) { .layout { grid-template-columns: 1fr; } }
+/* ── Layout ── */
+.layout { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
+@media (max-width: 780px) { .layout { grid-template-columns: 1fr; } }
 
-  /* ── Calendar Panel ── */
-  .cal-panel {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow: hidden;
-    position: sticky;
-    top: 20px;
-  }
+/* ── Calendar Panel ── */
+.cal-panel {
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 10px;
+overflow: hidden;
+position: sticky;
+top: 20px;
+}
+@media (max-width: 780px) {
+.cal-panel { position: static; }
+}
 
-  .cal-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--border);
-  }
-  .cal-title { font-size: 14px; font-weight: 600; }
-  .cal-nav { display: flex; gap: 4px; }
-  .cal-nav button {
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    color: var(--text2);
-    border-radius: 5px;
-    width: 28px; height: 28px;
-    cursor: pointer;
-    font-size: 13px;
-    display: flex; align-items: center; justify-content: center;
-    transition: all 0.15s;
-  }
-  .cal-nav button:hover { border-color: var(--accent); color: var(--accent); }
+.cal-header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 14px 16px;
+border-bottom: 1px solid var(–border);
+}
+.cal-title { font-size: 14px; font-weight: 600; }
+.cal-nav { display: flex; gap: 4px; }
+.cal-nav button {
+background: var(–surface2);
+border: 1px solid var(–border);
+color: var(–text2);
+border-radius: 5px;
+width: 28px; height: 28px;
+cursor: pointer;
+font-size: 13px;
+display: flex; align-items: center; justify-content: center;
+transition: all 0.15s;
+}
+.cal-nav button:hover { border-color: var(–accent); color: var(–accent); }
 
-  .cal-grid { padding: 12px; }
+.cal-grid { padding: 12px; }
 
-  .cal-dow {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    margin-bottom: 4px;
-  }
-  .cal-dow span {
-    text-align: center;
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--text3);
-    padding: 4px 0;
-    font-family: 'DM Mono', monospace;
-  }
-  .cal-dow span:first-child { color: #f85149aa; }
-  .cal-dow span:last-child  { color: #388bfdaa; }
+.cal-dow {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+margin-bottom: 4px;
+}
+.cal-dow span {
+text-align: center;
+font-size: 11px;
+font-weight: 500;
+color: var(–text3);
+padding: 4px 0;
+font-family: ‘DM Mono’, monospace;
+}
+.cal-dow span:first-child { color: #f85149aa; }
+.cal-dow span:last-child  { color: #388bfdaa; }
 
-  .cal-days {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 2px;
-  }
+.cal-days {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+gap: 2px;
+}
 
-  .cal-day {
-    aspect-ratio: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.12s;
-    color: var(--text2);
-    user-select: none;
-  }
-  .cal-day:hover:not(.empty):not(.other-month) { background: var(--surface2); color: var(--text); }
-  .cal-day.other-month { color: var(--text3); opacity: 0.4; cursor: default; }
-  .cal-day.today { color: var(--accent); font-weight: 700; }
-  .cal-day.today::after {
-    content: '';
-    position: absolute;
-    bottom: 3px; left: 50%; transform: translateX(-50%);
-    width: 4px; height: 4px;
-    border-radius: 50%;
-    background: var(--accent);
-  }
-  .cal-day.has-event::before {
-    content: '';
-    position: absolute;
-    top: 3px; right: 3px;
-    width: 5px; height: 5px;
-    border-radius: 50%;
-    background: var(--green);
-  }
-  .cal-day.selected {
-    background: var(--accent) !important;
-    color: #fff !important;
-    font-weight: 600;
-  }
-  .cal-day.in-range {
-    background: rgba(47,129,247,0.15);
-    color: var(--text);
-    border-radius: 0;
-  }
-  .cal-day.range-start { border-radius: 6px 0 0 6px; }
-  .cal-day.range-end   { border-radius: 0 6px 6px 0; }
-  .cal-day.range-start.range-end { border-radius: 6px; }
+.cal-day {
+aspect-ratio: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 12px;
+border-radius: 6px;
+cursor: pointer;
+position: relative;
+transition: all 0.12s;
+color: var(–text2);
+user-select: none;
+}
+.cal-day:hover:not(.empty):not(.other-month) { background: var(–surface2); color: var(–text); }
+.cal-day.other-month { color: var(–text3); opacity: 0.4; cursor: default; }
+.cal-day.today { color: var(–accent); font-weight: 700; }
+.cal-day.today::after {
+content: ‘’;
+position: absolute;
+bottom: 3px; left: 50%; transform: translateX(-50%);
+width: 4px; height: 4px;
+border-radius: 50%;
+background: var(–accent);
+}
+.cal-day.has-event::before {
+content: ‘’;
+position: absolute;
+top: 3px; right: 3px;
+width: 5px; height: 5px;
+border-radius: 50%;
+background: var(–green);
+}
+.cal-day.selected {
+background: var(–accent) !important;
+color: #fff !important;
+font-weight: 600;
+}
+.cal-day.in-range {
+background: rgba(47,129,247,0.15);
+color: var(–text);
+border-radius: 0;
+}
+.cal-day.range-start { border-radius: 6px 0 0 6px; }
+.cal-day.range-end   { border-radius: 0 6px 6px 0; }
+.cal-day.range-start.range-end { border-radius: 6px; }
 
-  /* Mode toggle */
-  .cal-mode {
-    display: flex;
-    gap: 0;
-    margin: 0 12px 12px;
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    overflow: hidden;
-  }
-  .cal-mode button {
-    flex: 1;
-    padding: 7px;
-    font-size: 12px;
-    background: none;
-    border: none;
-    color: var(--text2);
-    cursor: pointer;
-    font-family: 'Noto Sans KR', sans-serif;
-    transition: all 0.15s;
-  }
-  .cal-mode button.active { background: var(--accent); color: #fff; font-weight: 500; }
+/* Mode toggle */
+.cal-mode {
+display: flex;
+gap: 0;
+margin: 0 12px 12px;
+background: var(–surface2);
+border: 1px solid var(–border);
+border-radius: 6px;
+overflow: hidden;
+}
+.cal-mode button {
+flex: 1;
+padding: 7px;
+font-size: 12px;
+background: none;
+border: none;
+color: var(–text2);
+cursor: pointer;
+font-family: ‘Noto Sans KR’, sans-serif;
+transition: all 0.15s;
+}
+.cal-mode button.active { background: var(–accent); color: #fff; font-weight: 500; }
 
-  /* Quick filters */
-  .cal-quick {
-    padding: 0 12px 12px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .quick-btn {
-    padding: 5px 10px;
-    font-size: 11px;
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-radius: 99px;
-    color: var(--text2);
-    cursor: pointer;
-    font-family: 'Noto Sans KR', sans-serif;
-    transition: all 0.15s;
-    white-space: nowrap;
-  }
-  .quick-btn:hover { border-color: var(--accent); color: var(--accent); }
-  .quick-btn.active { background: rgba(47,129,247,0.15); border-color: var(--accent); color: var(--accent); }
+/* Quick filters */
+.cal-quick {
+padding: 0 12px 12px;
+display: flex;
+flex-wrap: wrap;
+gap: 6px;
+}
+.quick-btn {
+padding: 5px 10px;
+font-size: 11px;
+background: var(–surface2);
+border: 1px solid var(–border);
+border-radius: 99px;
+color: var(–text2);
+cursor: pointer;
+font-family: ‘Noto Sans KR’, sans-serif;
+transition: all 0.15s;
+white-space: nowrap;
+}
+.quick-btn:hover { border-color: var(–accent); color: var(–accent); }
+.quick-btn.active { background: rgba(47,129,247,0.15); border-color: var(–accent); color: var(–accent); }
 
-  /* Selected range display */
-  .cal-range-display {
-    margin: 0 12px 12px;
-    padding: 10px 12px;
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    font-size: 12px;
-    font-family: 'DM Mono', monospace;
-    color: var(--text2);
-  }
-  .cal-range-display .range-val { color: var(--accent); font-weight: 500; }
-  .cal-range-display .range-count { color: var(--green); margin-top: 3px; }
+/* Selected range display */
+.cal-range-display {
+margin: 0 12px 12px;
+padding: 10px 12px;
+background: var(–surface2);
+border: 1px solid var(–border);
+border-radius: 6px;
+font-size: 12px;
+font-family: ‘DM Mono’, monospace;
+color: var(–text2);
+}
+.cal-range-display .range-val { color: var(–accent); font-weight: 500; }
+.cal-range-display .range-count { color: var(–green); margin-top: 3px; }
 
-  /* Reset */
-  .cal-reset {
-    display: block;
-    width: calc(100% - 24px);
-    margin: 0 12px 12px;
-    padding: 8px;
-    background: none;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    color: var(--text3);
-    font-size: 12px;
-    cursor: pointer;
-    font-family: 'Noto Sans KR', sans-serif;
-    transition: all 0.15s;
-  }
-  .cal-reset:hover { border-color: var(--red); color: var(--red); }
+/* Reset */
+.cal-reset {
+display: block;
+width: calc(100% - 24px);
+margin: 0 12px 12px;
+padding: 8px;
+background: none;
+border: 1px solid var(–border);
+border-radius: 6px;
+color: var(–text3);
+font-size: 12px;
+cursor: pointer;
+font-family: ‘Noto Sans KR’, sans-serif;
+transition: all 0.15s;
+}
+.cal-reset:hover { border-color: var(–red); color: var(–red); }
 
-  /* ── Right Panel ── */
-  .right-panel { min-width: 0; }
+/* ── Right Panel ── */
+.right-panel { min-width: 0; }
 
-  .toolbar {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    margin-bottom: 14px;
-    flex-wrap: wrap;
-  }
+.toolbar {
+display: flex;
+gap: 8px;
+align-items: center;
+margin-bottom: 14px;
+flex-wrap: wrap;
+}
 
-  .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: all 0.15s; font-family: 'Noto Sans KR', sans-serif; }
-  .btn-primary   { background: var(--accent); color: #fff; }
-  .btn-primary:hover { background: var(--accent2); }
-  .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
-  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: all 0.15s; font-family: ‘Noto Sans KR’, sans-serif; }
+.btn-primary   { background: var(–accent); color: #fff; }
+.btn-primary:hover { background: var(–accent2); }
+.btn-secondary { background: var(–surface2); color: var(–text); border: 1px solid var(–border); }
+.btn-secondary:hover { border-color: var(–accent); color: var(–accent); }
 
-  /* Search */
-  .search-wrap { flex: 1; position: relative; min-width: 160px; }
-  .search-wrap input {
-    width: 100%;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    color: var(--text);
-    font-size: 13px;
-    padding: 8px 12px 8px 32px;
-    outline: none;
-    font-family: 'Noto Sans KR', sans-serif;
-    transition: border-color 0.2s;
-  }
-  .search-wrap input:focus { border-color: var(--accent); }
-  .search-wrap .icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text3); font-size: 13px; pointer-events: none; }
+/* Search */
+.search-wrap { flex: 1; position: relative; min-width: 160px; }
+.search-wrap input {
+width: 100%;
+background: var(–surface);
+border: 1px solid var(–border);
+border-radius: 6px;
+color: var(–text);
+font-size: 13px;
+padding: 8px 12px 8px 32px;
+outline: none;
+font-family: ‘Noto Sans KR’, sans-serif;
+transition: border-color 0.2s;
+}
+.search-wrap input:focus { border-color: var(–accent); }
+.search-wrap .icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(–text3); font-size: 13px; pointer-events: none; }
 
-  /* Status */
-  .status-bar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 12px; font-size: 13px; color: var(--text2); min-height: 38px; }
-  .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
-  .status-dot.loading { background: var(--accent); animation: pulse 1s infinite; }
-  .status-dot.success { background: var(--green); }
-  .status-dot.error   { background: var(--red); }
-  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
-  .stats { display: flex; gap: 12px; margin-left: auto; flex-wrap: wrap; }
-  .stat { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
-  .stat span { color: var(--text); font-weight: 500; }
+/* Status */
+.status-bar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(–surface); border: 1px solid var(–border); border-radius: 6px; margin-bottom: 12px; font-size: 13px; color: var(–text2); min-height: 38px; }
+.status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(–text3); flex-shrink: 0; }
+.status-dot.loading { background: var(–accent); animation: pulse 1s infinite; }
+.status-dot.success { background: var(–green); }
+.status-dot.error   { background: var(–red); }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.stats { display: flex; gap: 12px; margin-left: auto; flex-wrap: wrap; }
+.stat { font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–text3); }
+.stat span { color: var(–text); font-weight: 500; }
 
-  /* Table */
-  .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  thead { background: var(--surface2); border-bottom: 1px solid var(--border); }
-  th { padding: 11px 14px; text-align: left; font-size: 10px; font-weight: 500; color: var(--text2); letter-spacing: 0.6px; text-transform: uppercase; font-family: 'DM Mono', monospace; white-space: nowrap; }
-  td { padding: 13px 14px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
-  tr:last-child td { border-bottom: none; }
-  tr:hover td { background: var(--surface2); }
+/* Table */
+.table-wrap { background: var(–surface); border: 1px solid var(–border); border-radius: 8px; overflow: hidden; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead { background: var(–surface2); border-bottom: 1px solid var(–border); }
+th { padding: 11px 14px; text-align: left; font-size: 10px; font-weight: 500; color: var(–text2); letter-spacing: 0.6px; text-transform: uppercase; font-family: ‘DM Mono’, monospace; white-space: nowrap; }
+td { padding: 13px 14px; border-bottom: 1px solid var(–border); vertical-align: top; line-height: 1.5; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(–surface2); }
 
-  .td-date { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--accent); white-space: nowrap; font-weight: 500; }
-  .td-time { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text2); white-space: nowrap; }
-  .td-title a { color: var(--text); text-decoration: none; font-weight: 500; border-bottom: 1px solid transparent; transition: all 0.15s; }
-  .td-title a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-  .td-desc { font-size: 11px; color: var(--text3); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .td-location { font-size: 12px; color: var(--text2); }
-  .td-host { font-size: 11px; color: var(--text3); max-width: 160px; }
+.td-date { font-family: ‘DM Mono’, monospace; font-size: 12px; color: var(–accent); white-space: nowrap; font-weight: 500; }
+.td-time { font-family: ‘DM Mono’, monospace; font-size: 11px; color: var(–text2); white-space: nowrap; }
+.td-title a { color: var(–text); text-decoration: none; font-weight: 500; border-bottom: 1px solid transparent; transition: all 0.15s; }
+.td-title a:hover { color: var(–accent); border-bottom-color: var(–accent); }
+.td-desc { font-size: 11px; color: var(–text3); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.td-location { font-size: 12px; color: var(–text2); }
+.td-host { font-size: 11px; color: var(–text3); max-width: 160px; }
 
-  .badge { display: inline-block; padding: 1px 6px; border-radius: 99px; font-size: 10px; font-weight: 600; font-family: 'DM Mono', monospace; margin-right: 4px; vertical-align: middle; }
-  .badge-today { background: rgba(63,185,80,0.15); color: var(--green); }
-  .badge-soon  { background: rgba(47,129,247,0.15); color: var(--accent); }
+.badge { display: inline-block; padding: 1px 6px; border-radius: 99px; font-size: 10px; font-weight: 600; font-family: ‘DM Mono’, monospace; margin-right: 4px; vertical-align: middle; }
+.badge-today { background: rgba(63,185,80,0.15); color: var(–green); }
+.badge-soon  { background: rgba(47,129,247,0.15); color: var(–accent); }
 
-  .empty { text-align: center; padding: 50px 20px; color: var(--text3); }
-  .empty .icon { font-size: 32px; margin-bottom: 10px; }
-  .empty p { font-size: 13px; }
+.empty { text-align: center; padding: 50px 20px; color: var(–text3); }
+.empty .icon { font-size: 32px; margin-bottom: 10px; }
+.empty p { font-size: 13px; }
 
-  .skeleton { background: linear-gradient(90deg, var(--surface2) 25%, var(--border) 50%, var(--surface2) 75%); background-size: 200% 100%; animation: shimmer 1.2s infinite; border-radius: 4px; height: 13px; display: inline-block; }
-  @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+.skeleton { background: linear-gradient(90deg, var(–surface2) 25%, var(–border) 50%, var(–surface2) 75%); background-size: 200% 100%; animation: shimmer 1.2s infinite; border-radius: 4px; height: 13px; display: inline-block; }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-  .footer { margin-top: 16px; text-align: center; font-size: 11px; color: var(--text3); }
+.footer { margin-top: 16px; text-align: center; font-size: 11px; color: var(–text3); }
 </style>
-  <!-- 아래 코드를 index.html의 <head> 안, </head> 바로 위에 붙여넣으세요 -->
 
-<!-- Open Graph (카카오톡, Teams, Slack 등 링크 미리보기) -->
-<meta property="og:type"        content="website" />
-<meta property="og:url"         content="https://sukku04.github.io/assembly-forum-tracker/" />
-<meta property="og:title"       content="국회토론회 일정" />
-<meta property="og:description" content="열린국회정보 Open API 기반 국회 토론회·세미나 일정 조회 서비스. 캘린더로 날짜별 확인, 실시간 검색, CSV 내보내기 지원." />
-<meta property="og:image"       content="https://sukku04.github.io/assembly-forum-tracker/og_image.png" />
-<meta property="og:image:width"  content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:locale"      content="ko_KR" />
-<meta property="og:site_name"   content="국회토론회 일정" />
-
-<!-- Twitter Card (트위터/X 공유 시) -->
-<meta name="twitter:card"        content="summary_large_image" />
-<meta name="twitter:title"       content="국회토론회 일정" />
-<meta name="twitter:description" content="열린국회정보 Open API 기반 국회 토론회·세미나 일정 조회" />
-<meta name="twitter:image"       content="https://sukku04.github.io/assembly-forum-tracker/og_image.png" />
 </head>
 <body>
 <div class="container">
@@ -314,79 +301,82 @@
 
   <div class="layout">
 
-    <!-- ── 캘린더 패널 ── -->
-    <div class="cal-panel">
-      <div class="cal-header">
-        <span class="cal-title" id="calTitle">2026년 3월</span>
-        <div class="cal-nav">
-          <button onclick="moveMonth(-1)">‹</button>
-          <button onclick="moveMonth(1)">›</button>
-        </div>
-      </div>
-
-      <!-- 단일/범위 모드 -->
-      <div class="cal-mode">
-        <button class="active" id="modeDay" onclick="setMode('day')">날짜 선택</button>
-        <button id="modeRange" onclick="setMode('range')">기간 선택</button>
-      </div>
-
-      <div class="cal-dow">
-        <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
-      </div>
-      <div class="cal-days" id="calDays"></div>
-
-      <!-- 빠른 선택 -->
-      <div class="cal-quick">
-        <button class="quick-btn" onclick="quickSelect('today')">오늘</button>
-        <button class="quick-btn" onclick="quickSelect('week')">이번 주</button>
-        <button class="quick-btn" onclick="quickSelect('month')">이번 달</button>
-        <button class="quick-btn" onclick="quickSelect('next7')">7일</button>
-        <button class="quick-btn" onclick="quickSelect('next30')">30일</button>
-        <button class="quick-btn" onclick="quickSelect('all')">전체</button>
-      </div>
-
-      <!-- 선택 범위 표시 -->
-      <div class="cal-range-display" id="rangeDisplay">
-        <div class="range-val" id="rangeVal">-</div>
-        <div class="range-count" id="rangeCount"></div>
-      </div>
-
-      <button class="cal-reset" onclick="quickSelect('all')">✕ 필터 초기화</button>
+```
+<!-- ── 캘린더 패널 ── -->
+<div class="cal-panel">
+  <div class="cal-header">
+    <span class="cal-title" id="calTitle">2026년 3월</span>
+    <div class="cal-nav">
+      <button onclick="moveMonth(-1)">‹</button>
+      <button onclick="moveMonth(1)">›</button>
     </div>
+  </div>
 
-    <!-- ── 오른쪽 패널 ── -->
-    <div class="right-panel">
-      <div class="toolbar">
-        <button class="btn btn-primary" onclick="loadForums()">⟳ 새로고침</button>
-        <div class="search-wrap">
-          <span class="icon">🔍</span>
-          <input type="text" id="searchInput" placeholder="제목, 장소, 주최 검색..." oninput="renderTable()" />
-        </div>
-        <button class="btn btn-secondary" onclick="exportCSV()">↓ CSV</button>
-      </div>
+  <!-- 단일/범위 모드 -->
+  <div class="cal-mode">
+    <button class="active" id="modeDay" onclick="setMode('day')">날짜 선택</button>
+    <button id="modeRange" onclick="setMode('range')">기간 선택</button>
+  </div>
 
-      <div class="status-bar">
-        <div class="status-dot loading" id="statusDot"></div>
-        <span id="statusText">데이터 불러오는 중...</span>
-        <div class="stats" id="statsBar" style="display:none">
-          <span class="stat">전체 <span id="totalCount">0</span>건</span>
-          <span class="stat">표시 <span id="filteredCount">0</span>건</span>
-        </div>
-      </div>
+  <div class="cal-dow">
+    <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
+  </div>
+  <div class="cal-days" id="calDays"></div>
 
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr><th>날짜</th><th>시간</th><th>제목</th><th>장소</th><th>주최</th></tr>
-          </thead>
-          <tbody id="tableBody">
-            <tr><td colspan="5"><div class="empty"><div class="icon">⏳</div><p>불러오는 중...</p></div></td></tr>
-          </tbody>
-        </table>
-      </div>
+  <!-- 빠른 선택 -->
+  <div class="cal-quick">
+    <button class="quick-btn" onclick="quickSelect('today')">오늘</button>
+    <button class="quick-btn" onclick="quickSelect('week')">이번 주</button>
+    <button class="quick-btn" onclick="quickSelect('month')">이번 달</button>
+    <button class="quick-btn" onclick="quickSelect('next7')">7일</button>
+    <button class="quick-btn" onclick="quickSelect('next30')">30일</button>
+    <button class="quick-btn" onclick="quickSelect('all')">전체</button>
+  </div>
 
-      <div class="footer">열린국회정보 Open API · 대한민국 국회</div>
+  <!-- 선택 범위 표시 -->
+  <div class="cal-range-display" id="rangeDisplay">
+    <div class="range-val" id="rangeVal">-</div>
+    <div class="range-count" id="rangeCount"></div>
+  </div>
+
+  <button class="cal-reset" onclick="quickSelect('all')">✕ 필터 초기화</button>
+</div>
+
+<!-- ── 오른쪽 패널 ── -->
+<div class="right-panel">
+  <div class="toolbar">
+    <button class="btn btn-primary" onclick="loadForums()">⟳ 새로고침</button>
+    <div class="search-wrap">
+      <span class="icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="제목, 장소, 주최 검색..." oninput="renderTable()" />
     </div>
+    <button class="btn btn-secondary" onclick="exportCSV()">↓ CSV</button>
+  </div>
+
+  <div class="status-bar">
+    <div class="status-dot loading" id="statusDot"></div>
+    <span id="statusText">데이터 불러오는 중...</span>
+    <div class="stats" id="statsBar" style="display:none">
+      <span class="stat">전체 <span id="totalCount">0</span>건</span>
+      <span class="stat" id="filteredStat" style="display:none">검색결과 <span id="filteredCount" style="color:var(--accent); font-weight:600">0</span>건</span>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>날짜</th><th>시간</th><th>제목</th><th>장소</th><th>주최</th></tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr><td colspan="5"><div class="empty"><div class="icon">⏳</div><p>불러오는 중...</p></div></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">열린국회정보 Open API · 대한민국 국회</div>
+</div>
+```
+
   </div>
 </div>
 
@@ -598,7 +588,15 @@
       return inRange && inSearch;
     }).sort((a,b) => (a.SDATE||'').localeCompare(b.SDATE||''));
 
-    document.getElementById('filteredCount').textContent = filtered.length;
+    // 검색어나 날짜 필터 적용 시에만 검색결과 건수 표시
+    const hasFilter = q || filterFrom;
+    const filteredStat = document.getElementById('filteredStat');
+    if (hasFilter) {
+      document.getElementById('filteredCount').textContent = filtered.length;
+      filteredStat.style.display = '';
+    } else {
+      filteredStat.style.display = 'none';
+    }
 
     if (!filtered.length) {
       showEmpty('해당 조건의 토론회가 없습니다');
@@ -614,7 +612,7 @@
         : sdate <= in3 && sdate >= today ? `<span class="badge badge-soon">D-${Math.round((parseDate(sdate)-new Date().setHours(0,0,0,0))/86400000)}</span>` : '';
       const title = f.TITLE || '(제목 없음)';
       const link  = f.LINK  || '';
-      const desc = '';
+      const desc  = f.DESCRIPTION ? `<div class="td-desc">${f.DESCRIPTION.replace(/▶/g,'').trim()}</div>` : '';
       const titleEl = link
         ? `${badge}<a href="${link}" target="_blank" rel="noopener">${title}</a>${desc}`
         : `${badge}${title}${desc}`;
@@ -671,5 +669,6 @@
   renderCalendar();
   loadForums();
 </script>
+
 </body>
 </html>
