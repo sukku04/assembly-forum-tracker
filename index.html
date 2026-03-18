@@ -10,187 +10,596 @@
     --bg: #0d1117; --surface: #161b22; --surface2: #21262d;
     --border: #30363d; --accent: #2f81f7; --accent2: #388bfd;
     --green: #3fb950; --text: #e6edf3; --text2: #8b949e;
-    --text3: #6e7681; --red: #f85149;
+    --text3: #6e7681; --red: #f85149; --yellow: #d29922;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; min-height: 100vh; padding: 40px 20px; }
-  .container { max-width: 1000px; margin: 0 auto; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; min-height: 100vh; padding: 36px 20px; }
+  .container { max-width: 1060px; margin: 0 auto; }
 
-  header { margin-bottom: 28px; }
+  /* ── Header ── */
+  header { margin-bottom: 28px; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
   header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
-  header p { font-size: 13px; color: var(--text2); margin-top: 6px; }
+  header p  { font-size: 13px; color: var(--text2); margin-top: 5px; }
+  .header-meta { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text3); text-align: right; }
+  .header-meta span { color: var(--green); }
 
-  .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+  /* ── Layout ── */
+  .layout { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 780px) { .layout { grid-template-columns: 1fr; } }
 
-  .btn { display: inline-flex; align-items: center; gap: 7px; padding: 9px 20px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; border: none; transition: all 0.15s; font-family: 'Noto Sans KR', sans-serif; }
-  .btn-primary { background: var(--accent); color: #fff; }
+  /* ── Calendar Panel ── */
+  .cal-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+  }
+
+  .cal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cal-title { font-size: 14px; font-weight: 600; }
+  .cal-nav { display: flex; gap: 4px; }
+  .cal-nav button {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    border-radius: 5px;
+    width: 28px; height: 28px;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s;
+  }
+  .cal-nav button:hover { border-color: var(--accent); color: var(--accent); }
+
+  .cal-grid { padding: 12px; }
+
+  .cal-dow {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 4px;
+  }
+  .cal-dow span {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text3);
+    padding: 4px 0;
+    font-family: 'DM Mono', monospace;
+  }
+  .cal-dow span:first-child { color: #f85149aa; }
+  .cal-dow span:last-child  { color: #388bfdaa; }
+
+  .cal-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+  }
+
+  .cal-day {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.12s;
+    color: var(--text2);
+    user-select: none;
+  }
+  .cal-day:hover:not(.empty):not(.other-month) { background: var(--surface2); color: var(--text); }
+  .cal-day.other-month { color: var(--text3); opacity: 0.4; cursor: default; }
+  .cal-day.today { color: var(--accent); font-weight: 700; }
+  .cal-day.today::after {
+    content: '';
+    position: absolute;
+    bottom: 3px; left: 50%; transform: translateX(-50%);
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .cal-day.has-event::before {
+    content: '';
+    position: absolute;
+    top: 3px; right: 3px;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--green);
+  }
+  .cal-day.selected {
+    background: var(--accent) !important;
+    color: #fff !important;
+    font-weight: 600;
+  }
+  .cal-day.in-range {
+    background: rgba(47,129,247,0.15);
+    color: var(--text);
+    border-radius: 0;
+  }
+  .cal-day.range-start { border-radius: 6px 0 0 6px; }
+  .cal-day.range-end   { border-radius: 0 6px 6px 0; }
+  .cal-day.range-start.range-end { border-radius: 6px; }
+
+  /* Mode toggle */
+  .cal-mode {
+    display: flex;
+    gap: 0;
+    margin: 0 12px 12px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .cal-mode button {
+    flex: 1;
+    padding: 7px;
+    font-size: 12px;
+    background: none;
+    border: none;
+    color: var(--text2);
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: all 0.15s;
+  }
+  .cal-mode button.active { background: var(--accent); color: #fff; font-weight: 500; }
+
+  /* Quick filters */
+  .cal-quick {
+    padding: 0 12px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .quick-btn {
+    padding: 5px 10px;
+    font-size: 11px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    color: var(--text2);
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .quick-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .quick-btn.active { background: rgba(47,129,247,0.15); border-color: var(--accent); color: var(--accent); }
+
+  /* Selected range display */
+  .cal-range-display {
+    margin: 0 12px 12px;
+    padding: 10px 12px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: 'DM Mono', monospace;
+    color: var(--text2);
+  }
+  .cal-range-display .range-val { color: var(--accent); font-weight: 500; }
+  .cal-range-display .range-count { color: var(--green); margin-top: 3px; }
+
+  /* Reset */
+  .cal-reset {
+    display: block;
+    width: calc(100% - 24px);
+    margin: 0 12px 12px;
+    padding: 8px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text3);
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: all 0.15s;
+  }
+  .cal-reset:hover { border-color: var(--red); color: var(--red); }
+
+  /* ── Right Panel ── */
+  .right-panel { min-width: 0; }
+
+  .toolbar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: all 0.15s; font-family: 'Noto Sans KR', sans-serif; }
+  .btn-primary   { background: var(--accent); color: #fff; }
   .btn-primary:hover { background: var(--accent2); }
   .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
   .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
 
-  .date-range { display: flex; align-items: center; gap: 8px; margin-left: auto; flex-wrap: wrap; }
-  .date-range input { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-size: 13px; padding: 8px 10px; outline: none; font-family: 'DM Mono', monospace; transition: border-color 0.2s; }
-  .date-range input:focus { border-color: var(--accent); }
-  .date-range span { color: var(--text3); font-size: 13px; }
+  /* Search */
+  .search-wrap { flex: 1; position: relative; min-width: 160px; }
+  .search-wrap input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 13px;
+    padding: 8px 12px 8px 32px;
+    outline: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: border-color 0.2s;
+  }
+  .search-wrap input:focus { border-color: var(--accent); }
+  .search-wrap .icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text3); font-size: 13px; pointer-events: none; }
 
-  .status-bar { display: flex; align-items: center; gap: 10px; padding: 10px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 14px; font-size: 13px; color: var(--text2); min-height: 40px; }
-  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
+  /* Status */
+  .status-bar { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; margin-bottom: 12px; font-size: 13px; color: var(--text2); min-height: 38px; }
+  .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }
   .status-dot.loading { background: var(--accent); animation: pulse 1s infinite; }
   .status-dot.success { background: var(--green); }
-  .status-dot.error { background: var(--red); }
+  .status-dot.error   { background: var(--red); }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
-
-  .stats { display: flex; gap: 14px; margin-left: auto; flex-wrap: wrap; }
-  .stat { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text3); }
+  .stats { display: flex; gap: 12px; margin-left: auto; flex-wrap: wrap; }
+  .stat { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
   .stat span { color: var(--text); font-weight: 500; }
 
+  /* Table */
   .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
   thead { background: var(--surface2); border-bottom: 1px solid var(--border); }
-  th { padding: 12px 16px; text-align: left; font-size: 11px; font-weight: 500; color: var(--text2); letter-spacing: 0.6px; text-transform: uppercase; font-family: 'DM Mono', monospace; white-space: nowrap; }
-  td { padding: 14px 16px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
+  th { padding: 11px 14px; text-align: left; font-size: 10px; font-weight: 500; color: var(--text2); letter-spacing: 0.6px; text-transform: uppercase; font-family: 'DM Mono', monospace; white-space: nowrap; }
+  td { padding: 13px 14px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: var(--surface2); }
 
-  .td-date { font-family: 'DM Mono', monospace; font-size: 13px; color: var(--accent); white-space: nowrap; font-weight: 500; }
-  .td-time { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); white-space: nowrap; }
+  .td-date { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--accent); white-space: nowrap; font-weight: 500; }
+  .td-time { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text2); white-space: nowrap; }
   .td-title a { color: var(--text); text-decoration: none; font-weight: 500; border-bottom: 1px solid transparent; transition: all 0.15s; }
   .td-title a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-  .td-title .no-link { color: var(--text); font-weight: 500; }
-  .td-desc { font-size: 12px; color: var(--text3); margin-top: 5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .td-location { font-size: 13px; color: var(--text2); }
-  .td-host { font-size: 12px; color: var(--text3); max-width: 180px; }
+  .td-desc { font-size: 11px; color: var(--text3); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .td-location { font-size: 12px; color: var(--text2); }
+  .td-host { font-size: 11px; color: var(--text3); max-width: 160px; }
 
-  .badge { display: inline-block; padding: 2px 7px; border-radius: 99px; font-size: 11px; font-weight: 500; font-family: 'DM Mono', monospace; margin-right: 4px; vertical-align: middle; }
+  .badge { display: inline-block; padding: 1px 6px; border-radius: 99px; font-size: 10px; font-weight: 600; font-family: 'DM Mono', monospace; margin-right: 4px; vertical-align: middle; }
   .badge-today { background: rgba(63,185,80,0.15); color: var(--green); }
   .badge-soon  { background: rgba(47,129,247,0.15); color: var(--accent); }
 
-  .empty { text-align: center; padding: 60px 20px; color: var(--text3); }
-  .empty .icon { font-size: 36px; margin-bottom: 12px; }
-  .empty p { font-size: 14px; }
+  .empty { text-align: center; padding: 50px 20px; color: var(--text3); }
+  .empty .icon { font-size: 32px; margin-bottom: 10px; }
+  .empty p { font-size: 13px; }
 
-  .skeleton { background: linear-gradient(90deg, var(--surface2) 25%, var(--border) 50%, var(--surface2) 75%); background-size: 200% 100%; animation: shimmer 1.2s infinite; border-radius: 4px; height: 14px; display: inline-block; }
+  .skeleton { background: linear-gradient(90deg, var(--surface2) 25%, var(--border) 50%, var(--surface2) 75%); background-size: 200% 100%; animation: shimmer 1.2s infinite; border-radius: 4px; height: 13px; display: inline-block; }
   @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-  .footer { margin-top: 20px; text-align: center; font-size: 12px; color: var(--text3); }
-
-  @media (max-width: 600px) {
-    th:nth-child(4), td:nth-child(4), th:nth-child(5), td:nth-child(5) { display: none; }
-  }
+  .footer { margin-top: 16px; text-align: center; font-size: 11px; color: var(--text3); }
 </style>
 </head>
 <body>
 <div class="container">
 
   <header>
-    <h1>🏛️ 국회토론회 일정</h1>
-    <p>열린국회정보 Open API · 매일 자동 업데이트</p>
+    <div>
+      <h1>🏛️ 국회토론회 일정</h1>
+      <p>열린국회정보 Open API · 매일 자동 업데이트</p>
+    </div>
+    <div class="header-meta" id="headerMeta">
+      업데이트: <span>-</span>
+    </div>
   </header>
 
-  <div class="controls">
-    <button class="btn btn-primary" onclick="loadForums()">⟳ 새로고침</button>
-    <button class="btn btn-secondary" onclick="exportCSV()">↓ CSV 내보내기</button>
-    <div class="date-range">
-      <input type="date" id="dateFrom" />
-      <span>~</span>
-      <input type="date" id="dateTo" />
+  <div class="layout">
+
+    <!-- ── 캘린더 패널 ── -->
+    <div class="cal-panel">
+      <div class="cal-header">
+        <span class="cal-title" id="calTitle">2026년 3월</span>
+        <div class="cal-nav">
+          <button onclick="moveMonth(-1)">‹</button>
+          <button onclick="moveMonth(1)">›</button>
+        </div>
+      </div>
+
+      <!-- 단일/범위 모드 -->
+      <div class="cal-mode">
+        <button class="active" id="modeDay" onclick="setMode('day')">날짜 선택</button>
+        <button id="modeRange" onclick="setMode('range')">기간 선택</button>
+      </div>
+
+      <div class="cal-dow">
+        <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
+      </div>
+      <div class="cal-days" id="calDays"></div>
+
+      <!-- 빠른 선택 -->
+      <div class="cal-quick">
+        <button class="quick-btn" onclick="quickSelect('today')">오늘</button>
+        <button class="quick-btn" onclick="quickSelect('week')">이번 주</button>
+        <button class="quick-btn" onclick="quickSelect('month')">이번 달</button>
+        <button class="quick-btn" onclick="quickSelect('next7')">7일</button>
+        <button class="quick-btn" onclick="quickSelect('next30')">30일</button>
+        <button class="quick-btn" onclick="quickSelect('all')">전체</button>
+      </div>
+
+      <!-- 선택 범위 표시 -->
+      <div class="cal-range-display" id="rangeDisplay">
+        <div class="range-val" id="rangeVal">-</div>
+        <div class="range-count" id="rangeCount"></div>
+      </div>
+
+      <button class="cal-reset" onclick="quickSelect('all')">✕ 필터 초기화</button>
+    </div>
+
+    <!-- ── 오른쪽 패널 ── -->
+    <div class="right-panel">
+      <div class="toolbar">
+        <button class="btn btn-primary" onclick="loadForums()">⟳ 새로고침</button>
+        <div class="search-wrap">
+          <span class="icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="제목, 장소, 주최 검색..." oninput="renderTable()" />
+        </div>
+        <button class="btn btn-secondary" onclick="exportCSV()">↓ CSV</button>
+      </div>
+
+      <div class="status-bar">
+        <div class="status-dot loading" id="statusDot"></div>
+        <span id="statusText">데이터 불러오는 중...</span>
+        <div class="stats" id="statsBar" style="display:none">
+          <span class="stat">전체 <span id="totalCount">0</span>건</span>
+          <span class="stat">표시 <span id="filteredCount">0</span>건</span>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>날짜</th><th>시간</th><th>제목</th><th>장소</th><th>주최</th></tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr><td colspan="5"><div class="empty"><div class="icon">⏳</div><p>불러오는 중...</p></div></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="footer">열린국회정보 Open API · 대한민국 국회</div>
     </div>
   </div>
-
-  <div class="status-bar">
-    <div class="status-dot loading" id="statusDot"></div>
-    <span id="statusText">데이터 불러오는 중...</span>
-    <div class="stats" id="statsBar" style="display:none">
-      <span class="stat">전체 <span id="totalCount">0</span>건</span>
-      <span class="stat">표시 <span id="filteredCount">0</span>건</span>
-      <span class="stat">업데이트 <span id="lastUpdate">-</span></span>
-    </div>
-  </div>
-
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>날짜</th><th>시간</th><th>제목</th><th>장소</th><th>주최</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody">
-        <tr><td colspan="5"><div class="empty"><div class="icon">⏳</div><p>데이터 불러오는 중...</p></div></td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="footer">열린국회정보 Open API · 데이터 출처: 대한민국 국회</div>
 </div>
 
 <script>
-  // GitHub Pages 저장소 경로에서 자동으로 JSON URL 계산
-  const JSON_URL = location.origin + location.pathname.replace(/\/?$/, '/') + 'data/forums.json';
+  const JSON_URL = 'https://sukku04.github.io/assembly-forum-tracker/data/forums.json';
 
-  let allData = [];
+  let allData   = [];
+  let calYear   = new Date().getFullYear();
+  let calMonth  = new Date().getMonth();
+  let mode      = 'day';       // 'day' | 'range'
+  let filterFrom = null;       // 'YYYY-MM-DD'
+  let filterTo   = null;
+  let rangeStep  = 0;          // 0=없음 1=시작선택 2=완성
+  let eventDates = new Set();  // 토론회 있는 날짜
 
-  const today = new Date();
-  const in60  = new Date(today); in60.setDate(today.getDate() + 60);
-  document.getElementById('dateFrom').value = fmt(today);
-  document.getElementById('dateTo').value   = fmt(in60);
-
+  // ── 날짜 유틸 ──
   function fmt(d) { return d.toISOString().split('T')[0]; }
+  function todayStr() { return fmt(new Date()); }
+  function parseDate(s) { const [y,m,d] = s.split('-'); return new Date(+y, +m-1, +d); }
 
-  function setStatus(type, msg) {
-    document.getElementById('statusDot').className = 'status-dot ' + type;
-    document.getElementById('statusText').textContent = msg;
-  }
-
+  // ── 데이터 로드 ──
   async function loadForums() {
     setStatus('loading', '데이터 불러오는 중...');
     showSkeleton();
     try {
       const resp = await fetch(JSON_URL + '?t=' + Date.now());
-      if (!resp.ok) throw new Error('파일을 찾을 수 없습니다 (GitHub Actions가 아직 실행되지 않았을 수 있어요)');
+      if (!resp.ok) throw new Error('파일을 찾을 수 없습니다');
       const json = await resp.json();
-
       allData = json.forums || [];
-      renderTable();
+
+      // 이벤트 날짜 set 구성
+      eventDates = new Set(allData.map(f => f.SDATE).filter(Boolean));
 
       document.getElementById('statsBar').style.display = 'flex';
       document.getElementById('totalCount').textContent = allData.length;
-      document.getElementById('lastUpdate').textContent = json.updated_at || '-';
-      setStatus('success', `${allData.length}건 · 마지막 업데이트: ${json.updated_at}`);
+      document.getElementById('headerMeta').innerHTML = `업데이트: <span>${json.updated_at || '-'}</span>`;
+      setStatus('success', `${allData.length}건 로드 완료`);
+
+      renderCalendar();
+      renderTable();
     } catch(e) {
       setStatus('error', '불러오기 실패: ' + e.message);
-      showEmpty('데이터를 불러오지 못했습니다.<br>GitHub Actions를 먼저 실행해주세요 (Actions → Run workflow)');
+      showEmpty('데이터를 불러오지 못했습니다.<br>GitHub Actions를 먼저 실행해주세요.');
     }
   }
 
-  function renderTable() {
-    const from = document.getElementById('dateFrom').value;
-    const to   = document.getElementById('dateTo').value;
+  // ── 캘린더 렌더 ──
+  function renderCalendar() {
+    const months = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+    document.getElementById('calTitle').textContent = `${calYear}년 ${months[calMonth]}`;
 
-    const filtered = allData
-      .filter(f => { const d = f.SDATE||''; return (!from||d>=from)&&(!to||d<=to); })
-      .sort((a,b) => (a.SDATE||'').localeCompare(b.SDATE||''));
+    const firstDay = new Date(calYear, calMonth, 1).getDay();
+    const lastDate = new Date(calYear, calMonth+1, 0).getDate();
+    const prevLast = new Date(calYear, calMonth, 0).getDate();
+    const today    = todayStr();
+
+    let html = '';
+    let total = Math.ceil((firstDay + lastDate) / 7) * 7;
+
+    for (let i = 0; i < total; i++) {
+      let dateStr, cls = 'cal-day', dayNum;
+
+      if (i < firstDay) {
+        dayNum = prevLast - firstDay + i + 1;
+        const pm = calMonth === 0 ? 11 : calMonth - 1;
+        const py = calMonth === 0 ? calYear - 1 : calYear;
+        dateStr = `${py}-${String(pm+1).padStart(2,'0')}-${String(dayNum).padStart(2,'0')}`;
+        cls += ' other-month';
+      } else if (i >= firstDay + lastDate) {
+        dayNum = i - firstDay - lastDate + 1;
+        const nm = calMonth === 11 ? 0 : calMonth + 1;
+        const ny = calMonth === 11 ? calYear + 1 : calYear;
+        dateStr = `${ny}-${String(nm+1).padStart(2,'0')}-${String(dayNum).padStart(2,'0')}`;
+        cls += ' other-month';
+      } else {
+        dayNum = i - firstDay + 1;
+        dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(dayNum).padStart(2,'0')}`;
+      }
+
+      if (dateStr === today) cls += ' today';
+      if (eventDates.has(dateStr) && !cls.includes('other-month')) cls += ' has-event';
+
+      // 선택 상태
+      if (filterFrom && filterTo) {
+        if (dateStr === filterFrom && dateStr === filterTo) cls += ' selected range-start range-end';
+        else if (dateStr === filterFrom) cls += ' selected range-start';
+        else if (dateStr === filterTo)   cls += ' selected range-end';
+        else if (dateStr > filterFrom && dateStr < filterTo) cls += ' in-range';
+      } else if (filterFrom && dateStr === filterFrom) {
+        cls += ' selected';
+      }
+
+      html += `<div class="${cls}" data-date="${dateStr}" onclick="onDayClick('${dateStr}', this)">${dayNum}</div>`;
+    }
+
+    document.getElementById('calDays').innerHTML = html;
+    updateRangeDisplay();
+  }
+
+  function moveMonth(dir) {
+    calMonth += dir;
+    if (calMonth < 0)  { calMonth = 11; calYear--; }
+    if (calMonth > 11) { calMonth = 0;  calYear++; }
+    renderCalendar();
+  }
+
+  // ── 날짜 클릭 ──
+  function onDayClick(dateStr, el) {
+    if (el.classList.contains('other-month')) return;
+
+    // 빠른선택 active 해제
+    document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
+
+    if (mode === 'day') {
+      filterFrom = dateStr;
+      filterTo   = dateStr;
+    } else {
+      // range mode
+      if (rangeStep === 0 || rangeStep === 2) {
+        filterFrom = dateStr;
+        filterTo   = null;
+        rangeStep  = 1;
+      } else {
+        if (dateStr < filterFrom) {
+          filterTo   = filterFrom;
+          filterFrom = dateStr;
+        } else {
+          filterTo = dateStr;
+        }
+        rangeStep = 2;
+      }
+    }
+    renderCalendar();
+    renderTable();
+  }
+
+  // ── 모드 전환 ──
+  function setMode(m) {
+    mode = m;
+    rangeStep = 0;
+    document.getElementById('modeDay').classList.toggle('active', m === 'day');
+    document.getElementById('modeRange').classList.toggle('active', m === 'range');
+    filterFrom = null; filterTo = null;
+    renderCalendar();
+    renderTable();
+  }
+
+  // ── 빠른 선택 ──
+  function quickSelect(type) {
+    document.querySelectorAll('.quick-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+
+    const t = new Date(); t.setHours(0,0,0,0);
+    switch(type) {
+      case 'today':
+        filterFrom = filterTo = fmt(t); break;
+      case 'week': {
+        const s = new Date(t); s.setDate(t.getDate() - t.getDay());
+        const e = new Date(s); e.setDate(s.getDate() + 6);
+        filterFrom = fmt(s); filterTo = fmt(e); break;
+      }
+      case 'month':
+        filterFrom = `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-01`;
+        filterTo   = fmt(new Date(t.getFullYear(), t.getMonth()+1, 0)); break;
+      case 'next7': {
+        const e = new Date(t); e.setDate(t.getDate()+7);
+        filterFrom = fmt(t); filterTo = fmt(e); break;
+      }
+      case 'next30': {
+        const e = new Date(t); e.setDate(t.getDate()+30);
+        filterFrom = fmt(t); filterTo = fmt(e); break;
+      }
+      case 'all':
+        filterFrom = null; filterTo = null; break;
+    }
+    rangeStep = filterFrom ? 2 : 0;
+    renderCalendar();
+    renderTable();
+  }
+
+  function updateRangeDisplay() {
+    const rv = document.getElementById('rangeVal');
+    const rc = document.getElementById('rangeCount');
+    if (!filterFrom) {
+      rv.textContent = '전체 기간';
+      rc.textContent = `${allData.length}건`;
+    } else if (!filterTo || filterFrom === filterTo) {
+      rv.textContent = filterFrom;
+      const cnt = allData.filter(f => f.SDATE === filterFrom).length;
+      rc.textContent = cnt ? `${cnt}건의 토론회` : '일정 없음';
+    } else {
+      rv.textContent = `${filterFrom} ~ ${filterTo}`;
+      const cnt = allData.filter(f => f.SDATE >= filterFrom && f.SDATE <= filterTo).length;
+      rc.textContent = `${cnt}건의 토론회`;
+    }
+  }
+
+  // ── 테이블 렌더 ──
+  function renderTable() {
+    const q = (document.getElementById('searchInput').value || '').trim().toLowerCase();
+
+    let filtered = allData.filter(f => {
+      const d = f.SDATE || '';
+      const inRange = !filterFrom || (d >= filterFrom && d <= (filterTo || filterFrom));
+      const inSearch = !q ||
+        (f.TITLE    ||'').toLowerCase().includes(q) ||
+        (f.LOCATION ||'').toLowerCase().includes(q) ||
+        (f.NAME     ||'').toLowerCase().includes(q);
+      return inRange && inSearch;
+    }).sort((a,b) => (a.SDATE||'').localeCompare(b.SDATE||''));
 
     document.getElementById('filteredCount').textContent = filtered.length;
 
-    if (!filtered.length) { showEmpty('해당 기간에 토론회 일정이 없습니다'); return; }
+    if (!filtered.length) {
+      showEmpty('해당 조건의 토론회가 없습니다');
+      return;
+    }
 
-    const todayStr = fmt(new Date());
-    const in3 = new Date(); in3.setDate(in3.getDate()+3);
-    const in3str = fmt(in3);
+    const today = todayStr();
+    const in3   = fmt(new Date(Date.now() + 3*86400000));
 
     document.getElementById('tableBody').innerHTML = filtered.map(f => {
-      const sdate = f.SDATE||'';
-      const badge = sdate===todayStr
-        ? '<span class="badge badge-today">오늘</span>'
-        : sdate<=in3str ? `<span class="badge badge-soon">D-${dayDiff(sdate)}</span>` : '';
-
+      const sdate = f.SDATE || '';
+      const badge = sdate === today ? '<span class="badge badge-today">오늘</span>'
+        : sdate <= in3 && sdate >= today ? `<span class="badge badge-soon">D-${Math.round((parseDate(sdate)-new Date().setHours(0,0,0,0))/86400000)}</span>` : '';
       const title = f.TITLE || '(제목 없음)';
       const link  = f.LINK  || '';
       const desc  = f.DESCRIPTION ? `<div class="td-desc">${f.DESCRIPTION.replace(/▶/g,'').trim()}</div>` : '';
       const titleEl = link
         ? `${badge}<a href="${link}" target="_blank" rel="noopener">${title}</a>${desc}`
-        : `${badge}<span class="no-link">${title}</span>${desc}`;
-
+        : `${badge}${title}${desc}`;
       return `<tr>
         <td class="td-date">${sdate}</td>
         <td class="td-time">${f.STIME||'-'}</td>
@@ -199,46 +608,49 @@
         <td class="td-host">${f.NAME||'-'}</td>
       </tr>`;
     }).join('');
+
+    updateRangeDisplay();
   }
 
-  function dayDiff(d) {
-    const t = new Date(); t.setHours(0,0,0,0);
-    return Math.round((new Date(d)-t)/86400000);
+  function setStatus(type, msg) {
+    document.getElementById('statusDot').className = 'status-dot ' + type;
+    document.getElementById('statusText').textContent = msg;
   }
 
   function showSkeleton() {
-    document.getElementById('tableBody').innerHTML = Array(6).fill(0).map((_,i)=>`
+    document.getElementById('tableBody').innerHTML = Array(5).fill(0).map((_,i)=>`
       <tr>
-        <td><span class="skeleton" style="width:75px"></span></td>
+        <td><span class="skeleton" style="width:72px"></span></td>
+        <td><span class="skeleton" style="width:70px"></span></td>
+        <td><span class="skeleton" style="width:${150+i*18}px"></span></td>
         <td><span class="skeleton" style="width:80px"></span></td>
-        <td><span class="skeleton" style="width:${160+i*15}px"></span></td>
-        <td><span class="skeleton" style="width:90px"></span></td>
-        <td><span class="skeleton" style="width:110px"></span></td>
+        <td><span class="skeleton" style="width:100px"></span></td>
       </tr>`).join('');
   }
 
   function showEmpty(msg) {
-    document.getElementById('tableBody').innerHTML = `<tr><td colspan="5"><div class="empty"><div class="icon">📭</div><p>${msg}</p></div></td></tr>`;
+    document.getElementById('tableBody').innerHTML =
+      `<tr><td colspan="5"><div class="empty"><div class="icon">📭</div><p>${msg}</p></div></td></tr>`;
   }
-
-  document.getElementById('dateFrom').addEventListener('change', ()=>{ if(allData.length) renderTable(); });
-  document.getElementById('dateTo').addEventListener('change',   ()=>{ if(allData.length) renderTable(); });
 
   function exportCSV() {
     if (!allData.length) { alert('먼저 새로고침을 눌러주세요'); return; }
-    const from = document.getElementById('dateFrom').value;
-    const to   = document.getElementById('dateTo').value;
-    const rows = allData.filter(f=>{ const d=f.SDATE||''; return (!from||d>=from)&&(!to||d<=to); });
+    const rows = allData.filter(f => {
+      const d = f.SDATE||'';
+      return !filterFrom || (d >= filterFrom && d <= (filterTo||filterFrom));
+    });
     const csv = '날짜,시간,제목,장소,주최,링크\n' + rows.map(f=>
-      [f.SDATE, f.STIME, `"${(f.TITLE||'').replace(/"/g,'""')}"`, f.LOCATION, `"${(f.NAME||'').replace(/"/g,'""')}"`, f.LINK].join(',')
+      [f.SDATE, f.STIME, `"${(f.TITLE||'').replace(/"/g,'""')}"`, f.LOCATION,
+       `"${(f.NAME||'').replace(/"/g,'""')}"`, f.LINK].join(',')
     ).join('\n');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));
-    a.download = `국회토론회_${from}_${to}.csv`;
+    a.download = `국회토론회_${filterFrom||'전체'}_${filterTo||''}.csv`;
     a.click();
   }
 
-  // 페이지 로드 시 자동 조회
+  // 초기 캘린더 렌더 후 데이터 로드
+  renderCalendar();
   loadForums();
 </script>
 </body>
