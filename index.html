@@ -321,7 +321,12 @@
   let rangeStep  = 0;
   let eventDates = new Set();
 
-  const fmt       = d => d.toISOString().split('T')[0];
+  const fmt = d => {
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  };
   const todayStr  = () => fmt(new Date());
   const parseDate = s => { const [y,m,d] = s.split('-'); return new Date(+y,+m-1,+d); };
 
@@ -437,7 +442,7 @@
     const t = new Date(); t.setHours(0,0,0,0);
     switch(type) {
       case 'today':  filterFrom = filterTo = fmt(t); break;
-      case 'week':   { const s=new Date(t); s.setDate(t.getDate()-t.getDay()); const e2=new Date(s); e2.setDate(s.getDate()+6); filterFrom=fmt(s); filterTo=fmt(e2); break; }
+      case 'week':   { const s=new Date(t); const dow=t.getDay(); s.setDate(t.getDate()-(dow===0?6:dow-1)); const e2=new Date(s); e2.setDate(s.getDate()+6); filterFrom=fmt(s); filterTo=fmt(e2); break; }
       case 'month':  filterFrom=`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-01`; filterTo=fmt(new Date(t.getFullYear(),t.getMonth()+1,0)); break;
       case 'next7':  { const e2=new Date(t); e2.setDate(t.getDate()+7);  filterFrom=fmt(t); filterTo=fmt(e2); break; }
       case 'next30': { const e2=new Date(t); e2.setDate(t.getDate()+30); filterFrom=fmt(t); filterTo=fmt(e2); break; }
