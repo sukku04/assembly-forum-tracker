@@ -46,6 +46,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/seen_forums.json
+          git add data/
           git diff --cached --quiet || git commit -m "chore: 토론회 목록 업데이트 $(date +'%Y-%m-%d')"
           git push
