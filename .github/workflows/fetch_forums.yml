@@ -1,50 +1,51 @@
 name: 국회토론회 일정 수집
 
 on:
-  # ─── 정기 실행: 매일 오전 8시 (KST = UTC+9 → UTC 23:00 전날) ───
+  # 매일 KST 08:00 자동 실행
   schedule:
-    - cron: "0 23 * * *"   # 매일 KST 08:00
+    - cron: "0 23 * * *"
 
-  # ─── 수동 실행 버튼 (GitHub Actions 탭에서 직접 실행 가능) ───
+  # Power Automate 또는 수동 트리거
   workflow_dispatch:
+    inputs:
+      triggered_by:
+        description: '트리거 출처'
+        required: false
+        default: 'manual'
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # data/ 폴더 커밋을 위해 필요
+      contents: write
 
     steps:
-      # 1. 저장소 체크아웃
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Python 설치
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      # 3. 의존성 설치
       - name: Install dependencies
         run: pip install requests
 
-      # 4. 스크립트 실행
       - name: 토론회 일정 조회
         env:
           ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
-          GMAIL_USER:  ${{ secrets.GMAIL_USER }}   # (선택) Gmail 주소
-          GMAIL_PASS:  ${{ secrets.GMAIL_PASS }}   # (선택) Gmail 앱 비밀번호
-          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}  # (선택) 수신 이메일
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          GMAIL_USER:  ${{ secrets.GMAIL_USER }}
+          GMAIL_PASS:  ${{ secrets.GMAIL_PASS }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          TRIGGERED_BY: ${{ github.event.inputs.triggered_by || 'schedule' }}
         run: python fetch_forums.py
 
-      # 5. 변경된 seen_forums.json 이 있으면 커밋 (신규 토론회 감지 시)
       - name: 변경 내역 저장
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/seen_forums.json
-          # 변경이 없으면 커밋 안 함
           git diff --cached --quiet || git commit -m "chore: 토론회 목록 업데이트 $(date +'%Y-%m-%d')"
           git push
