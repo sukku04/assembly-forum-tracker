@@ -612,10 +612,9 @@ tr:hover td { background: var(–surface2); }
         : sdate <= in3 && sdate >= today ? `<span class="badge badge-soon">D-${Math.round((parseDate(sdate)-new Date().setHours(0,0,0,0))/86400000)}</span>` : '';
       const title = f.TITLE || '(제목 없음)';
       const link  = f.LINK  || '';
-      const desc  = f.DESCRIPTION ? `<div class="td-desc">${f.DESCRIPTION.replace(/▶/g,'').trim()}</div>` : '';
       const titleEl = link
-        ? `${badge}<a href="${link}" target="_blank" rel="noopener">${title}</a>${desc}`
-        : `${badge}${title}${desc}`;
+        ? `${badge}<a href="${link}" target="_blank" rel="noopener">${title}</a>`
+        : `${badge}${title}`;
       return `<tr>
         <td class="td-date">${sdate}</td>
         <td class="td-time">${f.STIME||'-'}</td>
