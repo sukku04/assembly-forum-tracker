@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-30 23:24",
-  "date_from": "2025-03-30",
-  "date_to": "2026-05-29",
-  "count": 2938,
+  "updated_at": "2026-03-31 23:22",
+  "date_from": "2025-03-31",
+  "date_to": "2026-05-30",
+  "count": 2943,
   "forums": [
     {
       "TITLE": "콘텐츠산업 점검 및 국가지원 확대를 위한 국회 정책 토론회",
@@ -25844,17 +25844,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "강소국 대만에서 대한민국의 미래를 찾다",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260112&endDate=20260112&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박수영 의원실, 한반도선진화재단, 경제사회연구원 ▶ 일시 : 2026.01.12(10:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
-      "SDATE": "2026-01-12",
-      "STIME": "10:00",
-      "NAME": "박수영 의원실, 한반도선진화재단, 경제사회연구원",
-      "LOCATION": "의원회관 제9간담회의실(212호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "마약청정국 일상의 안전을 묻다",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260112&endDate=20260112&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김영배·최혁진 의원실 ▶ 일시 : 2026.01.12(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
@@ -25862,6 +25851,17 @@
       "STIME": "10:00",
       "NAME": "김영배·최혁진 의원실",
       "LOCATION": "의원회관 신관 제3세미나실",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "강소국 대만에서 대한민국의 미래를 찾다",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260112&endDate=20260112&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 박수영 의원실, 한반도선진화재단, 경제사회연구원 ▶ 일시 : 2026.01.12(10:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "SDATE": "2026-01-12",
+      "STIME": "10:00",
+      "NAME": "박수영 의원실, 한반도선진화재단, 경제사회연구원",
+      "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -25954,17 +25954,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "자산불평등 심화 자산과세 후퇴 진단과 대안",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260113&endDate=20260113&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 윤종오·전종덕·차규근·용혜인·한창민 의원실, 민주노총, 참여연대, 한국노총 ▶ 일시 : 2026.01.13(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
-      "SDATE": "2026-01-13",
-      "STIME": "10:00",
-      "NAME": "윤종오·전종덕·차규근·용혜인·한창민 의원실, 민주노총, 참여연대, 한국노총",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "과로사 방지를 위한 택배산업 안전수수료 체계 마련 국회토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260113&endDate=20260113&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 윤종오·민병덕·이용우·황운하·정혜경·용혜인·한창민 의원실, 민주노총 서비스연맹, 전국택배노동조합 ▶ 일시 : 2026.01.13(10:00) ▶ 장소 : 의원회관 제3간담회의실(203호)",
@@ -25972,6 +25961,17 @@
       "STIME": "10:00",
       "NAME": "윤종오·민병덕·이용우·황운하·정혜경·용혜인·한창민 의원실, 민주노총 서비스연맹, 전국택배노동조합",
       "LOCATION": "의원회관 제3간담회의실(203호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "자산불평등 심화 자산과세 후퇴 진단과 대안",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260113&endDate=20260113&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 윤종오·전종덕·차규근·용혜인·한창민 의원실, 민주노총, 참여연대, 한국노총 ▶ 일시 : 2026.01.13(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "SDATE": "2026-01-13",
+      "STIME": "10:00",
+      "NAME": "윤종오·전종덕·차규근·용혜인·한창민 의원실, 민주노총, 참여연대, 한국노총",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26009,35 +26009,13 @@
       "PHONE": null
     },
     {
-      "TITLE": "자유민주주의 위기와 과제",
+      "TITLE": "K-민주주의+경제민주화 이제는, 공간 민주주의로!",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박수영 의원실, 한반도선진화재단, The 새로운 생각, 주간조선 ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "DESCRIPTION": "▶ 주최 : 김성회·한준호·조계원 의원실, 대통령소속 국가건축정책위원회 ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제1소회의실",
       "SDATE": "2026-01-14",
       "STIME": "14:00",
-      "NAME": "박수영 의원실, 한반도선진화재단, The 새로운 생각, 주간조선",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "(의료데이터 통합을 통한)의료 AI 데이터센터 구축으로 AI 주권 확보",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 최수진 의원실, 국회AI와 우리의 미래 ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
-      "SDATE": "2026-01-14",
-      "STIME": "14:00",
-      "NAME": "최수진 의원실, 국회AI와 우리의 미래",
-      "LOCATION": "의원회관 제9간담회의실(212호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "이주노동자 고용허가제 국회 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이주희·윤후덕·강득구·권향엽·이용우 의원실, 대한변호사협회  ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-01-14",
-      "STIME": "14:00",
-      "NAME": "이주희·윤후덕·강득구·권향엽·이용우 의원실, 대한변호사협회",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "NAME": "김성회·한준호·조계원 의원실, 대통령소속 국가건축정책위원회",
+      "LOCATION": "의원회관 제1소회의실",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26053,13 +26031,35 @@
       "PHONE": null
     },
     {
-      "TITLE": "K-민주주의+경제민주화 이제는, 공간 민주주의로!",
+      "TITLE": "자유민주주의 위기와 과제",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김성회·한준호·조계원 의원실, 대통령소속 국가건축정책위원회 ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "DESCRIPTION": "▶ 주최 : 박수영 의원실, 한반도선진화재단, The 새로운 생각, 주간조선 ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
       "SDATE": "2026-01-14",
       "STIME": "14:00",
-      "NAME": "김성회·한준호·조계원 의원실, 대통령소속 국가건축정책위원회",
-      "LOCATION": "의원회관 제1소회의실",
+      "NAME": "박수영 의원실, 한반도선진화재단, The 새로운 생각, 주간조선",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "이주노동자 고용허가제 국회 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이주희·윤후덕·강득구·권향엽·이용우 의원실, 대한변호사협회  ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-01-14",
+      "STIME": "14:00",
+      "NAME": "이주희·윤후덕·강득구·권향엽·이용우 의원실, 대한변호사협회",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "(의료데이터 통합을 통한)의료 AI 데이터센터 구축으로 AI 주권 확보",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 최수진 의원실, 국회AI와 우리의 미래 ▶ 일시 : 2026.01.14(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "SDATE": "2026-01-14",
+      "STIME": "14:00",
+      "NAME": "최수진 의원실, 국회AI와 우리의 미래",
+      "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26075,6 +26075,17 @@
       "PHONE": null
     },
     {
+      "TITLE": "멀어진 내 집 마련의 꿈: 청년의 꿈 짓밟는 부동산 정책, 방향을 묻다.",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 조정훈 의원실, 신전대협 ▶ 일시 : 2026.01.14(10:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "SDATE": "2026-01-14",
+      "STIME": "10:00",
+      "NAME": "조정훈 의원실, 신전대협",
+      "LOCATION": "의원회관 제9간담회의실(212호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
       "TITLE": "테슬라 FSD 국내 상륙과 우리나라 모빌리티 산업의 미래",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박상혁·김한규·김우영 의원실 ▶ 일시 : 2026.01.14(10:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
@@ -26086,13 +26097,13 @@
       "PHONE": null
     },
     {
-      "TITLE": "멀어진 내 집 마련의 꿈: 청년의 꿈 짓밟는 부동산 정책, 방향을 묻다.",
+      "TITLE": "주거환경 개선 재개발·재건축 활성화 지원방안: 더불어민주당 서울시당 현장간담회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 조정훈 의원실, 신전대협 ▶ 일시 : 2026.01.14(10:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "DESCRIPTION": "▶ 주최 : 김남근 의원실, 서울시당 주거환경 개선을 위한 재개발 재건축 활성화 지원 특별위원회 ▶ 일시 : 2026.01.14(10:00) ▶ 장소 : 기타 : 서울시 현장 14구역, 9구역",
       "SDATE": "2026-01-14",
       "STIME": "10:00",
-      "NAME": "조정훈 의원실, 신전대협",
-      "LOCATION": "의원회관 제9간담회의실(212호)",
+      "NAME": "김남근 의원실, 서울시당 주거환경 개선을 위한 재개발 재건축 활성화 지원 특별위원회",
+      "LOCATION": "기타 : 서울시 현장 14구역, 9구역",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26115,17 +26126,6 @@
       "STIME": "10:00",
       "NAME": "윤상현·한기호·성일종·강대식·임종득·강선영·유용원 의원실",
       "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "주거환경 개선 재개발·재건축 활성화 지원방안: 더불어민주당 서울시당 현장간담회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260114&endDate=20260114&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김남근 의원실, 서울시당 주거환경 개선을 위한 재개발 재건축 활성화 지원 특별위원회 ▶ 일시 : 2026.01.14(10:00) ▶ 장소 : 기타 : 서울시 현장 14구역, 9구역",
-      "SDATE": "2026-01-14",
-      "STIME": "10:00",
-      "NAME": "김남근 의원실, 서울시당 주거환경 개선을 위한 재개발 재건축 활성화 지원 특별위원회",
-      "LOCATION": "기타 : 서울시 현장 14구역, 9구역",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26185,17 +26185,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "현금부자는 '줍줍' 서민은 '피눈물' 부동산 대출·거래 규제 재앙, 누구를 위한 정책인가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260115&endDate=20260115&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 나경원 의원실, 인구와기후그리고내일, 인구와기후 ,내일 ▶ 일시 : 2026.01.15(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-01-15",
-      "STIME": "10:00",
-      "NAME": "나경원 의원실, 인구와기후그리고내일, 인구와기후 ,내일",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "동북아 파워게임 시진핑 다카이치 그리고 대한민국: 한중·한일 정상회담 평가토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260115&endDate=20260115&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김건 의원실, 국회 글로벌외교안보포럼 ▶ 일시 : 2026.01.15(10:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
@@ -26203,6 +26192,17 @@
       "STIME": "10:00",
       "NAME": "김건 의원실, 국회 글로벌외교안보포럼",
       "LOCATION": "의원회관 제5간담회의실(208호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "현금부자는 '줍줍' 서민은 '피눈물' 부동산 대출·거래 규제 재앙, 누구를 위한 정책인가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260115&endDate=20260115&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 나경원 의원실, 인구와기후그리고내일, 인구와기후 ,내일 ▶ 일시 : 2026.01.15(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-01-15",
+      "STIME": "10:00",
+      "NAME": "나경원 의원실, 인구와기후그리고내일, 인구와기후 ,내일",
+      "LOCATION": "의원회관 신관 제2세미나실",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26262,17 +26262,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "2026 도시×AI 분야 예산안 분석 및 융합산업 발전 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260116&endDate=20260116&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박민규·김우영 의원실, 한국도시설계학회, (사)한국인공지능협회 ▶ 일시 : 2026.01.16(10:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
-      "SDATE": "2026-01-16",
-      "STIME": "10:00",
-      "NAME": "박민규·김우영 의원실, 한국도시설계학회, (사)한국인공지능협회",
-      "LOCATION": "의원회관 제7간담회의실(210호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "제대로 된 예술이 산재보험, 어떻게 만들 것인가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260116&endDate=20260116&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 이용우·민형배·김재원·손솔 의원실, 문화예술노동연대, 중대재해전문가넷, 예술인 안전을 지키는 사람들, 직장갑질119 온라인 노조 등 ▶ 일시 : 2026.01.16(10:00) ▶ 장소 : 의원회관 제3간담회의실(203호)",
@@ -26284,13 +26273,13 @@
       "PHONE": null
     },
     {
-      "TITLE": "트럼프의 국가안보전략 분석 -베네수엘라에서 그린란드까지-",
+      "TITLE": "2026 도시×AI 분야 예산안 분석 및 융합산업 발전 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260116&endDate=20260116&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 윤종오 의원실, 진보당 자주평화통일위원회 ▶ 일시 : 2026.01.16(10:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
+      "DESCRIPTION": "▶ 주최 : 박민규·김우영 의원실, 한국도시설계학회, (사)한국인공지능협회 ▶ 일시 : 2026.01.16(10:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
       "SDATE": "2026-01-16",
       "STIME": "10:00",
-      "NAME": "윤종오 의원실, 진보당 자주평화통일위원회",
-      "LOCATION": "의원회관 제1간담회의실(201호)",
+      "NAME": "박민규·김우영 의원실, 한국도시설계학회, (사)한국인공지능협회",
+      "LOCATION": "의원회관 제7간담회의실(210호)",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26302,6 +26291,17 @@
       "STIME": "10:00",
       "NAME": "오기형·김남근·이강일 의원실",
       "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "트럼프의 국가안보전략 분석 -베네수엘라에서 그린란드까지-",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260116&endDate=20260116&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 윤종오 의원실, 진보당 자주평화통일위원회 ▶ 일시 : 2026.01.16(10:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
+      "SDATE": "2026-01-16",
+      "STIME": "10:00",
+      "NAME": "윤종오 의원실, 진보당 자주평화통일위원회",
+      "LOCATION": "의원회관 제1간담회의실(201호)",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26460,17 +26460,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "홈플러스, 이대로 문닫게 할 것인가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260121&endDate=20260121&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 민병덕·박주민·진성준·최기상·강준현·김원이·김현·이원택·김남근·김남희·안도걸·이강일·이용우·정진욱·김문수·김윤 의원등 ▶ 일시 : 2026.01.21(14:00) ▶ 장소 : 의원회관 제1소회의실",
-      "SDATE": "2026-01-21",
-      "STIME": "14:00",
-      "NAME": "민병덕·박주민·진성준·최기상·강준현·김원이·김현·이원택·김남근·김남희·안도걸·이강일·이용우·정진욱·김문수·김윤 의원등",
-      "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "AI 시대 기본사회 실현과 경기도의 역할 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260121&endDate=20260121&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 염태영·강득구·권칠승·김병주·김승원·김영진·김주영·김준혁·김태년·김현·민병덕·박상혁·박정·박정현·박지원·박지혜의원실등 ▶ 일시 : 2026.01.21(14:00) ▶ 장소 : 의원회관 신관 제1세미나실",
@@ -26478,6 +26467,17 @@
       "STIME": "14:00",
       "NAME": "염태영·강득구·권칠승·김병주·김승원·김영진·김주영·김준혁·김태년·김현·민병덕·박상혁·박정·박정현·박지원·박지혜의원실등",
       "LOCATION": "의원회관 신관 제1세미나실",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "홈플러스, 이대로 문닫게 할 것인가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260121&endDate=20260121&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 민병덕·박주민·진성준·최기상·강준현·김원이·김현·이원택·김남근·김남희·안도걸·이강일·이용우·정진욱·김문수·김윤 의원등 ▶ 일시 : 2026.01.21(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "SDATE": "2026-01-21",
+      "STIME": "14:00",
+      "NAME": "민병덕·박주민·진성준·최기상·강준현·김원이·김현·이원택·김남근·김남희·안도걸·이강일·이용우·정진욱·김문수·김윤 의원등",
+      "LOCATION": "의원회관 제1소회의실",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26504,17 +26504,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "[건강수명 5080 함께 여는 국회토론회] 영양x돌봄=건강수명 UP 정책 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260121&endDate=20260121&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이수진·김윤·서미화·권향엽·박희승·임미애·장종태·백선희·전종덕 의원실, 국회 건강과 돌봄 그리고 인권 포럼 ▶ 일시 : 2026.01.21(10:00 ~ 12:00) ▶ 장소 : 의원회관 제1소회의실",
-      "SDATE": "2026-01-21",
-      "STIME": "10:00~12:00",
-      "NAME": "이수진·김윤·서미화·권향엽·박희승·임미애·장종태·백선희·전종덕 의원실, 국회 건강과 돌봄 그리고 인권 포럼",
-      "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "유산기부 활성화를 위한 한국의 '레거시 텐(Legacy 10)' 제도 도입에 관한 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260121&endDate=20260121&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박수영·정태호 의원실 ▶ 일시 : 2026.01.21(10:00 ~ 12:00) ▶ 장소 : 의원회관 대회의실",
@@ -26522,6 +26511,17 @@
       "STIME": "10:00~12:00",
       "NAME": "박수영·정태호 의원실",
       "LOCATION": "의원회관 대회의실",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "[건강수명 5080 함께 여는 국회토론회] 영양x돌봄=건강수명 UP 정책 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260121&endDate=20260121&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이수진·김윤·서미화·권향엽·박희승·임미애·장종태·백선희·전종덕 의원실, 국회 건강과 돌봄 그리고 인권 포럼 ▶ 일시 : 2026.01.21(10:00 ~ 12:00) ▶ 장소 : 의원회관 제1소회의실",
+      "SDATE": "2026-01-21",
+      "STIME": "10:00~12:00",
+      "NAME": "이수진·김윤·서미화·권향엽·박희승·임미애·장종태·백선희·전종덕 의원실, 국회 건강과 돌봄 그리고 인권 포럼",
+      "LOCATION": "의원회관 제1소회의실",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26559,6 +26559,17 @@
       "PHONE": null
     },
     {
+      "TITLE": "자치경찰 이원화 도입을 위한 입법 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 위성곤·이해식·이상식 의원실, 전국시도자치경찰위원장협의회 ▶ 일시 : 2026.01.22(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-01-22",
+      "STIME": "14:00",
+      "NAME": "위성곤·이해식·이상식 의원실, 전국시도자치경찰위원장협의회",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
       "TITLE": "대한민국 대전환: 기회와 과실을 고루 나누는 모두의 성장: 연속토론회 2",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 손명수 의원실, 민주연구원·더불어민주당 정책위원회 ▶ 일시 : 2026.01.22(14:00) ▶ 장소 : 기타 : 국회의원회관 정책위원회 회의실(306호)",
@@ -26581,17 +26592,6 @@
       "PHONE": null
     },
     {
-      "TITLE": "자치경찰 이원화 도입을 위한 입법 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 위성곤·이해식·이상식 의원실, 전국시도자치경찰위원장협의회 ▶ 일시 : 2026.01.22(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-01-22",
-      "STIME": "14:00",
-      "NAME": "위성곤·이해식·이상식 의원실, 전국시도자치경찰위원장협의회",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
       "TITLE": "\"2026년 이재명 정부의 통일·외교 정책방향은?\": 2026 통일정책포럼",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 윤후덕·김상욱·김영배·김준형·이용선·이재강·조정식·추미애·홍기원 의원실, 민족화해협력범국민협의회 ▶ 일시 : 2026.01.22(13:30) ▶ 장소 : 국회도서관 소강당",
@@ -26599,28 +26599,6 @@
       "STIME": "13:30",
       "NAME": "윤후덕·김상욱·김영배·김준형·이용선·이재강·조정식·추미애·홍기원 의원실, 민족화해협력범국민협의회",
       "LOCATION": "국회도서관 소강당",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "검찰개혁의 완성이란 무엇인가?: 민생범죄 집중을 위한 검찰개혁과 보완수사권 폐지",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박은정·추미애·박지원·김승원·김용민·민형배·장경태·이성윤·최혁진 의원실 ▶ 일시 : 2026.01.22(10:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-01-22",
-      "STIME": "10:00",
-      "NAME": "박은정·추미애·박지원·김승원·김용민·민형배·장경태·이성윤·최혁진 의원실",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "<열에너지기본법·열에너지탈탄소화 촉진법 입법공청회>탄소중립, 전기를 넘어 열로",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 위성곤 의원실, kHARN칸 ▶ 일시 : 2026.01.22(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-01-22",
-      "STIME": "10:00",
-      "NAME": "위성곤 의원실, kHARN칸",
-      "LOCATION": "의원회관 신관 제2세미나실",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26636,6 +26614,17 @@
       "PHONE": null
     },
     {
+      "TITLE": "<열에너지기본법·열에너지탈탄소화 촉진법 입법공청회>탄소중립, 전기를 넘어 열로",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 위성곤 의원실, kHARN칸 ▶ 일시 : 2026.01.22(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-01-22",
+      "STIME": "10:00",
+      "NAME": "위성곤 의원실, kHARN칸",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
       "TITLE": "대체복무제도 개선방향 모색을 위한 국회 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 이성윤·부승찬·서미화·백선희·손솔·용혜인 의원실, 전쟁없는세상, 민주사회를 위한 변호사모임, 참여연대 등 ▶ 일시 : 2026.01.22(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
@@ -26643,6 +26632,17 @@
       "STIME": "10:00",
       "NAME": "이성윤·부승찬·서미화·백선희·손솔·용혜인 의원실, 전쟁없는세상, 민주사회를 위한 변호사모임, 참여연대 등",
       "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": null,
+      "PHONE": null
+    },
+    {
+      "TITLE": "검찰개혁의 완성이란 무엇인가?: 민생범죄 집중을 위한 검찰개혁과 보완수사권 폐지",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260122&endDate=20260122&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 박은정·추미애·박지원·김승원·김용민·민형배·장경태·이성윤·최혁진 의원실 ▶ 일시 : 2026.01.22(10:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-01-22",
+      "STIME": "10:00",
+      "NAME": "박은정·추미애·박지원·김승원·김용민·민형배·장경태·이성윤·최혁진 의원실",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
       "IMGLINK": null,
       "PHONE": null
     },
@@ -26669,15 +26669,15 @@
       "PHONE": "(02) 6788-6801"
     },
     {
-      "TITLE": "민.관.기업.언론 종교계가 함께하는 어린이안전법.제도.정책 강화 대토론회",
+      "TITLE": "독서국가 선포식: AI 시대 독서국가로 가는 길",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260123&endDate=20260123&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 남인순 의원실, 국회어린이안전포럼, 한국보육진흥원, 어린이집안전공제회, 한국아동단체협의회, 한국어린이안전교육협회 등 ▶ 일시 : 2026.01.23(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "DESCRIPTION": "▶ 주최 : 김영호·고민정·김문수·김준혁·문정복·박성준·백승아·정을호·진선미·강경숙 의원실 ▶ 일시 : 2026.01.23(14:00) ▶ 장소 : 의원회관 대회의실",
       "SDATE": "2026-01-23",
       "STIME": "14:00",
-      "NAME": "남인순 의원실, 국회어린이안전포럼, 한국보육진흥원, 어린이집안전공제회, 한국아동단체협의회, 한국어린이안전교육협회 등",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1768884274299.jpg",
-      "PHONE": "(02) 6788-6381"
+      "NAME": "김영호·고민정·김문수·김준혁·문정복·박성준·백승아·정을호·진선미·강경숙 의원실",
+      "LOCATION": "의원회관 대회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1767940103603.jpg",
+      "PHONE": "(02) 6788-6261"
     },
     {
       "TITLE": "충동적 자살 예방 토론회",
@@ -26691,15 +26691,15 @@
       "PHONE": "(02) 6788-7161"
     },
     {
-      "TITLE": "독서국가 선포식: AI 시대 독서국가로 가는 길",
+      "TITLE": "민.관.기업.언론 종교계가 함께하는 어린이안전법.제도.정책 강화 대토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260123&endDate=20260123&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김영호·고민정·김문수·김준혁·문정복·박성준·백승아·정을호·진선미·강경숙 의원실 ▶ 일시 : 2026.01.23(14:00) ▶ 장소 : 의원회관 대회의실",
+      "DESCRIPTION": "▶ 주최 : 남인순 의원실, 국회어린이안전포럼, 한국보육진흥원, 어린이집안전공제회, 한국아동단체협의회, 한국어린이안전교육협회 등 ▶ 일시 : 2026.01.23(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
       "SDATE": "2026-01-23",
       "STIME": "14:00",
-      "NAME": "김영호·고민정·김문수·김준혁·문정복·박성준·백승아·정을호·진선미·강경숙 의원실",
-      "LOCATION": "의원회관 대회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1767940103603.jpg",
-      "PHONE": "(02) 6788-6261"
+      "NAME": "남인순 의원실, 국회어린이안전포럼, 한국보육진흥원, 어린이집안전공제회, 한국아동단체협의회, 한국어린이안전교육협회 등",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1768884274299.jpg",
+      "PHONE": "(02) 6788-6381"
     },
     {
       "TITLE": "(회복과 성장을 위한) 정년연장 특별위원회",
@@ -26746,17 +26746,6 @@
       "PHONE": "(02) 6788-6951"
     },
     {
-      "TITLE": "영화티켓의 할인 제도 개선을 위한 국회 간담회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260126&endDate=20260126&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이정문·김교흥 의원실 ▶ 일시 : 2026.01.26(14:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
-      "SDATE": "2026-01-26",
-      "STIME": "14:00",
-      "NAME": "이정문·김교흥 의원실",
-      "LOCATION": "의원회관 제5간담회의실(208호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769134495321.jpg",
-      "PHONE": "(02) 6788-7056"
-    },
-    {
       "TITLE": "평택 공립 특수학교 설립 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260126&endDate=20260126&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 홍기원 의원실 ▶ 일시 : 2026.01.26(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
@@ -26766,6 +26755,17 @@
       "LOCATION": "의원회관 신관 제2세미나실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769134191718.jpg",
       "PHONE": "(02) 6788-7446"
+    },
+    {
+      "TITLE": "영화티켓의 할인 제도 개선을 위한 국회 간담회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260126&endDate=20260126&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이정문·김교흥 의원실 ▶ 일시 : 2026.01.26(14:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
+      "SDATE": "2026-01-26",
+      "STIME": "14:00",
+      "NAME": "이정문·김교흥 의원실",
+      "LOCATION": "의원회관 제5간담회의실(208호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769134495321.jpg",
+      "PHONE": "(02) 6788-7056"
     },
     {
       "TITLE": "구윤철 부총리 겸 재정경제부 장관 강연",
@@ -26922,17 +26922,6 @@
       "PHONE": "(02) 6788-7176"
     },
     {
-      "TITLE": "더불어민주당 북한이탈주민 특별위원회 출범식 및 전체회의",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260127&endDate=20260127&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 송재봉 의원실, 더불어민주당 북한이탈주민특별위원회 ▶ 일시 : 2026.01.27(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-01-27",
-      "STIME": "14:00",
-      "NAME": "송재봉 의원실, 더불어민주당 북한이탈주민특별위원회",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057706729.jpg",
-      "PHONE": "(02) 6788-6211"
-    },
-    {
       "TITLE": "대한민국 대전환: 안전이 기본인 지속가능한 성장: 연속토론회 3",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260127&endDate=20260127&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 손명수 의원실, 민주연구원, 더불어민주당 정책위원회, 더불어민주당 을지키는민생실천위원회 ▶ 일시 : 2026.01.27(14:00) ▶ 장소 : 기타 : 국회의원회관 정책위원회 회의실",
@@ -26942,6 +26931,17 @@
       "LOCATION": "기타 : 국회의원회관 정책위원회 회의실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769163167694.jpg",
       "PHONE": "(02) 6788-7251"
+    },
+    {
+      "TITLE": "더불어민주당 북한이탈주민 특별위원회 출범식 및 전체회의",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260127&endDate=20260127&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 송재봉 의원실, 더불어민주당 북한이탈주민특별위원회 ▶ 일시 : 2026.01.27(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-01-27",
+      "STIME": "14:00",
+      "NAME": "송재봉 의원실, 더불어민주당 북한이탈주민특별위원회",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057706729.jpg",
+      "PHONE": "(02) 6788-6211"
     },
     {
       "TITLE": "성범죄자 재범 방지를 위한 신상정보 등록·공개제도 개선 정책토론회",
@@ -26955,17 +26955,6 @@
       "PHONE": "(02) 6788-6921"
     },
     {
-      "TITLE": "(글로벌 반도체 기술 경쟁력 강화를 위한)X선 간섭 노광장비 핵심기술 개발 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260127&endDate=20260127&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 최수진 의원실 ▶ 일시 : 2026.01.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-01-27",
-      "STIME": "10:00~12:00",
-      "NAME": "최수진 의원실",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057235395.jpg",
-      "PHONE": "(02) 6788-7486"
-    },
-    {
       "TITLE": "K-게임, 주52시간 탄력적 운영 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260127&endDate=20260127&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 정연욱 의원실 ▶ 일시 : 2026.01.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
@@ -26975,6 +26964,17 @@
       "LOCATION": "의원회관 제2간담회의실(202호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769162281721.jpg",
       "PHONE": "(02) 6788-7286"
+    },
+    {
+      "TITLE": "(글로벌 반도체 기술 경쟁력 강화를 위한)X선 간섭 노광장비 핵심기술 개발 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260127&endDate=20260127&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 최수진 의원실 ▶ 일시 : 2026.01.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-01-27",
+      "STIME": "10:00~12:00",
+      "NAME": "최수진 의원실",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057235395.jpg",
+      "PHONE": "(02) 6788-7486"
     },
     {
       "TITLE": "환자중심 의료기관 인증체계 개선 국회 토론회",
@@ -26999,17 +26999,6 @@
       "PHONE": "(02) 6788-6336"
     },
     {
-      "TITLE": "지속가능항공유(SAF) 확산을 위한 국회 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 복기왕·이소영·김한규 의원실 ▶ 일시 : 2026.01.28(14:00 ~ 16:30) ▶ 장소 : 의원회관 제1소회의실",
-      "SDATE": "2026-01-28",
-      "STIME": "14:00~16:30",
-      "NAME": "복기왕·이소영·김한규 의원실",
-      "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769584817204.jpg",
-      "PHONE": "(02) 6788-6511"
-    },
-    {
       "TITLE": "지역 일차의료 강화를 위한 의과대학 교육과정 혁신: 의과대학에서 무엇을 가르칠 것인가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 남인순·김윤·김선민 의원실 ▶ 일시 : 2026.01.28(14:00 ~ 16:30) ▶ 장소 : 의원회관 제1간담회의실(201호)",
@@ -27019,6 +27008,17 @@
       "LOCATION": "의원회관 제1간담회의실(201호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769162707198.jpg",
       "PHONE": "(02) 6788-6381"
+    },
+    {
+      "TITLE": "지속가능항공유(SAF) 확산을 위한 국회 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 복기왕·이소영·김한규 의원실 ▶ 일시 : 2026.01.28(14:00 ~ 16:30) ▶ 장소 : 의원회관 제1소회의실",
+      "SDATE": "2026-01-28",
+      "STIME": "14:00~16:30",
+      "NAME": "복기왕·이소영·김한규 의원실",
+      "LOCATION": "의원회관 제1소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769584817204.jpg",
+      "PHONE": "(02) 6788-6511"
     },
     {
       "TITLE": "현행 기초연금의 문제점과 개편방안",
@@ -27032,26 +27032,15 @@
       "PHONE": "(02) 6788-6381"
     },
     {
-      "TITLE": "광주전남 행정통합! 각론을 논하다",
+      "TITLE": "2026년 국가금연지원서비스의 역할, 이대로 괜찮은가?: 국민건강보호를 위한 금연정책 강화 방안 모색토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 민형배 의원실 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 의원회관 신관 제1세미나실",
+      "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
       "SDATE": "2026-01-28",
       "STIME": "14:00",
-      "NAME": "민형배 의원실",
-      "LOCATION": "의원회관 신관 제1세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769511269153.jpg",
-      "PHONE": "(02) 6788-6426"
-    },
-    {
-      "TITLE": "국민주권시대, 국가보훈정책 어떻게 가야 하나?: 2026 제2차 보훈정책포럼",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 민홍철·김용만·이강일 의원실 , 더불어민주당 국가보훈정책특별위원회, 국가보훈부 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 국회박물관 국회체험관",
-      "SDATE": "2026-01-28",
-      "STIME": "14:00",
-      "NAME": "민홍철·김용만·이강일 의원실 , 더불어민주당 국가보훈정책특별위원회, 국가보훈부",
-      "LOCATION": "국회박물관 국회체험관",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769466310159.jpg",
-      "PHONE": "(02) 6788-6431"
+      "NAME": "서영석 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057397916.jpg",
+      "PHONE": "(02) 6788-6601"
     },
     {
       "TITLE": "한국형 핵추진잠수함(K-SSN) 특별법 제정을 위한 긴급토론회",
@@ -27076,15 +27065,26 @@
       "PHONE": "(02) 6788-6951"
     },
     {
-      "TITLE": "화원업종 의무교육 제도 마련을 위한 정책 간담회",
+      "TITLE": "국민주권시대, 국가보훈정책 어떻게 가야 하나?: 2026 제2차 보훈정책포럼",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 오세희·송옥주 의원실, 더불어민주당 전국소상공인위원회, 국회소상공인민생포럼 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
+      "DESCRIPTION": "▶ 주최 : 민홍철·김용만·이강일 의원실 , 더불어민주당 국가보훈정책특별위원회, 국가보훈부 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 국회박물관 국회체험관",
       "SDATE": "2026-01-28",
       "STIME": "14:00",
-      "NAME": "오세희·송옥주 의원실, 더불어민주당 전국소상공인위원회, 국회소상공인민생포럼",
-      "LOCATION": "의원회관 제5간담회의실(208호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769129380006.jpg",
-      "PHONE": "(02) 6788-6351"
+      "NAME": "민홍철·김용만·이강일 의원실 , 더불어민주당 국가보훈정책특별위원회, 국가보훈부",
+      "LOCATION": "국회박물관 국회체험관",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769466310159.jpg",
+      "PHONE": "(02) 6788-6431"
+    },
+    {
+      "TITLE": "광주전남 행정통합! 각론을 논하다",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 민형배 의원실 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 의원회관 신관 제1세미나실",
+      "SDATE": "2026-01-28",
+      "STIME": "14:00",
+      "NAME": "민형배 의원실",
+      "LOCATION": "의원회관 신관 제1세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769511269153.jpg",
+      "PHONE": "(02) 6788-6426"
     },
     {
       "TITLE": "\"스테이블코인 확산에 따른\" 자금세탁방지(AML)시스템 동향 및 점검 포럼-\"자금세탁방지(AML) 시스템 도입 및 적용 사례등\"-",
@@ -27098,15 +27098,15 @@
       "PHONE": "(02) 6788-6236"
     },
     {
-      "TITLE": "2026년 국가금연지원서비스의 역할, 이대로 괜찮은가?: 국민건강보호를 위한 금연정책 강화 방안 모색토론회",
+      "TITLE": "화원업종 의무교육 제도 마련을 위한 정책 간담회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "DESCRIPTION": "▶ 주최 : 오세희·송옥주 의원실, 더불어민주당 전국소상공인위원회, 국회소상공인민생포럼 ▶ 일시 : 2026.01.28(14:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
       "SDATE": "2026-01-28",
       "STIME": "14:00",
-      "NAME": "서영석 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057397916.jpg",
-      "PHONE": "(02) 6788-6601"
+      "NAME": "오세희·송옥주 의원실, 더불어민주당 전국소상공인위원회, 국회소상공인민생포럼",
+      "LOCATION": "의원회관 제5간담회의실(208호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769129380006.jpg",
+      "PHONE": "(02) 6788-6351"
     },
     {
       "TITLE": "에너지 주권을 위한 농촌 재생에너지플랜: 제3회 KAFS 2026 지속가능농업포럼",
@@ -27142,17 +27142,6 @@
       "PHONE": "(02) 6788-7476"
     },
     {
-      "TITLE": "대한민국 대전환! AI기본도시 실현을 위한 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박주민·용혜인·김영환·황명선·민병덕·주철현·김준혁·서미화·양문석·장종태·천준호·조계원·이주희·전진숙·정성호 의원실 등 ▶ 일시 : 2026.01.28(10:00 ~ 12:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-01-28",
-      "STIME": "10:00~12:00",
-      "NAME": "박주민·용혜인·김영환·황명선·민병덕·주철현·김준혁·서미화·양문석·장종태·천준호·조계원·이주희·전진숙·정성호 의원실 등",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769510790965.jpg",
-      "PHONE": "(02) 6788-6521"
-    },
-    {
       "TITLE": "기후시민회의를 통한 시민 참여방안 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 위성곤 의원실, 국회 기후위기 특별위원회, 국가기후위기대응위원회  ▶ 일시 : 2026.01.28(10:00 ~ 12:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
@@ -27164,15 +27153,15 @@
       "PHONE": "(02) 6788-6791"
     },
     {
-      "TITLE": "2026 한반도와 국제정세 전망",
+      "TITLE": "대한민국 대전환! AI기본도시 실현을 위한 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 윤후덕·윤건영 의원실 ▶ 일시 : 2026.01.28(10:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "DESCRIPTION": "▶ 주최 : 박주민·용혜인·김영환·황명선·민병덕·주철현·김준혁·서미화·양문석·장종태·천준호·조계원·이주희·전진숙·정성호 의원실 등 ▶ 일시 : 2026.01.28(10:00 ~ 12:00) ▶ 장소 : 의원회관 신관 제2세미나실",
       "SDATE": "2026-01-28",
-      "STIME": "10:00",
-      "NAME": "윤후덕·윤건영 의원실",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769135011062.jpg",
-      "PHONE": "(02) 6788-6901"
+      "STIME": "10:00~12:00",
+      "NAME": "박주민·용혜인·김영환·황명선·민병덕·주철현·김준혁·서미화·양문석·장종태·천준호·조계원·이주희·전진숙·정성호 의원실 등",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769510790965.jpg",
+      "PHONE": "(02) 6788-6521"
     },
     {
       "TITLE": "중수청·공소청 설립문제 긴급토론회",
@@ -27184,6 +27173,17 @@
       "LOCATION": "의원회관 제8간담회의실(211호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769510415930.jpg",
       "PHONE": "(02) 6788-6926"
+    },
+    {
+      "TITLE": "2026 한반도와 국제정세 전망",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260128&endDate=20260128&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 윤후덕·윤건영 의원실 ▶ 일시 : 2026.01.28(10:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-01-28",
+      "STIME": "10:00",
+      "NAME": "윤후덕·윤건영 의원실",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769135011062.jpg",
+      "PHONE": "(02) 6788-6901"
     },
     {
       "TITLE": "야간노동 규제방안 촉구 국회 토론회",
@@ -27208,17 +27208,6 @@
       "PHONE": "(02) 6788-6901"
     },
     {
-      "TITLE": "대한민국 대전환: 문화가 이끄는 매력적인 성장: 연속토론회 4",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260129&endDate=20260129&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 손명수 의원실, 민주연구원, 더불어민주당 정책위원회, 더불어민주당 문화예술특별위원회 ▶ 일시 : 2026.01.29(14:00) ▶ 장소 : 기타 : 국회의원회관 정책위원회 회의실(306호)",
-      "SDATE": "2026-01-29",
-      "STIME": "14:00",
-      "NAME": "손명수 의원실, 민주연구원, 더불어민주당 정책위원회, 더불어민주당 문화예술특별위원회",
-      "LOCATION": "기타 : 국회의원회관 정책위원회 회의실(306호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769647672345.jpg",
-      "PHONE": "(02) 6788-7251"
-    },
-    {
       "TITLE": "수급 불안정 의약품 성분명 처방 국회 토론회: 수급 불안정 의약품 대책, 성분명 처방이 해법인가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260129&endDate=20260129&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 한지아 의원실 ▶ 일시 : 2026.01.29(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
@@ -27228,6 +27217,17 @@
       "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1768370046735.jpg",
       "PHONE": "(02) 6788-7396"
+    },
+    {
+      "TITLE": "대한민국 대전환: 문화가 이끄는 매력적인 성장: 연속토론회 4",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260129&endDate=20260129&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 손명수 의원실, 민주연구원, 더불어민주당 정책위원회, 더불어민주당 문화예술특별위원회 ▶ 일시 : 2026.01.29(14:00) ▶ 장소 : 기타 : 국회의원회관 정책위원회 회의실(306호)",
+      "SDATE": "2026-01-29",
+      "STIME": "14:00",
+      "NAME": "손명수 의원실, 민주연구원, 더불어민주당 정책위원회, 더불어민주당 문화예술특별위원회",
+      "LOCATION": "기타 : 국회의원회관 정책위원회 회의실(306호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769647672345.jpg",
+      "PHONE": "(02) 6788-7251"
     },
     {
       "TITLE": "퇴직연금 기금화의 공적역할 강화방안 모색",
@@ -27241,17 +27241,6 @@
       "PHONE": "(02) 6788-6381"
     },
     {
-      "TITLE": "화성호, 군공항 이전 및 신공항 건설 타당한가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260129&endDate=20260129&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 송옥주 의원실, 경기국제공항백지화공동행동, 수원전투비행장 화성이전반대 범시민대책위원회 ▶ 일시 : 2026.01.29(10:00) ▶ 장소 : 기타 : 경기 화성시 향남읍 행정복지센터 대회의실",
-      "SDATE": "2026-01-29",
-      "STIME": "10:00",
-      "NAME": "송옥주 의원실, 경기국제공항백지화공동행동, 수원전투비행장 화성이전반대 범시민대책위원회",
-      "LOCATION": "기타 : 경기 화성시 향남읍 행정복지센터 대회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057913722.jpg",
-      "PHONE": "(02) 6788-6661"
-    },
-    {
       "TITLE": "「소년사법, 그 길을 묻다」 국회 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260129&endDate=20260129&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 진선미·이성윤 의원실, (사)한국범죄학회 ▶ 일시 : 2026.01.29(10:00) ▶ 장소 : 의원회관 신관 제1세미나실",
@@ -27263,15 +27252,15 @@
       "PHONE": "(02) 6788-7326"
     },
     {
-      "TITLE": "일제침략기 의병문학과 독립정신",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260130&endDate=20260130&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김교흥 의원실, 인천대학교 독립운동사연구소 ▶ 일시 : 2026.01.30(14:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
-      "SDATE": "2026-01-30",
-      "STIME": "14:00",
-      "NAME": "김교흥 의원실, 인천대학교 독립운동사연구소",
-      "LOCATION": "의원회관 제4간담회의실(204호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769511144097.jpg",
-      "PHONE": "(02) 6788-6121"
+      "TITLE": "화성호, 군공항 이전 및 신공항 건설 타당한가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260129&endDate=20260129&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 송옥주 의원실, 경기국제공항백지화공동행동, 수원전투비행장 화성이전반대 범시민대책위원회 ▶ 일시 : 2026.01.29(10:00) ▶ 장소 : 기타 : 경기 화성시 향남읍 행정복지센터 대회의실",
+      "SDATE": "2026-01-29",
+      "STIME": "10:00",
+      "NAME": "송옥주 의원실, 경기국제공항백지화공동행동, 수원전투비행장 화성이전반대 범시민대책위원회",
+      "LOCATION": "기타 : 경기 화성시 향남읍 행정복지센터 대회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769057913722.jpg",
+      "PHONE": "(02) 6788-6661"
     },
     {
       "TITLE": "주주관여활동 및 주주제안 활성화 방안 간담회",
@@ -27283,6 +27272,17 @@
       "LOCATION": "의원회관 제8간담회의실(211호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769753949263.png",
       "PHONE": "(02) 6788-6251"
+    },
+    {
+      "TITLE": "일제침략기 의병문학과 독립정신",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260130&endDate=20260130&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김교흥 의원실, 인천대학교 독립운동사연구소 ▶ 일시 : 2026.01.30(14:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
+      "SDATE": "2026-01-30",
+      "STIME": "14:00",
+      "NAME": "김교흥 의원실, 인천대학교 독립운동사연구소",
+      "LOCATION": "의원회관 제4간담회의실(204호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769511144097.jpg",
+      "PHONE": "(02) 6788-6121"
     },
     {
       "TITLE": "자동차 대기오명 방지시설 관리체계 개선을 위한 국회정책토론회",
@@ -27505,28 +27505,6 @@
       "PHONE": "(02) 6788-6481"
     },
     {
-      "TITLE": "어르신 폐렴 예방을 위한 국회 정책토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260204&endDate=20260204&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서명옥 의원실, 사단법인 대한노인회 ▶ 일시 : 2026.02.04(14:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
-      "SDATE": "2026-02-04",
-      "STIME": "14:00",
-      "NAME": "서명옥 의원실, 사단법인 대한노인회",
-      "LOCATION": "의원회관 제4간담회의실(204호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769749169183.jpg",
-      "PHONE": "(02) 6788-7131"
-    },
-    {
-      "TITLE": "외국인력 정책과 개선과 지속가능한 상생 방안",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260204&endDate=20260204&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김위상 의원실 ▶ 일시 : 2026.02.04(14:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
-      "SDATE": "2026-02-04",
-      "STIME": "14:00",
-      "NAME": "김위상 의원실",
-      "LOCATION": "의원회관 제7간담회의실(210호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769510187467.jpg",
-      "PHONE": "(02) 6788-6906"
-    },
-    {
       "TITLE": "국민주권시대, 국가보훈정책 어떻게 가야 하나?-보훈복지·의료시스템의 재설계-",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260204&endDate=20260204&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 민홍철·김용만·이강일 의원실, 더불어민주당 국가보훈정책특별위원회, 국가보훈부 ▶ 일시 : 2026.02.04(14:00) ▶ 장소 : 국회박물관 국회체험관",
@@ -27549,6 +27527,17 @@
       "PHONE": "(02) 6788-6036"
     },
     {
+      "TITLE": "외국인력 정책과 개선과 지속가능한 상생 방안",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260204&endDate=20260204&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김위상 의원실 ▶ 일시 : 2026.02.04(14:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
+      "SDATE": "2026-02-04",
+      "STIME": "14:00",
+      "NAME": "김위상 의원실",
+      "LOCATION": "의원회관 제7간담회의실(210호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769510187467.jpg",
+      "PHONE": "(02) 6788-6906"
+    },
+    {
       "TITLE": "3특·행정수도 완성 입법촉구 결의대회 및 원탁토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260204&endDate=20260204&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 한기호·송기헌 의원실, 강원도민일보 ▶ 일시 : 2026.02.04(14:00) ▶ 장소 : 국회도서관 소강당",
@@ -27558,6 +27547,17 @@
       "LOCATION": "국회도서관 소강당",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770015191807.jpg",
       "PHONE": "(02) 6788-7406"
+    },
+    {
+      "TITLE": "어르신 폐렴 예방을 위한 국회 정책토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260204&endDate=20260204&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 서명옥 의원실, 사단법인 대한노인회 ▶ 일시 : 2026.02.04(14:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
+      "SDATE": "2026-02-04",
+      "STIME": "14:00",
+      "NAME": "서명옥 의원실, 사단법인 대한노인회",
+      "LOCATION": "의원회관 제4간담회의실(204호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769749169183.jpg",
+      "PHONE": "(02) 6788-7131"
     },
     {
       "TITLE": "AI 시대 보건 ODA의 새로운 방향성",
@@ -27824,15 +27824,15 @@
       "PHONE": "(02) 6788-6256"
     },
     {
-      "TITLE": "만성콩팥병 관리법 제정 왜 필요한가?",
+      "TITLE": "조선업 이주노동자 실태조사 결과 발표 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 남인순 의원실 ▶ 일시 : 2026.02.06(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
+      "DESCRIPTION": "▶ 주최 : 이용우·윤종오 의원실, 전국금속노동조합 ▶ 일시 : 2026.02.06(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
       "SDATE": "2026-02-06",
       "STIME": "14:00",
-      "NAME": "남인순 의원실",
-      "LOCATION": "의원회관 제11간담회의실(216호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770101554877.jpg",
-      "PHONE": "(02) 6788-6381"
+      "NAME": "이용우·윤종오 의원실, 전국금속노동조합",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770338966218.jpg",
+      "PHONE": "(02) 6788-7091"
     },
     {
       "TITLE": "에너지 전환, 공공의 역할과 책임은 무엇인가!: 공공재생에너지포럼 출범 1주년 기념 국회토론회",
@@ -27846,15 +27846,15 @@
       "PHONE": "(02) 6788-7021"
     },
     {
-      "TITLE": "조선업 이주노동자 실태조사 결과 발표 토론회",
+      "TITLE": "만성콩팥병 관리법 제정 왜 필요한가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이용우·윤종오 의원실, 전국금속노동조합 ▶ 일시 : 2026.02.06(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "DESCRIPTION": "▶ 주최 : 남인순 의원실 ▶ 일시 : 2026.02.06(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
       "SDATE": "2026-02-06",
       "STIME": "14:00",
-      "NAME": "이용우·윤종오 의원실, 전국금속노동조합",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770338966218.jpg",
-      "PHONE": "(02) 6788-7091"
+      "NAME": "남인순 의원실",
+      "LOCATION": "의원회관 제11간담회의실(216호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770101554877.jpg",
+      "PHONE": "(02) 6788-6381"
     },
     {
       "TITLE": "K-애니메이션 산업 재도약과 세계 시장 확대를 위한 생존전략 정책 토론회: 성공인가, 전멸인가. 갈림길에 서 있는 k-애니메이션",
@@ -27879,6 +27879,17 @@
       "PHONE": "(02) 6788-6801"
     },
     {
+      "TITLE": "일상을 지키는 골든타임!: 국가 손상예방관리시스템 어떻게 구축할 것인가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이주영 의원실 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
+      "SDATE": "2026-02-06",
+      "STIME": "10:00",
+      "NAME": "이주영 의원실",
+      "LOCATION": "의원회관 신관 제3세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770098933234.png",
+      "PHONE": "(02) 6788-7221"
+    },
+    {
       "TITLE": "지역 의료격차 해소를 위한 공공보건의료 서비스 개선 방안 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 임이자 의원실 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
@@ -27890,26 +27901,15 @@
       "PHONE": "(02) 6788-7126"
     },
     {
-      "TITLE": "희귀질환 사망자수 1위, 특발성폐섬유증 환자 생존권 보장을 위한 정책 토론회",
+      "TITLE": "한국영화산업 선순환 구조 복원을 위한 홀드백 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 안상훈 의원실, 사단법인 한국희귀·난치성질환연합회 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "DESCRIPTION": "▶ 주최 : 임오경 의원실, 국회 문화체육관광위원회 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 제2소회의실",
       "SDATE": "2026-02-06",
       "STIME": "10:00",
-      "NAME": "안상훈 의원실, 사단법인 한국희귀·난치성질환연합회",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769162568030.jpg",
-      "PHONE": "(02) 6788-7071"
-    },
-    {
-      "TITLE": "일상을 지키는 골든타임!: 국가 손상예방관리시스템 어떻게 구축할 것인가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이주영 의원실 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
-      "SDATE": "2026-02-06",
-      "STIME": "10:00",
-      "NAME": "이주영 의원실",
-      "LOCATION": "의원회관 신관 제3세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770098933234.png",
-      "PHONE": "(02) 6788-7221"
+      "NAME": "임오경 의원실, 국회 문화체육관광위원회",
+      "LOCATION": "의원회관 제2소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770118173660.jpg",
+      "PHONE": "(02) 6788-7121"
     },
     {
       "TITLE": "쿠팡 해킹 및 개인정보 침탈 사고에 대한 국회 좌담회",
@@ -27923,15 +27923,15 @@
       "PHONE": "(02) 6788-7376"
     },
     {
-      "TITLE": "한국영화산업 선순환 구조 복원을 위한 홀드백 정책 토론회",
+      "TITLE": "희귀질환 사망자수 1위, 특발성폐섬유증 환자 생존권 보장을 위한 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260206&endDate=20260206&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 임오경 의원실, 국회 문화체육관광위원회 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 제2소회의실",
+      "DESCRIPTION": "▶ 주최 : 안상훈 의원실, 사단법인 한국희귀·난치성질환연합회 ▶ 일시 : 2026.02.06(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
       "SDATE": "2026-02-06",
       "STIME": "10:00",
-      "NAME": "임오경 의원실, 국회 문화체육관광위원회",
-      "LOCATION": "의원회관 제2소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770118173660.jpg",
-      "PHONE": "(02) 6788-7121"
+      "NAME": "안상훈 의원실, 사단법인 한국희귀·난치성질환연합회",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1769162568030.jpg",
+      "PHONE": "(02) 6788-7071"
     },
     {
       "TITLE": "이수진의 오늘이 중원의 내일을 만듭니다",
@@ -28011,17 +28011,6 @@
       "PHONE": "(02) 6788-6646"
     },
     {
-      "TITLE": "국가보안법 피해자 연속 증언 프로젝트 목소리들",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260209&endDate=20260209&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 한창민·민형배·손솔 의원실, 민족통일애국청년회,(사)양심수후원회 ▶ 일시 : 2026.02.09(14:00) ▶ 장소 : 의원회관 제3간담회의실(203호)",
-      "SDATE": "2026-02-09",
-      "STIME": "14:00",
-      "NAME": "한창민·민형배·손솔 의원실, 민족통일애국청년회,(사)양심수후원회",
-      "LOCATION": "의원회관 제3간담회의실(203호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770072769733.jpg",
-      "PHONE": "(02) 6788-6736"
-    },
-    {
       "TITLE": "정의로운 전환을 위한 석탄화력발전 폐지지원법 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260209&endDate=20260209&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김주영·박해철 의원실, 더불어민주당 정의로운전환 대책특별위원회 ▶ 일시 : 2026.02.09(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
@@ -28042,6 +28031,17 @@
       "LOCATION": "의원회관 제4간담회의실(204호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770339330761.jpg",
       "PHONE": "(02) 6788-6211"
+    },
+    {
+      "TITLE": "국가보안법 피해자 연속 증언 프로젝트 목소리들",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260209&endDate=20260209&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 한창민·민형배·손솔 의원실, 민족통일애국청년회,(사)양심수후원회 ▶ 일시 : 2026.02.09(14:00) ▶ 장소 : 의원회관 제3간담회의실(203호)",
+      "SDATE": "2026-02-09",
+      "STIME": "14:00",
+      "NAME": "한창민·민형배·손솔 의원실, 민족통일애국청년회,(사)양심수후원회",
+      "LOCATION": "의원회관 제3간담회의실(203호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770072769733.jpg",
+      "PHONE": "(02) 6788-6736"
     },
     {
       "TITLE": "전북피지컬AI특별위원회 출범식 및 전북피지컬AI&미래와역사 포럼",
@@ -28099,17 +28099,6 @@
       "PHONE": "(02) 6788-7421"
     },
     {
-      "TITLE": "K-반도체 트라이앵글 국회 연속 토론회: 1차 토론회: 산업안보·균형발전·반도체 산업경쟁력 전략 차원",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260210&endDate=20260210&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김종민·최형두·윤종오·정진욱·허성무 의원실 ▶ 일시 : 2026.02.10(10:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
-      "SDATE": "2026-02-10",
-      "STIME": "10:00",
-      "NAME": "김종민·최형두·윤종오·정진욱·허성무 의원실",
-      "LOCATION": "의원회관 제5간담회의실(208호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770598186534.jpg",
-      "PHONE": "(02) 6788-6311"
-    },
-    {
       "TITLE": "외국인 투자기업 책임투자 실현을 위한 입법 방안 마련 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260210&endDate=20260210&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김주영 의원실, 더불어민주당 외국인 투자기업노동자 보호제도 개선특위·을지로위원회, 한국노동조합총연맹 등 ▶ 일시 : 2026.02.10(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
@@ -28119,6 +28108,17 @@
       "LOCATION": "의원회관 제2간담회의실(202호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770340312476.jpg",
       "PHONE": "(02) 6788-6316"
+    },
+    {
+      "TITLE": "K-반도체 트라이앵글 국회 연속 토론회: 1차 토론회: 산업안보·균형발전·반도체 산업경쟁력 전략 차원",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260210&endDate=20260210&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김종민·최형두·윤종오·정진욱·허성무 의원실 ▶ 일시 : 2026.02.10(10:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
+      "SDATE": "2026-02-10",
+      "STIME": "10:00",
+      "NAME": "김종민·최형두·윤종오·정진욱·허성무 의원실",
+      "LOCATION": "의원회관 제5간담회의실(208호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770598186534.jpg",
+      "PHONE": "(02) 6788-6311"
     },
     {
       "TITLE": "전자상거래 기반 K-뷰티 기업의 글로벌 성장과 상표권 보호 과제",
@@ -28253,17 +28253,6 @@
       "PHONE": "(02) 6788-6226"
     },
     {
-      "TITLE": "학암 이관술 선생 재심 무죄 판결과 역사 정의 운동의 과제",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260211&endDate=20260211&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김용만·이수진 의원실, 국회 역사정의포럼, 학암이관술기념사업회, 이재유기념사업회, 시민모임 독립 ▶ 일시 : 2026.02.11(10:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
-      "SDATE": "2026-02-11",
-      "STIME": "10:00",
-      "NAME": "김용만·이수진 의원실, 국회 역사정의포럼, 학암이관술기념사업회, 이재유기념사업회, 시민모임 독립",
-      "LOCATION": "의원회관 제4간담회의실(204호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770682018879.jpg",
-      "PHONE": "(02) 6788-6461"
-    },
-    {
       "TITLE": "국민과 함께하는 고속철도 통합 추진 공청회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260211&endDate=20260211&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 복기왕·문진석·박용갑·손명수·안태준·염태영·윤종군·이건태·이연희·전용기·정준호·한준호 의원실 ▶ 일시 : 2026.02.11(10:00) ▶ 장소 : 국회도서관 소강당",
@@ -28273,6 +28262,17 @@
       "LOCATION": "국회도서관 소강당",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770182292490.jpg",
       "PHONE": "(02) 6788-6511"
+    },
+    {
+      "TITLE": "학암 이관술 선생 재심 무죄 판결과 역사 정의 운동의 과제",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260211&endDate=20260211&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김용만·이수진 의원실, 국회 역사정의포럼, 학암이관술기념사업회, 이재유기념사업회, 시민모임 독립 ▶ 일시 : 2026.02.11(10:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
+      "SDATE": "2026-02-11",
+      "STIME": "10:00",
+      "NAME": "김용만·이수진 의원실, 국회 역사정의포럼, 학암이관술기념사업회, 이재유기념사업회, 시민모임 독립",
+      "LOCATION": "의원회관 제4간담회의실(204호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770682018879.jpg",
+      "PHONE": "(02) 6788-6461"
     },
     {
       "TITLE": "공공성에 기반한 규제정책의 필요성",
@@ -28341,17 +28341,6 @@
       "PHONE": "(02) 6788-6851"
     },
     {
-      "TITLE": "의료취약지, 지역의료체계 개편을 위한 국회 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260212&endDate=20260212&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김선민 의원실, 현신적 복지국가로 나아가는 사회권선진국포럼, 사회권선진국특별위원회 ▶ 일시 : 2026.02.12(13:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
-      "SDATE": "2026-02-12",
-      "STIME": "13:00",
-      "NAME": "김선민 의원실, 현신적 복지국가로 나아가는 사회권선진국포럼, 사회권선진국특별위원회",
-      "LOCATION": "의원회관 제5간담회의실(208호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770599854032.jpg",
-      "PHONE": "(02) 6788-7161"
-    },
-    {
       "TITLE": "'한반도 KTX' 철도망 구축과 국가균형성장 정책토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260212&endDate=20260212&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 조계원·박지원·이개호·서삼석·신정훈·강준현·김원이·주철현·권향엽·김문수·김우영·문금주·박희승·윤종군·이성윤·정준호 의원실 ▶ 일시 : 2026.02.12(13:00) ▶ 장소 : 국회도서관 대강당",
@@ -28363,6 +28352,17 @@
       "PHONE": "(02) 6788-6191"
     },
     {
+      "TITLE": "의료취약지, 지역의료체계 개편을 위한 국회 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260212&endDate=20260212&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김선민 의원실, 현신적 복지국가로 나아가는 사회권선진국포럼, 사회권선진국특별위원회 ▶ 일시 : 2026.02.12(13:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
+      "SDATE": "2026-02-12",
+      "STIME": "13:00",
+      "NAME": "김선민 의원실, 현신적 복지국가로 나아가는 사회권선진국포럼, 사회권선진국특별위원회",
+      "LOCATION": "의원회관 제5간담회의실(208호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770599854032.jpg",
+      "PHONE": "(02) 6788-7161"
+    },
+    {
       "TITLE": "지방행정통합과 지방재정: 대전충남특별시 사례를 중심으로",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260212&endDate=20260212&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 장철민 의원실, 한국행정학회 ▶ 일시 : 2026.02.12(10:00 ~ 11:50) ▶ 장소 : 의원회관 신관 제3세미나실",
@@ -28372,17 +28372,6 @@
       "LOCATION": "의원회관 신관 제3세미나실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770361171430.jpg",
       "PHONE": "(02) 6788-7151"
-    },
-    {
-      "TITLE": "설탕 과다사용부담금 국회토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260212&endDate=20260212&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 정태호 의원실, 대한민국헌정회, 서울대학교 건강문화사업단 ▶ 일시 : 2026.02.12(10:00) ▶ 장소 : 국회도서관 소강당",
-      "SDATE": "2026-02-12",
-      "STIME": "10:00",
-      "NAME": "정태호 의원실, 대한민국헌정회, 서울대학교 건강문화사업단",
-      "LOCATION": "국회도서관 소강당",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770340228336.jpg",
-      "PHONE": "(02) 6788-7246"
     },
     {
       "TITLE": "제1회 벤처·스타트업 성장 포럼",
@@ -28405,6 +28394,17 @@
       "LOCATION": "의원회관 제11간담회의실(216호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770599507671.jpg",
       "PHONE": "(02) 6788-6746"
+    },
+    {
+      "TITLE": "설탕 과다사용부담금 국회토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260212&endDate=20260212&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 정태호 의원실, 대한민국헌정회, 서울대학교 건강문화사업단 ▶ 일시 : 2026.02.12(10:00) ▶ 장소 : 국회도서관 소강당",
+      "SDATE": "2026-02-12",
+      "STIME": "10:00",
+      "NAME": "정태호 의원실, 대한민국헌정회, 서울대학교 건강문화사업단",
+      "LOCATION": "국회도서관 소강당",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770340228336.jpg",
+      "PHONE": "(02) 6788-7246"
     },
     {
       "TITLE": "국회 아프리카포럼 제102차 정기세미나",
@@ -28627,17 +28627,6 @@
       "PHONE": "(02) 6788-6356"
     },
     {
-      "TITLE": "공공부문 돌봄노동 교섭체계 구축방안 국회토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260223&endDate=20260223&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이용우·정혜경·이수진 의원실, 전국민주노동조합총연맹 ▶ 일시 : 2026.02.23(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
-      "SDATE": "2026-02-23",
-      "STIME": "10:00",
-      "NAME": "이용우·정혜경·이수진 의원실, 전국민주노동조합총연맹",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770714378324.jpg",
-      "PHONE": "(02) 6788-7091"
-    },
-    {
       "TITLE": "AI 기반 콘텐츠 진흥을 위한 법적 개선과제 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260223&endDate=20260223&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 진종오 의원실 ▶ 일시 : 2026.02.23(10:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
@@ -28660,15 +28649,15 @@
       "PHONE": "(02) 6788-6506"
     },
     {
-      "TITLE": "마을기반 기본사회 구축을 위한 주민자치 마을공동체 사회연대경제 정책연계 국회토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 신정훈·이해식·용혜인 의원실 ▶ 일시 : 2026.02.24(15:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
-      "SDATE": "2026-02-24",
-      "STIME": "15:00",
-      "NAME": "신정훈·이해식·용혜인 의원실",
-      "LOCATION": "의원회관 제1간담회의실(201호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771570120366.jpg",
-      "PHONE": "(02) 6788-6686"
+      "TITLE": "공공부문 돌봄노동 교섭체계 구축방안 국회토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260223&endDate=20260223&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이용우·정혜경·이수진 의원실, 전국민주노동조합총연맹 ▶ 일시 : 2026.02.23(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "SDATE": "2026-02-23",
+      "STIME": "10:00",
+      "NAME": "이용우·정혜경·이수진 의원실, 전국민주노동조합총연맹",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770714378324.jpg",
+      "PHONE": "(02) 6788-7091"
     },
     {
       "TITLE": "동학서훈 입법 국회 공개 토론회",
@@ -28680,6 +28669,17 @@
       "LOCATION": "기타 : 국회의원 회관 306호",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770680408596.png",
       "PHONE": "(02) 6788-6861"
+    },
+    {
+      "TITLE": "마을기반 기본사회 구축을 위한 주민자치 마을공동체 사회연대경제 정책연계 국회토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 신정훈·이해식·용혜인 의원실 ▶ 일시 : 2026.02.24(15:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
+      "SDATE": "2026-02-24",
+      "STIME": "15:00",
+      "NAME": "신정훈·이해식·용혜인 의원실",
+      "LOCATION": "의원회관 제1간담회의실(201호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771570120366.jpg",
+      "PHONE": "(02) 6788-6686"
     },
     {
       "TITLE": "제1회 대한민국 로컬 임팩트 전략 포럼",
@@ -28704,17 +28704,6 @@
       "PHONE": "(02) 6788-7191"
     },
     {
-      "TITLE": "K-패션 글로벌화 정책 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 송재봉 의원실, 한국패션협회 ▶ 일시 : 2026.02.24(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-02-24",
-      "STIME": "14:00",
-      "NAME": "송재봉 의원실, 한국패션협회",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771641121683.jpg",
-      "PHONE": "(02) 6788-6211"
-    },
-    {
       "TITLE": "무연고 최중증 발달장애인의 \"생명권\"과 \"자기결정권\" 보장 강화를 위한 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 주호영·강득구·이준석·김미애 의원실, Caritas ▶ 일시 : 2026.02.24(14:00) ▶ 장소 : 의원회관 대회의실",
@@ -28724,6 +28713,17 @@
       "LOCATION": "의원회관 대회의실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771479435769.jpg",
       "PHONE": "(02) 6788-7316"
+    },
+    {
+      "TITLE": "K-패션 글로벌화 정책 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 송재봉 의원실, 한국패션협회 ▶ 일시 : 2026.02.24(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-02-24",
+      "STIME": "14:00",
+      "NAME": "송재봉 의원실, 한국패션협회",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771641121683.jpg",
+      "PHONE": "(02) 6788-6211"
     },
     {
       "TITLE": "위기 관리·대응에서 공급망 주도형으로: 핵심광물: 주도형 공급망 구축 토론회",
@@ -28748,15 +28748,15 @@
       "PHONE": "(02) 6788-7316"
     },
     {
-      "TITLE": "AI 핵심 분야별 산업 동향과 육성 전략 토론회",
+      "TITLE": "난치성 환자들의 조기 치료 접근성 확대 방안을 중심으로 전신중증근무력증 치료 접근성강화를 위한 정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 임이자 의원실 ▶ 일시 : 2026.02.24(10:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
+      "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.02.24(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
       "SDATE": "2026-02-24",
       "STIME": "10:00",
-      "NAME": "임이자 의원실",
-      "LOCATION": "의원회관 제10간담회의실(217호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771640878749.jpg",
-      "PHONE": "(02) 6788-7126"
+      "NAME": "서영석 의원실",
+      "LOCATION": "의원회관 신관 제3세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771638612787.jpg",
+      "PHONE": "(02) 6788-6601"
     },
     {
       "TITLE": "핸드볼의 스포츠토토 편입 및 종목 혁신 전략 포럼",
@@ -28770,15 +28770,15 @@
       "PHONE": "(02) 6788-6191"
     },
     {
-      "TITLE": "난치성 환자들의 조기 치료 접근성 확대 방안을 중심으로 전신중증근무력증 치료 접근성강화를 위한 정책 토론회",
+      "TITLE": "AI 핵심 분야별 산업 동향과 육성 전략 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260224&endDate=20260224&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.02.24(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
+      "DESCRIPTION": "▶ 주최 : 임이자 의원실 ▶ 일시 : 2026.02.24(10:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
       "SDATE": "2026-02-24",
       "STIME": "10:00",
-      "NAME": "서영석 의원실",
-      "LOCATION": "의원회관 신관 제3세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771638612787.jpg",
-      "PHONE": "(02) 6788-6601"
+      "NAME": "임이자 의원실",
+      "LOCATION": "의원회관 제10간담회의실(217호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771640878749.jpg",
+      "PHONE": "(02) 6788-7126"
     },
     {
       "TITLE": "디지털재난안전관리법 제정을 위한 전문가 간담회",
@@ -28858,15 +28858,15 @@
       "PHONE": "(02) 6788-6626"
     },
     {
-      "TITLE": "농촌의 새로운 빛, 영농형 태양광과 햇빛소득: 2026 「미래농업포럼」",
+      "TITLE": "만성장부전 장애인정 촉구 TPN(총정맥영양) 이용 환우·가족 증언대회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 어기구 의원실 ▶ 일시 : 2026.02.25(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "DESCRIPTION": "▶ 주최 : 서미화 의원실, 만성장부전·단장픙후군 환우회, 대한소아오화기영양학회, 국회 건강과 돌봄 그리고 인권 포럼 ▶ 일시 : 2026.02.25(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
       "SDATE": "2026-02-25",
       "STIME": "14:00",
-      "NAME": "어기구 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771562371795.png",
-      "PHONE": "(02) 6788-6751"
+      "NAME": "서미화 의원실, 만성장부전·단장픙후군 환우회, 대한소아오화기영양학회, 국회 건강과 돌봄 그리고 인권 포럼",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771478085881.jpg",
+      "PHONE": "(02) 6788-6951"
     },
     {
       "TITLE": "軍장병 생명보호를 위한 제도 개선 토론회",
@@ -28891,6 +28891,17 @@
       "PHONE": "(02) 6788-7161"
     },
     {
+      "TITLE": "농촌의 새로운 빛, 영농형 태양광과 햇빛소득: 2026 「미래농업포럼」",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 어기구 의원실 ▶ 일시 : 2026.02.25(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-02-25",
+      "STIME": "14:00",
+      "NAME": "어기구 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771562371795.png",
+      "PHONE": "(02) 6788-6751"
+    },
+    {
       "TITLE": "12·29 여객기참사 재발 방지를 위한 대한민국 항공안전조직 선진화 국회세미나 및 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박상혁·김승원·복기왕·허영·김용만·안태준·염태영·이건태·이광희·이연희·최혁진 의원실 ▶ 일시 : 2026.02.25(14:00) ▶ 장소 : 의원회관 신관 제1세미나실",
@@ -28900,17 +28911,6 @@
       "LOCATION": "의원회관 신관 제1세미나실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771642180890.jpg",
       "PHONE": "(02) 6788-6466"
-    },
-    {
-      "TITLE": "만성장부전 장애인정 촉구 TPN(총정맥영양) 이용 환우·가족 증언대회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서미화 의원실, 만성장부전·단장픙후군 환우회, 대한소아오화기영양학회, 국회 건강과 돌봄 그리고 인권 포럼 ▶ 일시 : 2026.02.25(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-02-25",
-      "STIME": "14:00",
-      "NAME": "서미화 의원실, 만성장부전·단장픙후군 환우회, 대한소아오화기영양학회, 국회 건강과 돌봄 그리고 인권 포럼",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771478085881.jpg",
-      "PHONE": "(02) 6788-6951"
     },
     {
       "TITLE": "기후변화로 인한 작물 고온피해 대처방안",
@@ -28935,17 +28935,6 @@
       "PHONE": "(02) 6788-6256"
     },
     {
-      "TITLE": "AI 시대, 플랫폼 정책의 대전환: '규제'를 넘어 '전략 산업'으로:플랫폼산업진흥법(안) 제정의 필요성 진단 및 산업계 의견 청취 간담회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김한규, 배현진 의원실, 유니콘팜 ▶ 일시 : 2026.02.25(10:00) ▶ 장소 : 국회도서관 대강당",
-      "SDATE": "2026-02-25",
-      "STIME": "10:00",
-      "NAME": "김한규, 배현진 의원실, 유니콘팜",
-      "LOCATION": "국회도서관 대강당",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770942286965.jpg",
-      "PHONE": "(02) 6788-6771"
-    },
-    {
       "TITLE": "임금이 드러나는 순간, 평등이 시작된다: 여성노동연대회의 성별임금격차 해소 방안 모색을 위한 2차 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 이용우·김남희·믹주영·서영교·이수진·이주희·전진숙·정춘생·정혜경 의원실, 여성노동연대회의, 더불어민주당 전국여성위원회 ▶ 일시 : 2026.02.25(10:00) ▶ 장소 : 의원회관 제3간담회의실(203호)",
@@ -28955,6 +28944,17 @@
       "LOCATION": "의원회관 제3간담회의실(203호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1771054294713.png",
       "PHONE": "(02) 6788-7091"
+    },
+    {
+      "TITLE": "AI 시대, 플랫폼 정책의 대전환: '규제'를 넘어 '전략 산업'으로:플랫폼산업진흥법(안) 제정의 필요성 진단 및 산업계 의견 청취 간담회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260225&endDate=20260225&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김한규, 배현진 의원실, 유니콘팜 ▶ 일시 : 2026.02.25(10:00) ▶ 장소 : 국회도서관 대강당",
+      "SDATE": "2026-02-25",
+      "STIME": "10:00",
+      "NAME": "김한규, 배현진 의원실, 유니콘팜",
+      "LOCATION": "국회도서관 대강당",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770942286965.jpg",
+      "PHONE": "(02) 6788-6771"
     },
     {
       "TITLE": "더불어민주당 연금개혁특별위원회 전체회의",
@@ -29265,17 +29265,6 @@
       "PHONE": "(02) 6788-7316"
     },
     {
-      "TITLE": "2026년도 에너지 차양 산업 기술 혁신 세미나",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 안도걸 의원실 ▶ 일시 : 2026.03.03(14:30) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-03-03",
-      "STIME": "14:30",
-      "NAME": "안도걸 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772427240915.jpg",
-      "PHONE": "(02) 6788-7046"
-    },
-    {
       "TITLE": "K-POP 다음 단계를 이야기하다!",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박정하 의원실 ▶ 일시 : 2026.03.03(14:30) ▶ 장소 : 의원회관 제1간담회의실(201호)",
@@ -29287,15 +29276,26 @@
       "PHONE": "(02) 6788-6916"
     },
     {
-      "TITLE": "K-반도체 트라이앵글 국회 연속토론회: 2차 토론회: 전력과 용수 중심, 진산지소 실현 방안 모색",
+      "TITLE": "2026년도 에너지 차양 산업 기술 혁신 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김종민·안호영·최형두·윤종오·정진욱·허성무·서왕진·차규근·박찬대 의원실, 대전환시대 성장포럼 ▶ 일시 : 2026.03.03(14:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "DESCRIPTION": "▶ 주최 : 안도걸 의원실 ▶ 일시 : 2026.03.03(14:30) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-03-03",
+      "STIME": "14:30",
+      "NAME": "안도걸 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772427240915.jpg",
+      "PHONE": "(02) 6788-7046"
+    },
+    {
+      "TITLE": "학교석면철거 안전제도개선 국회토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 서왕진·강득구 의원실, 환경보건시민센터·한국석면건축물안전관리협회·한국석면추방네트워크·전국학교석면학부모네트워크 ▶ 일시 : 2026.03.03(14:00) ▶ 장소 : 의원회관 신관 제3세미나실",
       "SDATE": "2026-03-03",
       "STIME": "14:00",
-      "NAME": "김종민·안호영·최형두·윤종오·정진욱·허성무·서왕진·차규근·박찬대 의원실, 대전환시대 성장포럼",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772432028642.jpg",
-      "PHONE": "(02) 6788-6311"
+      "NAME": "서왕진·강득구 의원실, 환경보건시민센터·한국석면건축물안전관리협회·한국석면추방네트워크·전국학교석면학부모네트워크",
+      "LOCATION": "의원회관 신관 제3세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772156049288.png",
+      "PHONE": "(02) 6788-7156"
     },
     {
       "TITLE": "AI 대전환 시대, 새로운 사회계약을 묻는다",
@@ -29309,6 +29309,17 @@
       "PHONE": "(02) 6788-6776"
     },
     {
+      "TITLE": "K-반도체 트라이앵글 국회 연속토론회: 2차 토론회: 전력과 용수 중심, 진산지소 실현 방안 모색",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김종민·안호영·최형두·윤종오·정진욱·허성무·서왕진·차규근·박찬대 의원실, 대전환시대 성장포럼 ▶ 일시 : 2026.03.03(14:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-03-03",
+      "STIME": "14:00",
+      "NAME": "김종민·안호영·최형두·윤종오·정진욱·허성무·서왕진·차규근·박찬대 의원실, 대전환시대 성장포럼",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772432028642.jpg",
+      "PHONE": "(02) 6788-6311"
+    },
+    {
       "TITLE": "KTCS(한국형열차제어시스템) 전국철도망 구축과 해외시장 진출 정책토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 손명수 의원실 ▶ 일시 : 2026.03.03(14:00) ▶ 장소 : 의원회관 제1소회의실",
@@ -29318,17 +29329,6 @@
       "LOCATION": "의원회관 제1소회의실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1770713723809.png",
       "PHONE": "(02) 6788-7251"
-    },
-    {
-      "TITLE": "학교석면철거 안전제도개선 국회토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260303&endDate=20260303&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서왕진·강득구 의원실, 환경보건시민센터·한국석면건축물안전관리협회·한국석면추방네트워크·전국학교석면학부모네트워크 ▶ 일시 : 2026.03.03(14:00) ▶ 장소 : 의원회관 신관 제3세미나실",
-      "SDATE": "2026-03-03",
-      "STIME": "14:00",
-      "NAME": "서왕진·강득구 의원실, 환경보건시민센터·한국석면건축물안전관리협회·한국석면추방네트워크·전국학교석면학부모네트워크",
-      "LOCATION": "의원회관 신관 제3세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772156049288.png",
-      "PHONE": "(02) 6788-7156"
     },
     {
       "TITLE": "북한인권법 제정 10주년 국민보고대회",
@@ -29419,17 +29419,6 @@
       "PHONE": "(02) 6788-6966"
     },
     {
-      "TITLE": "대한민국 기본사회 통합돌봄이 기준입니다",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260304&endDate=20260304&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김영배 의원실, 한국사회연대경제 돌봄특별위원회 ▶ 일시 : 2026.03.04(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
-      "SDATE": "2026-03-04",
-      "STIME": "14:00",
-      "NAME": "김영배 의원실, 한국사회연대경제 돌봄특별위원회",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772428574427.jpg",
-      "PHONE": "(02) 6788-6241"
-    },
-    {
       "TITLE": "해외 입양인의 친생가족 찾기 활성화를 위한 정책 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260304&endDate=20260304&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김남희·남인순·양부남 의원실 ▶ 일시 : 2026.03.04(14:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
@@ -29439,6 +29428,17 @@
       "LOCATION": "의원회관 제7간담회의실(210호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772156781530.png",
       "PHONE": "(02) 6788-6731"
+    },
+    {
+      "TITLE": "대한민국 기본사회 통합돌봄이 기준입니다",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260304&endDate=20260304&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김영배 의원실, 한국사회연대경제 돌봄특별위원회 ▶ 일시 : 2026.03.04(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "SDATE": "2026-03-04",
+      "STIME": "14:00",
+      "NAME": "김영배 의원실, 한국사회연대경제 돌봄특별위원회",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772428574427.jpg",
+      "PHONE": "(02) 6788-6241"
     },
     {
       "TITLE": "지정학의 대전환! 미국의 NSS와 NDS, 한국의 대응전략: 동북아편화공존포럼 토론회",
@@ -29606,15 +29606,15 @@
       "PHONE": "(02) 6788-6076"
     },
     {
-      "TITLE": "성평등임금공시제 도입을 위한 글로벌 사례 공유 컨퍼런스",
+      "TITLE": "대한민국교육 무엇을 놓치고 있나: 학생 삶의 질과 시민성을 중심으로",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 신장식 의원실, 전국금융산업노동조합, 전국사무금융서비스노동조합 ▶ 일시 : 2026.03.05(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "DESCRIPTION": "▶ 주최 : 고민정·김준혁·강경숙 의원실, (사)교육정책디자인연구소 ▶ 일시 : 2026.03.05(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
       "SDATE": "2026-03-05",
       "STIME": "14:00",
-      "NAME": "신장식 의원실, 전국금융산업노동조합, 전국사무금융서비스노동조합",
-      "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772156687529.jpg",
-      "PHONE": "(02) 6788-6171"
+      "NAME": "고민정·김준혁·강경숙 의원실, (사)교육정책디자인연구소",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772604789614.png",
+      "PHONE": "(02) 6788-6051"
     },
     {
       "TITLE": "노인 돌보미 봉사시간 저축은행 설립 제안 세미나",
@@ -29628,15 +29628,26 @@
       "PHONE": "(02) 6788-6161"
     },
     {
-      "TITLE": "대한민국교육 무엇을 놓치고 있나: 학생 삶의 질과 시민성을 중심으로",
+      "TITLE": "성평등임금공시제 도입을 위한 글로벌 사례 공유 컨퍼런스",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 고민정·김준혁·강경숙 의원실, (사)교육정책디자인연구소 ▶ 일시 : 2026.03.05(14:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "DESCRIPTION": "▶ 주최 : 신장식 의원실, 전국금융산업노동조합, 전국사무금융서비스노동조합 ▶ 일시 : 2026.03.05(14:00) ▶ 장소 : 의원회관 제1소회의실",
       "SDATE": "2026-03-05",
       "STIME": "14:00",
-      "NAME": "고민정·김준혁·강경숙 의원실, (사)교육정책디자인연구소",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772604789614.png",
-      "PHONE": "(02) 6788-6051"
+      "NAME": "신장식 의원실, 전국금융산업노동조합, 전국사무금융서비스노동조합",
+      "LOCATION": "의원회관 제1소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772156687529.jpg",
+      "PHONE": "(02) 6788-6171"
+    },
+    {
+      "TITLE": "2026 한반도 산림협력 정책방향 국회세미나",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 서삼석 의원실, 통일부, 산림청 ▶ 일시 : 2026.03.05(10:00 ~ 12:00) ▶ 장소 : 국회도서관 소강당",
+      "SDATE": "2026-03-05",
+      "STIME": "10:00~12:00",
+      "NAME": "서삼석 의원실, 통일부, 산림청",
+      "LOCATION": "국회도서관 소강당",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772518798031.png",
+      "PHONE": "(02) 6788-6591"
     },
     {
       "TITLE": "국가구강검진 의무화 및 구강검진 강화를 위한 파노라마 촬영 도입 국회토론회",
@@ -29650,15 +29661,26 @@
       "PHONE": "(02) 6788-7071"
     },
     {
-      "TITLE": "2026 한반도 산림협력 정책방향 국회세미나",
+      "TITLE": "주주행동주의 시대, 기업을 흔드는 상법 개정 대응 전략",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서삼석 의원실, 통일부, 산림청 ▶ 일시 : 2026.03.05(10:00 ~ 12:00) ▶ 장소 : 국회도서관 소강당",
+      "DESCRIPTION": "▶ 주최 : 유상범 의원실, 자유기업원, 한국기업법연구소, 한국상장사협의회 ▶ 일시 : 2026.03.05(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
       "SDATE": "2026-03-05",
-      "STIME": "10:00~12:00",
-      "NAME": "서삼석 의원실, 통일부, 산림청",
-      "LOCATION": "국회도서관 소강당",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772518798031.png",
-      "PHONE": "(02) 6788-6591"
+      "STIME": "10:00",
+      "NAME": "유상범 의원실, 자유기업원, 한국기업법연구소, 한국상장사협의회",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772157699476.jpg",
+      "PHONE": "(02) 6788-6811"
+    },
+    {
+      "TITLE": "청소년 SNS·스마트폰 과의존, 어떻게 대응할 것인가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 황운하·강경숙·백선희 의원실 ▶ 일시 : 2026.03.05(10:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
+      "SDATE": "2026-03-05",
+      "STIME": "10:00",
+      "NAME": "황운하·강경숙·백선희 의원실",
+      "LOCATION": "의원회관 제1간담회의실(201호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772527512539.jpg",
+      "PHONE": "(02) 6788-7491"
     },
     {
       "TITLE": "\"비정규직 여성 진행자는 뉴스의 꽃인가\": 프리랜서 아나운서/기상캐스터 노동실태 토론회",
@@ -29683,17 +29705,6 @@
       "PHONE": "(02) 6788-7066"
     },
     {
-      "TITLE": "주주행동주의 시대, 기업을 흔드는 상법 개정 대응 전략",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 유상범 의원실, 자유기업원, 한국기업법연구소, 한국상장사협의회 ▶ 일시 : 2026.03.05(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
-      "SDATE": "2026-03-05",
-      "STIME": "10:00",
-      "NAME": "유상범 의원실, 자유기업원, 한국기업법연구소, 한국상장사협의회",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772157699476.jpg",
-      "PHONE": "(02) 6788-6811"
-    },
-    {
       "TITLE": "디지털자산 법인시장 개방과 신뢰 인프라 구축 과제 학술 컨퍼런스 개최",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김현정 의원실 ▶ 일시 : 2026.03.05(10:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
@@ -29703,17 +29714,6 @@
       "LOCATION": "의원회관 제7간담회의실(210호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772156840592.jpg",
       "PHONE": "(02) 6788-6671"
-    },
-    {
-      "TITLE": "청소년 SNS·스마트폰 과의존, 어떻게 대응할 것인가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260305&endDate=20260305&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 황운하·강경숙·백선희 의원실 ▶ 일시 : 2026.03.05(10:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
-      "SDATE": "2026-03-05",
-      "STIME": "10:00",
-      "NAME": "황운하·강경숙·백선희 의원실",
-      "LOCATION": "의원회관 제1간담회의실(201호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772527512539.jpg",
-      "PHONE": "(02) 6788-7491"
     },
     {
       "TITLE": "북극항로 거점항만의 미래와 과제",
@@ -29749,17 +29749,6 @@
       "PHONE": "(02) 6788-6581"
     },
     {
-      "TITLE": "용산국제업무지구 '글로벌 허브'인가 '거대한 베드타운'인가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 권영세 의원실, 서울특별시 ▶ 일시 : 2026.03.06(14:00) ▶ 장소 : 의원회관 제1소회의실",
-      "SDATE": "2026-03-06",
-      "STIME": "14:00",
-      "NAME": "권영세 의원실, 서울특별시",
-      "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772519088671.png",
-      "PHONE": "(02) 6788-6086"
-    },
-    {
       "TITLE": "기후위기 시대, 대규모 LNG 신규 건설 이대로 괜찮나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박지혜·김정호·서왕진·정혜경 의원실, 환경운동연합, 화석연료를넘어서(KBF) ▶ 일시 : 2026.03.06(14:00) ▶ 장소 : 의원회관 제3간담회의실(203호)",
@@ -29769,6 +29758,17 @@
       "LOCATION": "의원회관 제3간담회의실(203호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772526313573.jpg",
       "PHONE": "(02) 6788-6981"
+    },
+    {
+      "TITLE": "용산국제업무지구 '글로벌 허브'인가 '거대한 베드타운'인가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 권영세 의원실, 서울특별시 ▶ 일시 : 2026.03.06(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "SDATE": "2026-03-06",
+      "STIME": "14:00",
+      "NAME": "권영세 의원실, 서울특별시",
+      "LOCATION": "의원회관 제1소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772519088671.png",
+      "PHONE": "(02) 6788-6086"
     },
     {
       "TITLE": "공직 사회를 리드하는 공노총 국회 토크콘서트",
@@ -29793,6 +29793,28 @@
       "PHONE": "(02) 6788-7101"
     },
     {
+      "TITLE": "글로벌 투자시대 전개와 국내 자산운용산업의 발전 방안 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실 ▶ 일시 : 2026.03.06(10:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-03-06",
+      "STIME": "10:00",
+      "NAME": "안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773008732788.jpg",
+      "PHONE": "(02) 6788-7046"
+    },
+    {
+      "TITLE": "글로벌 투자시대 전개와 국내 자산운용산업의 발전 방안 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실 ▶ 일시 : 2026.03.06(10:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-03-06",
+      "STIME": "10:00",
+      "NAME": "안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773009523326.jpg",
+      "PHONE": "(02) 6788-7046"
+    },
+    {
       "TITLE": "저출생·고령사회 대응을 위한 돌봄체계 개선 방안 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 임이자 의원실, 경북연구원 ▶ 일시 : 2026.03.06(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
@@ -29815,17 +29837,6 @@
       "PHONE": "(02) 6788-7086"
     },
     {
-      "TITLE": "글로벌 투자시대 전개와 국내 자산운용산업의 발전 방안 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실 ▶ 일시 : 2026.03.06(10:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2026-03-06",
-      "STIME": "10:00",
-      "NAME": "안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773008732788.jpg",
-      "PHONE": "(02) 6788-7046"
-    },
-    {
       "TITLE": "민간부문 초기업 교섭의 제도화 과제와 실행 전략 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 이용우·안호영·김주영·박해철·박홍배·정혜경 의원실, 전국민주노동조합총연맹, 한국노동조합총연맹, 기후에너지환경노동위원회 ▶ 일시 : 2026.03.06(10:00) ▶ 장소 : 국회도서관 소강당",
@@ -29835,17 +29846,6 @@
       "LOCATION": "국회도서관 소강당",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772428271921.jpg",
       "PHONE": "(02) 6788-7091"
-    },
-    {
-      "TITLE": "글로벌 투자시대 전개와 국내 자산운용산업의 발전 방안 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260306&endDate=20260306&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실 ▶ 일시 : 2026.03.06(10:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2026-03-06",
-      "STIME": "10:00",
-      "NAME": "안도걸·남인순·오기형·정일영·김윤·박홍배·이강일·정준호 의원실",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773009523326.jpg",
-      "PHONE": "(02) 6788-7046"
     },
     {
       "TITLE": "차별금지법과 젠더 이데올로기 비판 세미나",
@@ -30222,15 +30222,15 @@
       "PHONE": "(02) 6788-6266"
     },
     {
-      "TITLE": "학교폭력예방법 일부 개정을 위한 입법토론회",
+      "TITLE": "제주 2035 탄소중립 실현, 가스 발전의 역할 점검 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260312&endDate=20260312&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 손솔 의원실, 체육시민연대, 법무법인 태광, 법률사무소 가호 ▶ 일시 : 2026.03.12(14:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
+      "DESCRIPTION": "▶ 주최 : 김한규 의원실, 화석연료를넘어서(KBF), 기후자원정의센터 아크 ▶ 일시 : 2026.03.12(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
       "SDATE": "2026-03-12",
       "STIME": "14:00",
-      "NAME": "손솔 의원실, 체육시민연대, 법무법인 태광, 법률사무소 가호",
-      "LOCATION": "의원회관 제1간담회의실(201호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773140484014.jpg",
-      "PHONE": "(02) 6788-6961"
+      "NAME": "김한규 의원실, 화석연료를넘어서(KBF), 기후자원정의센터 아크",
+      "LOCATION": "의원회관 제11간담회의실(216호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773102845131.jpg",
+      "PHONE": "(02) 6788-6771"
     },
     {
       "TITLE": "상조업 사업건전성 강화 방안 모색 국회토론회",
@@ -30244,15 +30244,15 @@
       "PHONE": "(02) 6788-6466"
     },
     {
-      "TITLE": "제주 2035 탄소중립 실현, 가스 발전의 역할 점검 토론회",
+      "TITLE": "학교폭력예방법 일부 개정을 위한 입법토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260312&endDate=20260312&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김한규 의원실, 화석연료를넘어서(KBF), 기후자원정의센터 아크 ▶ 일시 : 2026.03.12(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
+      "DESCRIPTION": "▶ 주최 : 손솔 의원실, 체육시민연대, 법무법인 태광, 법률사무소 가호 ▶ 일시 : 2026.03.12(14:00) ▶ 장소 : 의원회관 제1간담회의실(201호)",
       "SDATE": "2026-03-12",
       "STIME": "14:00",
-      "NAME": "김한규 의원실, 화석연료를넘어서(KBF), 기후자원정의센터 아크",
-      "LOCATION": "의원회관 제11간담회의실(216호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773102845131.jpg",
-      "PHONE": "(02) 6788-6771"
+      "NAME": "손솔 의원실, 체육시민연대, 법무법인 태광, 법률사무소 가호",
+      "LOCATION": "의원회관 제1간담회의실(201호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773140484014.jpg",
+      "PHONE": "(02) 6788-6961"
     },
     {
       "TITLE": "시간평등서울 정책토크: 시간평등과 민주주의·산업",
@@ -30761,17 +30761,6 @@
       "PHONE": "(02) 6788-6171"
     },
     {
-      "TITLE": "중증난치성 피부질환 현황과 환자 치료 접근성 개선을 위한 정책세미나: 만성 손습진을 중심으로",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이주영 의원실 ▶ 일시 : 2026.03.19(14:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
-      "SDATE": "2026-03-19",
-      "STIME": "14:00",
-      "NAME": "이주영 의원실",
-      "LOCATION": "의원회관 제10간담회의실(217호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773391828555.jpg",
-      "PHONE": "(02) 6788-7221"
-    },
-    {
       "TITLE": "건전한 도시민박 조성을 위한 민원 대응 및 주민 상생방안 간담회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 진종오 의원실 ▶ 일시 : 2026.03.19(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
@@ -30781,6 +30770,17 @@
       "LOCATION": "의원회관 제11간담회의실(216호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773101250831.jpg",
       "PHONE": "(02) 6788-6276"
+    },
+    {
+      "TITLE": "중증난치성 피부질환 현황과 환자 치료 접근성 개선을 위한 정책세미나: 만성 손습진을 중심으로",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이주영 의원실 ▶ 일시 : 2026.03.19(14:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
+      "SDATE": "2026-03-19",
+      "STIME": "14:00",
+      "NAME": "이주영 의원실",
+      "LOCATION": "의원회관 제10간담회의실(217호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773391828555.jpg",
+      "PHONE": "(02) 6788-7221"
     },
     {
       "TITLE": "2026 국가기후예측시스템 기후재난대응 서비스 토론회",
@@ -30827,17 +30827,6 @@
       "PHONE": "(02) 6788-7021"
     },
     {
-      "TITLE": "(특고·플랫폼노동·프리랜서 870만명을 위한) 일하는 사람 권리 보장 법률과 정책 논의 현주소",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김태선·박홍배·이용우 의원실 ▶ 일시 : 2026.03.19(10:00 ~ 12:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
-      "SDATE": "2026-03-19",
-      "STIME": "10:00~12:00",
-      "NAME": "김태선·박홍배·이용우 의원실",
-      "LOCATION": "의원회관 제11간담회의실(216호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772527756001.jpg",
-      "PHONE": "(02) 6788-6331"
-    },
-    {
       "TITLE": "수학포기자, 언제까지 방치할 것인가",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 강경숙·김문수 의원실 ▶ 일시 : 2026.03.19(10:00 ~ 12:00) ▶ 장소 : 의원회관 신관 제1세미나실",
@@ -30847,6 +30836,17 @@
       "LOCATION": "의원회관 신관 제1세미나실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773703007124.png",
       "PHONE": "(02) 6788-7036"
+    },
+    {
+      "TITLE": "(특고·플랫폼노동·프리랜서 870만명을 위한) 일하는 사람 권리 보장 법률과 정책 논의 현주소",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김태선·박홍배·이용우 의원실 ▶ 일시 : 2026.03.19(10:00 ~ 12:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
+      "SDATE": "2026-03-19",
+      "STIME": "10:00~12:00",
+      "NAME": "김태선·박홍배·이용우 의원실",
+      "LOCATION": "의원회관 제11간담회의실(216호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1772527756001.jpg",
+      "PHONE": "(02) 6788-6331"
     },
     {
       "TITLE": "K-반도체 트라이앵글 국회 연속토론회",
@@ -30871,15 +30871,15 @@
       "PHONE": "(02) 6788-6901"
     },
     {
-      "TITLE": "소셜미디어 시대 우리는 행복한가?",
+      "TITLE": "도뇨관 돌봄의 현실과 사회적 책임 정책토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박정현 의원실, 국회국민총행복정책포럼, 행복실현지방정부협의회, 국민총행복전환포럼 ▶ 일시 : 2026.03.19(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.03.19(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
       "SDATE": "2026-03-19",
       "STIME": "10:00",
-      "NAME": "박정현 의원실, 국회국민총행복정책포럼, 행복실현지방정부협의회, 국민총행복전환포럼",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773292126717.jpg",
-      "PHONE": "(02) 6788-6391"
+      "NAME": "서영석 의원실",
+      "LOCATION": "의원회관 신관 제3세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773702648645.jpg",
+      "PHONE": "(02) 6788-6601"
     },
     {
       "TITLE": "해킹 은폐 제로: 고의적 해킹 은폐 구조 개선 토론회",
@@ -30893,15 +30893,15 @@
       "PHONE": "(02) 6788-6586"
     },
     {
-      "TITLE": "도뇨관 돌봄의 현실과 사회적 책임 정책토론회",
+      "TITLE": "소셜미디어 시대 우리는 행복한가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260319&endDate=20260319&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.03.19(10:00) ▶ 장소 : 의원회관 신관 제3세미나실",
+      "DESCRIPTION": "▶ 주최 : 박정현 의원실, 국회국민총행복정책포럼, 행복실현지방정부협의회, 국민총행복전환포럼 ▶ 일시 : 2026.03.19(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
       "SDATE": "2026-03-19",
       "STIME": "10:00",
-      "NAME": "서영석 의원실",
-      "LOCATION": "의원회관 신관 제3세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773702648645.jpg",
-      "PHONE": "(02) 6788-6601"
+      "NAME": "박정현 의원실, 국회국민총행복정책포럼, 행복실현지방정부협의회, 국민총행복전환포럼",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773292126717.jpg",
+      "PHONE": "(02) 6788-6391"
     },
     {
       "TITLE": "우크라이나·이란 전장에서 확인된 드론 전쟁의 확산과 국제 안보환경 변화",
@@ -30937,17 +30937,6 @@
       "PHONE": "(02) 6788-6191"
     },
     {
-      "TITLE": "산단열 탈탄소화 실현 방안 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260320&endDate=20260320&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 박해철·김주영 의원실 ▶ 일시 : 2026.03.20(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-03-20",
-      "STIME": "14:00",
-      "NAME": "박해철·김주영 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773705973779.jpg",
-      "PHONE": "(02) 6788-7181"
-    },
-    {
       "TITLE": "순천 RE100 국가산업단지 유치 국회 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260320&endDate=20260320&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김문수 의원실 ▶ 일시 : 2026.03.20(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
@@ -30957,6 +30946,17 @@
       "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773746464619.jpg",
       "PHONE": "(02) 6788-7026"
+    },
+    {
+      "TITLE": "산단열 탈탄소화 실현 방안 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260320&endDate=20260320&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 박해철·김주영 의원실 ▶ 일시 : 2026.03.20(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-03-20",
+      "STIME": "14:00",
+      "NAME": "박해철·김주영 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773705973779.jpg",
+      "PHONE": "(02) 6788-7181"
     },
     {
       "TITLE": "인공지능 기본법 시행 이후의 인공지능 윤리 논의",
@@ -31014,15 +31014,15 @@
       "PHONE": "(02) 6788-6781"
     },
     {
-      "TITLE": "식자재마트 규제 사각지대: 제도권 편입을 위한 입법·정책 토론회",
+      "TITLE": "국민의 방어권 강화를 위한 형사성공보수 정상화 방안 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260323&endDate=20260323&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 오세희·서영교·권향엽 의원실 ▶ 일시 : 2026.03.23(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "DESCRIPTION": "▶ 주최 : 김재섭 의원실, 대한변호사협회, 서울지방변호사회 ▶ 일시 : 2026.03.23(14:00) ▶ 장소 : 의원회관 제1소회의실",
       "SDATE": "2026-03-23",
       "STIME": "14:00",
-      "NAME": "오세희·서영교·권향엽 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774225474013.jpg",
-      "PHONE": "(02) 6788-6351"
+      "NAME": "김재섭 의원실, 대한변호사협회, 서울지방변호사회",
+      "LOCATION": "의원회관 제1소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773714423970.png",
+      "PHONE": "(02) 6788-7146"
     },
     {
       "TITLE": "우리는 원산으로 간다: 아리스포츠컵 원산대회와 원산 갈마 개별 평화관광 협력 방안",
@@ -31036,15 +31036,15 @@
       "PHONE": "(02) 6788-6706"
     },
     {
-      "TITLE": "국민의 방어권 강화를 위한 형사성공보수 정상화 방안 토론회",
+      "TITLE": "식자재마트 규제 사각지대: 제도권 편입을 위한 입법·정책 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260323&endDate=20260323&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김재섭 의원실, 대한변호사협회, 서울지방변호사회 ▶ 일시 : 2026.03.23(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "DESCRIPTION": "▶ 주최 : 오세희·서영교·권향엽 의원실 ▶ 일시 : 2026.03.23(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
       "SDATE": "2026-03-23",
       "STIME": "14:00",
-      "NAME": "김재섭 의원실, 대한변호사협회, 서울지방변호사회",
-      "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773714423970.png",
-      "PHONE": "(02) 6788-7146"
+      "NAME": "오세희·서영교·권향엽 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774225474013.jpg",
+      "PHONE": "(02) 6788-6351"
     },
     {
       "TITLE": "미래 해양인재 양성 국가전략 선포식&국회포럼",
@@ -31157,6 +31157,28 @@
       "PHONE": "(02) 6788-6566"
     },
     {
+      "TITLE": "2026 국회철강포럼 정기총회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260324&endDate=20260324&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 어기구·이상휘·권향엽·권영진·김교흥·김상욱·김성환·김소희·김영배·김정재·김종민·김주영·김태년·김형동·맹성규 의원실 ▶ 일시 : 2026.03.24(10:00) ▶ 장소 : 의원회관 신관 제1세미나실",
+      "SDATE": "2026-03-24",
+      "STIME": "10:00",
+      "NAME": "어기구·이상휘·권향엽·권영진·김교흥·김상욱·김성환·김소희·김영배·김정재·김종민·김주영·김태년·김형동·맹성규 의원실",
+      "LOCATION": "의원회관 신관 제1세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773292704579.png",
+      "PHONE": "(02) 6788-6751"
+    },
+    {
+      "TITLE": "유통·제조업 상생발전을 위한 제도개선 간담회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260324&endDate=20260324&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이재관·박범계·이정문·김남근·권향엽·오세희·정진욱 의원실 ▶ 일시 : 2026.03.24(10:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
+      "SDATE": "2026-03-24",
+      "STIME": "10:00",
+      "NAME": "이재관·박범계·이정문·김남근·권향엽·오세희·정진욱 의원실",
+      "LOCATION": "의원회관 제10간담회의실(217호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773745265926.jpg",
+      "PHONE": "(02) 6788-6496"
+    },
+    {
       "TITLE": "대한민국 해병대 발전 국회 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260324&endDate=20260324&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 유용원·황명선·이상휘·백선희 의원실 ▶ 일시 : 2026.03.24(10:00) ▶ 장소 : 의원회관 제2소회의실",
@@ -31188,28 +31210,6 @@
       "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774309613070.jpg",
       "PHONE": "(02) 6788-7046"
-    },
-    {
-      "TITLE": "유통·제조업 상생발전을 위한 제도개선 간담회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260324&endDate=20260324&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이재관·박범계·이정문·김남근·권향엽·오세희·정진욱 의원실 ▶ 일시 : 2026.03.24(10:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
-      "SDATE": "2026-03-24",
-      "STIME": "10:00",
-      "NAME": "이재관·박범계·이정문·김남근·권향엽·오세희·정진욱 의원실",
-      "LOCATION": "의원회관 제10간담회의실(217호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773745265926.jpg",
-      "PHONE": "(02) 6788-6496"
-    },
-    {
-      "TITLE": "2026 국회철강포럼 정기총회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260324&endDate=20260324&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 어기구·이상휘·권향엽·권영진·김교흥·김상욱·김성환·김소희·김영배·김정재·김종민·김주영·김태년·김형동·맹성규 의원실 ▶ 일시 : 2026.03.24(10:00) ▶ 장소 : 의원회관 신관 제1세미나실",
-      "SDATE": "2026-03-24",
-      "STIME": "10:00",
-      "NAME": "어기구·이상휘·권향엽·권영진·김교흥·김상욱·김성환·김소희·김영배·김정재·김종민·김주영·김태년·김형동·맹성규 의원실",
-      "LOCATION": "의원회관 신관 제1세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773292704579.png",
-      "PHONE": "(02) 6788-6751"
     },
     {
       "TITLE": "모잠비크·탄자니아 진출기업 현안 간담회",
@@ -31344,17 +31344,6 @@
       "PHONE": "(02) 6788-6646"
     },
     {
-      "TITLE": "\"제품안전 및 소비자권익보호를 위한 집단소송법 도입\": 세계소비자권리의 날 기념 토론회 및 집단소송법 제정 촉구대회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260325&endDate=20260325&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이학영·서영교·박주민·백혜련·오기형·김남근·한창민·차규근·박균택 의원실, 한국소비자단체협의회 등 ▶ 일시 : 2026.03.25(10:00) ▶ 장소 : 의원회관 대회의실",
-      "SDATE": "2026-03-25",
-      "STIME": "10:00",
-      "NAME": "이학영·서영교·박주민·백혜련·오기형·김남근·한창민·차규근·박균택 의원실, 한국소비자단체협의회 등",
-      "LOCATION": "의원회관 대회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774309789799.png",
-      "PHONE": "(02) 6788-7096"
-    },
-    {
       "TITLE": "디지털 플랫폼 시대 합리적 소비자보호 방안",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260325&endDate=20260325&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박정현·강준현·박상혁·이강일 의원실, 컨슈머워치, KACE ▶ 일시 : 2026.03.25(10:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
@@ -31364,6 +31353,17 @@
       "LOCATION": "의원회관 제5간담회의실(208호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773392861063.png",
       "PHONE": "(02) 6788-6391"
+    },
+    {
+      "TITLE": "\"제품안전 및 소비자권익보호를 위한 집단소송법 도입\": 세계소비자권리의 날 기념 토론회 및 집단소송법 제정 촉구대회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260325&endDate=20260325&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이학영·서영교·박주민·백혜련·오기형·김남근·한창민·차규근·박균택 의원실, 한국소비자단체협의회 등 ▶ 일시 : 2026.03.25(10:00) ▶ 장소 : 의원회관 대회의실",
+      "SDATE": "2026-03-25",
+      "STIME": "10:00",
+      "NAME": "이학영·서영교·박주민·백혜련·오기형·김남근·한창민·차규근·박균택 의원실, 한국소비자단체협의회 등",
+      "LOCATION": "의원회관 대회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774309789799.png",
+      "PHONE": "(02) 6788-7096"
     },
     {
       "TITLE": "피지컬AI  프론티어 강국 신기술 조찬포럼［시즌3］",
@@ -31421,17 +31421,6 @@
       "PHONE": "(02) 6788-7011"
     },
     {
-      "TITLE": "'새로운 남성성' 확산을 위한 제안: 성평등 정책 국회 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 정춘생 의원실, 한국청소년성문화센터협의회, K-MEN ▶ 일시 : 2026.03.26(14:00 ~ 16:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2026-03-26",
-      "STIME": "14:00~16:00",
-      "NAME": "정춘생 의원실, 한국청소년성문화센터협의회, K-MEN",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774307234531.jpg",
-      "PHONE": "(02) 6788-6401"
-    },
-    {
       "TITLE": "지역균형발전을 위한 주거·금융정책 활성화 방안",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 안도걸·문진석·신정훈·이개호·이성윤·이언주·이원택·정준호·정진욱·조계원·허성무·홍기원·김승수·김정재·박성훈 의원실 등 ▶ 일시 : 2026.03.26(14:00 ~ 16:00) ▶ 장소 : 의원회관 대회의실",
@@ -31441,6 +31430,17 @@
       "LOCATION": "의원회관 대회의실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774226090095.png",
       "PHONE": "(02) 6788-7046"
+    },
+    {
+      "TITLE": "'새로운 남성성' 확산을 위한 제안: 성평등 정책 국회 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 정춘생 의원실, 한국청소년성문화센터협의회, K-MEN ▶ 일시 : 2026.03.26(14:00 ~ 16:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-03-26",
+      "STIME": "14:00~16:00",
+      "NAME": "정춘생 의원실, 한국청소년성문화센터협의회, K-MEN",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774307234531.jpg",
+      "PHONE": "(02) 6788-6401"
     },
     {
       "TITLE": "보편적시청권 제도 개선 토론회",
@@ -31531,6 +31531,28 @@
       "PHONE": "(02) 6788-6336"
     },
     {
+      "TITLE": "가스안전 공공성 100년을 설계하다",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 장철민·임호선·김종민·정혜경 의원실, 민주노총 공공운수노조 ▶ 일시 : 2026.03.26(10:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
+      "SDATE": "2026-03-26",
+      "STIME": "10:00",
+      "NAME": "장철민·임호선·김종민·정혜경 의원실, 민주노총 공공운수노조",
+      "LOCATION": "의원회관 제4간담회의실(204호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774390637119.jpg",
+      "PHONE": "(02) 6788-7151"
+    },
+    {
+      "TITLE": "온라인투자연계금융 활성화 방안을 위한 정책 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이정문·김승원·민형배·안도걸·이강일·허영 의원실 ▶ 일시 : 2026.03.26(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-03-26",
+      "STIME": "10:00",
+      "NAME": "이정문·김승원·민형배·안도걸·이강일·허영 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774397454181.jpg",
+      "PHONE": "(02) 6788-7056"
+    },
+    {
       "TITLE": "노동법 바깥에서 일하는 사람들의 권리부재 실태 증언대회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박홍배 의원실, 한국노총, 더불어민주당 노동존중실천단 ▶ 일시 : 2026.03.26(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
@@ -31551,28 +31573,6 @@
       "LOCATION": "의원회관 제1간담회의실(201호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774308412832.jpg",
       "PHONE": "(02) 6788-6766"
-    },
-    {
-      "TITLE": "온라인투자연계금융 활성화 방안을 위한 정책 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이정문·김승원·민형배·안도걸·이강일·허영 의원실 ▶ 일시 : 2026.03.26(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-03-26",
-      "STIME": "10:00",
-      "NAME": "이정문·김승원·민형배·안도걸·이강일·허영 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774397454181.jpg",
-      "PHONE": "(02) 6788-7056"
-    },
-    {
-      "TITLE": "가스안전 공공성 100년을 설계하다",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260326&endDate=20260326&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 장철민·임호선·김종민·정혜경 의원실, 민주노총 공공운수노조 ▶ 일시 : 2026.03.26(10:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
-      "SDATE": "2026-03-26",
-      "STIME": "10:00",
-      "NAME": "장철민·임호선·김종민·정혜경 의원실, 민주노총 공공운수노조",
-      "LOCATION": "의원회관 제4간담회의실(204호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774390637119.jpg",
-      "PHONE": "(02) 6788-7151"
     },
     {
       "TITLE": "통합돌봄시대 개막, 사회복지특별위원회의 역할",
@@ -31619,6 +31619,17 @@
       "PHONE": "(02) 6788-6106"
     },
     {
+      "TITLE": "자립준비 시작 연령 하향과 자립준비청년 맞춤형 지원체계 제도화 방안 국회 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김선민 의원실, 혁신적 복지국가로 나아가는 사회권선진국포럼 ▶ 일시 : 2026.03.27(14:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
+      "SDATE": "2026-03-27",
+      "STIME": "14:00",
+      "NAME": "김선민 의원실, 혁신적 복지국가로 나아가는 사회권선진국포럼",
+      "LOCATION": "의원회관 제5간담회의실(208호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773389549251.jpg",
+      "PHONE": "(02) 6788-7161"
+    },
+    {
       "TITLE": "2026 개헌 국민에게 직접 묻다",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 민병덕 의원실 ▶ 일시 : 2026.03.27(14:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
@@ -31641,17 +31652,6 @@
       "PHONE": "(02) 6788-6146"
     },
     {
-      "TITLE": "자립준비 시작 연령 하향과 자립준비청년 맞춤형 지원체계 제도화 방안 국회 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김선민 의원실, 혁신적 복지국가로 나아가는 사회권선진국포럼 ▶ 일시 : 2026.03.27(14:00) ▶ 장소 : 의원회관 제5간담회의실(208호)",
-      "SDATE": "2026-03-27",
-      "STIME": "14:00",
-      "NAME": "김선민 의원실, 혁신적 복지국가로 나아가는 사회권선진국포럼",
-      "LOCATION": "의원회관 제5간담회의실(208호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773389549251.jpg",
-      "PHONE": "(02) 6788-7161"
-    },
-    {
       "TITLE": "농지개혁 이후 첫 농지 전수조사, 어떻게 할 것인가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 전종덕·어기구·서삼석·김정호·송옥주·문금주·임미애·차규근 의원실, 대통령직속 농어업·농어촌특별위원회 ▶ 일시 : 2026.03.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
@@ -31663,17 +31663,6 @@
       "PHONE": "(02) 6788-6021"
     },
     {
-      "TITLE": "AX 시대 사이버보안 강화를 위한 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김현 의원실 ▶ 일시 : 2026.03.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
-      "SDATE": "2026-03-27",
-      "STIME": "10:00~12:00",
-      "NAME": "김현 의원실",
-      "LOCATION": "의원회관 제9간담회의실(212호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774396176467.jpg",
-      "PHONE": "(02) 6788-7016"
-    },
-    {
       "TITLE": "K-의료기기 AI로 미래를 설계하다",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 이수진·남인순·백혜련·권향엽·김윤·박희승·서미화·전진숙 의원실, 뉴스1, AI헬스케어포럼 등 ▶ 일시 : 2026.03.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 신관 제2세미나실",
@@ -31683,6 +31672,17 @@
       "LOCATION": "의원회관 신관 제2세미나실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774510946215.jpg",
       "PHONE": "(02) 6788-6986"
+    },
+    {
+      "TITLE": "AX 시대 사이버보안 강화를 위한 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260327&endDate=20260327&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김현 의원실 ▶ 일시 : 2026.03.27(10:00 ~ 12:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "SDATE": "2026-03-27",
+      "STIME": "10:00~12:00",
+      "NAME": "김현 의원실",
+      "LOCATION": "의원회관 제9간담회의실(212호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774396176467.jpg",
+      "PHONE": "(02) 6788-7016"
     },
     {
       "TITLE": "해외 사례를 통해 본 올바른 퇴직연금기금화 방향 토론회",
@@ -31740,17 +31740,6 @@
       "PHONE": "(02) 6788-6506"
     },
     {
-      "TITLE": "서울시 저상버스 예외노선 실사 결과 보고 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 천준호 의원실, (사)전국장애인이동권연대 서울지부, 서울장애인차별철폐연대, 노원중증장애인독립생활센터 등 ▶ 일시 : 2026.03.30(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
-      "SDATE": "2026-03-30",
-      "STIME": "14:00",
-      "NAME": "천준호 의원실, (사)전국장애인이동권연대 서울지부, 서울장애인차별철폐연대, 노원중증장애인독립생활센터 등",
-      "LOCATION": "의원회관 제9간담회의실(212호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774478750548.jpg",
-      "PHONE": "(02) 6788-7336"
-    },
-    {
       "TITLE": "사회복지사의 날 기념식",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 서영석 의원실 ▶ 일시 : 2026.03.30(14:00) ▶ 장소 : 국회박물관 국회체험관",
@@ -31760,6 +31749,17 @@
       "LOCATION": "국회박물관 국회체험관",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774393647386.jpg",
       "PHONE": "(02) 6788-6601"
+    },
+    {
+      "TITLE": "서울시 저상버스 예외노선 실사 결과 보고 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 천준호 의원실, (사)전국장애인이동권연대 서울지부, 서울장애인차별철폐연대, 노원중증장애인독립생활센터 등 ▶ 일시 : 2026.03.30(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "SDATE": "2026-03-30",
+      "STIME": "14:00",
+      "NAME": "천준호 의원실, (사)전국장애인이동권연대 서울지부, 서울장애인차별철폐연대, 노원중증장애인독립생활센터 등",
+      "LOCATION": "의원회관 제9간담회의실(212호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774478750548.jpg",
+      "PHONE": "(02) 6788-7336"
     },
     {
       "TITLE": "정책 2830 창립총회 및 기조강연",
@@ -31806,17 +31806,6 @@
       "PHONE": "(02) 6788-6261"
     },
     {
-      "TITLE": "독립유공자 훈격 재평가 및 제도 개선을 위한 정책 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김현정·박찬대·이정문·임호선·허영 의원실 ▶ 일시 : 2026.03.30(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2026-03-30",
-      "STIME": "10:00",
-      "NAME": "김현정·박찬대·이정문·임호선·허영 의원실",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774484547190.png",
-      "PHONE": "(02) 6788-6671"
-    },
-    {
       "TITLE": "왜 청년들은 사회복지시설을 기피하나?: 사회복지사의날 기념 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 남인순 의원실, 직장갑질119 온라인노조 사회복지부 ▶ 일시 : 2026.03.30(10:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
@@ -31828,6 +31817,17 @@
       "PHONE": "(02) 6788-6381"
     },
     {
+      "TITLE": "독립유공자 훈격 재평가 및 제도 개선을 위한 정책 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김현정·박찬대·이정문·임호선·허영 의원실 ▶ 일시 : 2026.03.30(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "SDATE": "2026-03-30",
+      "STIME": "10:00",
+      "NAME": "김현정·박찬대·이정문·임호선·허영 의원실",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774484547190.png",
+      "PHONE": "(02) 6788-6671"
+    },
+    {
       "TITLE": "국민 생명을 지키는 건축법 개정 국회 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260330&endDate=20260330&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 염태영 의원실 ▶ 일시 : 2026.03.30(09:30) ▶ 장소 : 의원회관 제8간담회의실(211호)",
@@ -31837,17 +31837,6 @@
       "LOCATION": "의원회관 제8간담회의실(211호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774481967503.jpg",
       "PHONE": "(02) 6788-6326"
-    },
-    {
-      "TITLE": "지역 미디어 정책의 패러다임 전환 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이훈기 의원실, 한국지역방송협회 ▶ 일시 : 2026.03.31(14:00 ~ 18:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
-      "SDATE": "2026-03-31",
-      "STIME": "14:00~18:00",
-      "NAME": "이훈기 의원실, 한국지역방송협회",
-      "LOCATION": "의원회관 제9간담회의실(212호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774481679086.jpg",
-      "PHONE": "(02) 6788-6706"
     },
     {
       "TITLE": "보이지 않는 가족: 비혼 이주여성의 안정적 국내 체류와 자녀 양육권 보장 방안",
@@ -31872,6 +31861,17 @@
       "PHONE": "(02) 6788-6491"
     },
     {
+      "TITLE": "고령화 시대, 치매돌봄과 사회안전망 강화를 위한 국회 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 권칠승 의원실 ▶ 일시 : 2026.03.31(14:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-03-31",
+      "STIME": "14:00",
+      "NAME": "권칠승 의원실",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774478227102.jpg",
+      "PHONE": "(02) 6788-6101"
+    },
+    {
       "TITLE": "올바른 동물복지를 위한 동물보호법 개정 방향 국민 대토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김선교 의원실 ▶ 일시 : 2026.03.31(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
@@ -31881,17 +31881,6 @@
       "LOCATION": "의원회관 신관 제2세미나실",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774396333756.jpg",
       "PHONE": "(02) 6788-7401"
-    },
-    {
-      "TITLE": "소형모듈원자로［SMR］개발 촉진 특별법 제정 이후, SMR산업 활성화를 위한 국회 정책토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 최형두·윤한홍·김종양·이종욱·허성무 의원실 ▶ 일시 : 2026.03.31(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
-      "SDATE": "2026-03-31",
-      "STIME": "14:00",
-      "NAME": "최형두·윤한홍·김종양·이종욱·허성무 의원실",
-      "LOCATION": "의원회관 제11간담회의실(216호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773747605510.jpg",
-      "PHONE": "(02) 6788-7376"
     },
     {
       "TITLE": "플라스틱 조화 화환 문제 해결을 위한 정책 간담회",
@@ -31905,17 +31894,6 @@
       "PHONE": "(02) 6788-6351"
     },
     {
-      "TITLE": "고령화 시대, 치매돌봄과 사회안전망 강화를 위한 국회 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 권칠승 의원실 ▶ 일시 : 2026.03.31(14:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2026-03-31",
-      "STIME": "14:00",
-      "NAME": "권칠승 의원실",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774478227102.jpg",
-      "PHONE": "(02) 6788-6101"
-    },
-    {
       "TITLE": "기후위기 시대, 에너지취약계층 지원법의 필요성",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 박지혜·김용태 의원실 ▶ 일시 : 2026.03.31(14:00) ▶ 장소 : 의원회관 제4간담회의실(204호)",
@@ -31925,6 +31903,28 @@
       "LOCATION": "의원회관 제4간담회의실(204호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774480990677.jpg",
       "PHONE": "(02) 6788-6981"
+    },
+    {
+      "TITLE": "소형모듈원자로［SMR］개발 촉진 특별법 제정 이후, SMR산업 활성화를 위한 국회 정책토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 최형두·윤한홍·김종양·이종욱·허성무 의원실 ▶ 일시 : 2026.03.31(14:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
+      "SDATE": "2026-03-31",
+      "STIME": "14:00",
+      "NAME": "최형두·윤한홍·김종양·이종욱·허성무 의원실",
+      "LOCATION": "의원회관 제11간담회의실(216호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1773747605510.jpg",
+      "PHONE": "(02) 6788-7376"
+    },
+    {
+      "TITLE": "지역 미디어 정책의 패러다임 전환 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이훈기 의원실, 한국지역방송협회 ▶ 일시 : 2026.03.31(13:00 ~ 15:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
+      "SDATE": "2026-03-31",
+      "STIME": "13:00~15:00",
+      "NAME": "이훈기 의원실, 한국지역방송협회",
+      "LOCATION": "의원회관 제9간담회의실(212호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774919842609.jpg",
+      "PHONE": "(02) 6788-6706"
     },
     {
       "TITLE": "AI 윤리 정책의 미래와 AI 기본법 개정 방향",
@@ -31938,17 +31938,6 @@
       "PHONE": "(02) 6788-7481"
     },
     {
-      "TITLE": "주택 공급 활성화를 위한 정책 방향 토론회",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 복기왕·권영진·염태영·안태준 의원실 ▶ 일시 : 2026.03.31(10:00) ▶ 장소 : 의원회관 제2소회의실",
-      "SDATE": "2026-03-31",
-      "STIME": "10:00",
-      "NAME": "복기왕·권영진·염태영·안태준 의원실",
-      "LOCATION": "의원회관 제2소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774484257829.jpg",
-      "PHONE": "(02) 6788-6511"
-    },
-    {
       "TITLE": "스텔라데이지호 해양심판 재결 분석·평가 및 향후 과제 국회토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 용혜인 의원실, 스텔라데이지호 침몰참사 대책위원회, 국회 생명안전포럼, 재난피해자권리센터 우리함께 등 ▶ 일시 : 2026.03.31(10:00) ▶ 장소 : 의원회관 제11간담회의실(216호)",
@@ -31958,6 +31947,17 @@
       "LOCATION": "의원회관 제11간담회의실(216호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774308916181.png",
       "PHONE": "(02) 6788-6776"
+    },
+    {
+      "TITLE": "주택 공급 활성화를 위한 정책 방향 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260331&endDate=20260331&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 복기왕·권영진·염태영·안태준 의원실 ▶ 일시 : 2026.03.31(10:00) ▶ 장소 : 의원회관 제2소회의실",
+      "SDATE": "2026-03-31",
+      "STIME": "10:00",
+      "NAME": "복기왕·권영진·염태영·안태준 의원실",
+      "LOCATION": "의원회관 제2소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774484257829.jpg",
+      "PHONE": "(02) 6788-6511"
     },
     {
       "TITLE": "경제는 민주당 제46강",
@@ -32015,17 +32015,6 @@
       "PHONE": "(02) 6788-7156"
     },
     {
-      "TITLE": "이란戰으로 본 AI 전쟁: 국방 혁신과 생명 윤리",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260401&endDate=20260401&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 부승찬·유용원 의원실 ▶ 일시 : 2026.04.01(14:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
-      "SDATE": "2026-04-01",
-      "STIME": "14:00",
-      "NAME": "부승찬·유용원 의원실",
-      "LOCATION": "의원회관 제7간담회의실(210호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774655455446.jpg",
-      "PHONE": "(02) 6788-6741"
-    },
-    {
       "TITLE": "(안전한 모바일 앱 생태계 조성을 위한) 사이버 보안 정책 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260401&endDate=20260401&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 고동진·최형두·안도걸·이준석 의원실 ▶ 일시 : 2026.04.01(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
@@ -32035,6 +32024,17 @@
       "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774509010813.png",
       "PHONE": "(02) 6788-6066"
+    },
+    {
+      "TITLE": "이란戰으로 본 AI 전쟁: 국방 혁신과 생명 윤리",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260401&endDate=20260401&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 부승찬·유용원 의원실 ▶ 일시 : 2026.04.01(14:00) ▶ 장소 : 의원회관 제7간담회의실(210호)",
+      "SDATE": "2026-04-01",
+      "STIME": "14:00",
+      "NAME": "부승찬·유용원 의원실",
+      "LOCATION": "의원회관 제7간담회의실(210호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774655455446.jpg",
+      "PHONE": "(02) 6788-6741"
     },
     {
       "TITLE": "더불어민주당 북한이탈주민특별위원회 입법 및 정책과제 제안 간담회",
@@ -32081,17 +32081,6 @@
       "PHONE": "(02) 6788-6311"
     },
     {
-      "TITLE": "유언장 보관 제도 왜 필요한가?",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260402&endDate=20260402&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이주희 의원실, 유언법제변호사모임 ▶ 일시 : 2026.04.02(11:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2026-04-02",
-      "STIME": "11:00",
-      "NAME": "이주희 의원실, 유언법제변호사모임",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774396267963.jpg",
-      "PHONE": "(02) 6788-6106"
-    },
-    {
       "TITLE": "2026 국회세계한인경제포럼 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260402&endDate=20260402&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김성원·최형두·주호영·조정식 의원실 등, 국회세계한인경제포럼 ▶ 일시 : 2026.04.02(11:00) ▶ 장소 : 의원회관 제1소회의실",
@@ -32103,6 +32092,17 @@
       "PHONE": "(02) 6788-6206"
     },
     {
+      "TITLE": "유언장 보관 제도 왜 필요한가?",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260402&endDate=20260402&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이주희 의원실, 유언법제변호사모임 ▶ 일시 : 2026.04.02(11:00) ▶ 장소 : 의원회관 제6간담회의실(209호)",
+      "SDATE": "2026-04-02",
+      "STIME": "11:00",
+      "NAME": "이주희 의원실, 유언법제변호사모임",
+      "LOCATION": "의원회관 제6간담회의실(209호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774396267963.jpg",
+      "PHONE": "(02) 6788-6106"
+    },
+    {
       "TITLE": "(주주가치 제고를 위한) 자본시장법 개정 현안과 향후 과제",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260402&endDate=20260402&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 김현정 의원실 ▶ 일시 : 2026.04.02(10:30) ▶ 장소 : 의원회관 제4간담회의실(204호)",
@@ -32112,6 +32112,17 @@
       "LOCATION": "의원회관 제4간담회의실(204호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774508055794.jpg",
       "PHONE": "(02) 6788-6671"
+    },
+    {
+      "TITLE": "격변하는 세계정세에서 한영관계가 나아갈 길",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260402&endDate=20260402&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 김기현 의원실 ▶ 일시 : 2026.04.02(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "SDATE": "2026-04-02",
+      "STIME": "10:00",
+      "NAME": "김기현 의원실",
+      "LOCATION": "의원회관 제2간담회의실(202호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774397722423.jpg",
+      "PHONE": "(02) 6788-6126"
     },
     {
       "TITLE": "모듈러선설 활성화를 위한 체계적 예산 확보 방안: 「국회 모듈러건설 발전방안 연구포럼」 3차 토론회",
@@ -32136,15 +32147,15 @@
       "PHONE": "(02) 6788-6231"
     },
     {
-      "TITLE": "격변하는 세계정세에서 한영관계가 나아갈 길",
+      "TITLE": "건강수명과 튼튼한 돌봄은 입에서 시작된다",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260402&endDate=20260402&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김기현 의원실 ▶ 일시 : 2026.04.02(10:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
+      "DESCRIPTION": "▶ 주최 : 안상훈 의원실 ▶ 일시 : 2026.04.02(09:30 ~ 12:00) ▶ 장소 : 의원회관 제2소회의실",
       "SDATE": "2026-04-02",
-      "STIME": "10:00",
-      "NAME": "김기현 의원실",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774397722423.jpg",
-      "PHONE": "(02) 6788-6126"
+      "STIME": "09:30~12:00",
+      "NAME": "안상훈 의원실",
+      "LOCATION": "의원회관 제2소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774919924834.jpg",
+      "PHONE": "(02) 6788-7071"
     },
     {
       "TITLE": "AI 대전환 시대, 기본소득의 현실적 실현 방안",
@@ -32158,6 +32169,17 @@
       "PHONE": "(02) 6788-6776"
     },
     {
+      "TITLE": "원자력 안전 연속토론회: 방사선안전분야",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260403&endDate=20260403&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이주희 의원실, (사)시민환경연구소, 환경운동연합 ▶ 일시 : 2026.04.03(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-04-03",
+      "STIME": "14:00",
+      "NAME": "이주희 의원실, (사)시민환경연구소, 환경운동연합",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774917352076.jpg",
+      "PHONE": "(02) 6788-6106"
+    },
+    {
       "TITLE": "국방 섬유소재의 국산화를 위한 국회 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260403&endDate=20260403&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 강대식 의원실 ▶ 일시 : 2026.04.03(14:00) ▶ 장소 : 의원회관 제9간담회의실(212호)",
@@ -32167,28 +32189,6 @@
       "LOCATION": "의원회관 제9간담회의실(212호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774481316296.png",
       "PHONE": "(02) 6788-6006"
-    },
-    {
-      "TITLE": "원자력 안전 연속토론회: 방사선안전분야",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260403&endDate=20260403&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이주희 의원실, (사)시민환경연구소, 환경운동연합 ▶ 일시 : 2026.04.03(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-04-03",
-      "STIME": "14:00",
-      "NAME": "이주희 의원실, (사)시민환경연구소, 환경운동연합",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774656948306.jpg",
-      "PHONE": "(02) 6788-6106"
-    },
-    {
-      "TITLE": "호르무즈의 덫, 미국발 중동전쟁과 한국의 대응전략",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260403&endDate=20260403&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이기헌·김병주·윤건영·조정식·홍기원 의원실 ▶ 일시 : 2026.04.03(10:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
-      "SDATE": "2026-04-03",
-      "STIME": "10:00",
-      "NAME": "이기헌·김병주·윤건영·조정식·홍기원 의원실",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774856640644.jpg",
-      "PHONE": "(02) 6788-6636"
     },
     {
       "TITLE": "한반도 평화공존의 조건과 전략",
@@ -32202,6 +32202,17 @@
       "PHONE": "(02) 6788-6721"
     },
     {
+      "TITLE": "호르무즈의 덫, 미국발 중동전쟁과 한국의 대응전략",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260403&endDate=20260403&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 이기헌·김병주·윤건영·조정식·홍기원 의원실 ▶ 일시 : 2026.04.03(10:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "SDATE": "2026-04-03",
+      "STIME": "10:00",
+      "NAME": "이기헌·김병주·윤건영·조정식·홍기원 의원실",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774856640644.jpg",
+      "PHONE": "(02) 6788-6636"
+    },
+    {
       "TITLE": "관계의 확장, 미래의 확장: 청년이 감각하는 생활동반자법",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260405&endDate=20260405&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 용혜인 의원실 ▶ 일시 : 2026.04.05(14:00 ~ 16:30) ▶ 장소 : 의원회관 신관 제3세미나실",
@@ -32213,6 +32224,17 @@
       "PHONE": "(02) 6788-6776"
     },
     {
+      "TITLE": "국가보훈의 사회적 의미와 국민 인식 제고 방안 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260406&endDate=20260406&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 정희용·정진욱 의원실 ▶ 일시 : 2026.04.06(14:00) ▶ 장소 : 의원회관 신관 제1세미나실",
+      "SDATE": "2026-04-06",
+      "STIME": "14:00",
+      "NAME": "정희용·정진욱 의원실",
+      "LOCATION": "의원회관 신관 제1세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774919749848.png",
+      "PHONE": "(02) 6788-7256"
+    },
+    {
       "TITLE": "중단된 제4인터넷뱅크, 재추진 필요한가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260406&endDate=20260406&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 신장식·민병덕·이정문·한창민 의원실 ▶ 일시 : 2026.04.06(10:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
@@ -32222,6 +32244,17 @@
       "LOCATION": "의원회관 제8간담회의실(211호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774397315375.jpg",
       "PHONE": "(02) 6788-6171"
+    },
+    {
+      "TITLE": "모범운전자의 법적 지위 확립 및 실효적 지원 체계 구축",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260407&endDate=20260407&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 복기왕·윤건영·김성원·유동수·민병덕·임호선·박용갑·이상식 의원실 ▶ 일시 : 2026.04.07(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "SDATE": "2026-04-07",
+      "STIME": "14:00",
+      "NAME": "복기왕·윤건영·김성원·유동수·민병덕·임호선·박용갑·이상식 의원실",
+      "LOCATION": "의원회관 제1소회의실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774912967108.jpg",
+      "PHONE": "(02) 6788-6511"
     },
     {
       "TITLE": "해상풍력지원선(CTV) 국산화 기술개발 및 표준화 전략 토론회",
@@ -32268,6 +32301,17 @@
       "PHONE": "(02) 6788-6631"
     },
     {
+      "TITLE": "제8차 자원순환정책포럼",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260408&endDate=20260408&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 정준호·박홍배·장철민 의원실 ▶ 일시 : 2026.04.08(14:00) ▶ 장소 : 의원회관 신관 제1세미나실",
+      "SDATE": "2026-04-08",
+      "STIME": "14:00",
+      "NAME": "정준호·박홍배·장철민 의원실",
+      "LOCATION": "의원회관 신관 제1세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774914946976.jpg",
+      "PHONE": "(02) 6788-6226"
+    },
+    {
       "TITLE": "디지털서비스법 DSA의 균형모델과 한국형 입법의 실천적 과제: 한국-EU 전문가 포럼",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260408&endDate=20260408&searchGubun=search",
       "DESCRIPTION": "▶ 주최 : 이주희·김우영·박지혜·전진숙·한민수 의원실 등 ▶ 일시 : 2026.04.08(14:00) ▶ 장소 : 의원회관 제2소회의실",
@@ -32275,7 +32319,7 @@
       "STIME": "14:00",
       "NAME": "이주희·김우영·박지혜·전진숙·한민수 의원실 등",
       "LOCATION": "의원회관 제2소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774655816326.jpg",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774916286674.jpg",
       "PHONE": "(02) 6788-6106"
     },
     {
@@ -32303,12 +32347,12 @@
     {
       "TITLE": "대한민국 임시정부와 기념일 세미나",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260409&endDate=20260409&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김용만 의원실, 국립대한민국임시정부기념관 ▶ 일시 : 2026.04.09(14:00) ▶ 장소 : 의원회관 제1소회의실",
+      "DESCRIPTION": "▶ 주최 : 김용만 의원실, 국립대한민국임시정부기념관 ▶ 일시 : 2026.04.09(13:30) ▶ 장소 : 의원회관 제1소회의실",
       "SDATE": "2026-04-09",
-      "STIME": "14:00",
+      "STIME": "13:30",
       "NAME": "김용만 의원실, 국립대한민국임시정부기념관",
       "LOCATION": "의원회관 제1소회의실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774396850686.jpg",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774915022102.jpg",
       "PHONE": "(02) 6788-6461"
     },
     {
@@ -32321,6 +32365,17 @@
       "LOCATION": "의원회관 제6간담회의실(209호)",
       "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774057296249.jpg",
       "PHONE": "(02) 6788-7376"
+    },
+    {
+      "TITLE": "취양계층노동자· 미등록이주노동자 건강권 보장을 위한 토론회",
+      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260415&endDate=20260415&searchGubun=search",
+      "DESCRIPTION": "▶ 주최 : 박홍배 의원실, 녹색병원 ▶ 일시 : 2026.04.15(14:00) ▶ 장소 : 의원회관 제10간담회의실(217호)",
+      "SDATE": "2026-04-15",
+      "STIME": "14:00",
+      "NAME": "박홍배 의원실, 녹색병원",
+      "LOCATION": "의원회관 제10간담회의실(217호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1774919306208.jpg",
+      "PHONE": "(02) 6788-6866"
     }
   ]
 }
