@@ -1,119 +1,9 @@
 {
-  "updated_at": "2026-05-23 23:44",
-  "date_from": "2025-05-23",
-  "date_to": "2026-07-22",
-  "count": 2877,
+  "updated_at": "2026-05-24 23:47",
+  "date_from": "2025-05-24",
+  "date_to": "2026-07-23",
+  "count": 2867,
   "forums": [
-    {
-      "TITLE": "새정부에 바라는 스포츠 정책 제안",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 양문석·전재수·조계원 의원실 ▶ 일시 : 2025.05.23(18:00) ▶ 장소 : 의원회관 신관 제1세미나실",
-      "SDATE": "2025-05-23",
-      "STIME": "18:00",
-      "NAME": "양문석·전재수·조계원 의원실",
-      "LOCATION": "의원회관 신관 제1세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "새정부에 바라는 스포츠 정책 제안",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 양문석·전재수·조계원 의원실 ▶ 일시 : 2025.05.23(18:00) ▶ 장소 : 의원회관 신관 제1세미나실",
-      "SDATE": "2025-05-23",
-      "STIME": "18:00",
-      "NAME": "양문석·전재수·조계원 의원실",
-      "LOCATION": "의원회관 신관 제1세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "전세사기·깡통전세 피해자 전국대책위원회 정책제안식",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 민병덕 의원실, 더불어민주당 을지키는민생실천위원회 ▶ 일시 : 2025.05.23(16:30) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2025-05-23",
-      "STIME": "16:30",
-      "NAME": "민병덕 의원실, 더불어민주당 을지키는민생실천위원회",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "전세사기·깡통전세 피해자 전국대책위원회 정책제안식",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 민병덕 의원실, 더불어민주당 을지키는민생실천위원회 ▶ 일시 : 2025.05.23(16:30) ▶ 장소 : 의원회관 제6간담회의실(209호)",
-      "SDATE": "2025-05-23",
-      "STIME": "16:30",
-      "NAME": "민병덕 의원실, 더불어민주당 을지키는민생실천위원회",
-      "LOCATION": "의원회관 제6간담회의실(209호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "[2025년 제1차 KICCE 정책토론회] 발달지연·장애영유아 지원체계구축을 위한 토론회- 유보통합 과정에서",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서미화·김문수·안상훈·강경숙 의원실 ▶ 일시 : 2025.05.23(14:00 ~ 16:00) ▶ 장소 : 국회도서관 강당",
-      "SDATE": "2025-05-23",
-      "STIME": "14:00~16:00",
-      "NAME": "서미화·김문수·안상훈·강경숙 의원실",
-      "LOCATION": "국회도서관 강당",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "[2025년 제1차 KICCE 정책토론회] 발달지연·장애영유아 지원체계구축을 위한 토론회 - 유보통합 과정에서",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 서미화·김문수·안상훈·강경숙 의원실 ▶ 일시 : 2025.05.23(14:00 ~ 16:00) ▶ 장소 : 국회도서관 강당",
-      "SDATE": "2025-05-23",
-      "STIME": "14:00~16:00",
-      "NAME": "서미화·김문수·안상훈·강경숙 의원실",
-      "LOCATION": "국회도서관 강당",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "글로벌 기술패권 시대, 대한민국 과학기술 혁신 방향 국회 세미나",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 노종면 의원실, 한국정책학회·국회금융정책연구회·기술경영경제학회 ▶ 일시 : 2025.05.23(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2025-05-23",
-      "STIME": "10:00",
-      "NAME": "노종면 의원실, 한국정책학회·국회금융정책연구회·기술경영경제학회",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "글로벌 기술패권 시대, 대한민국 과학기술 혁신 방향 국회 세미나",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 노종면 의원실, 한국정책학회·국회금융정책연구회·기술경영경제학회 ▶ 일시 : 2025.05.23(10:00) ▶ 장소 : 의원회관 신관 제2세미나실",
-      "SDATE": "2025-05-23",
-      "STIME": "10:00",
-      "NAME": "노종면 의원실, 한국정책학회·국회금융정책연구회·기술경영경제학회",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "자본시장 선진화 및 자산운용업계 경쟁력 제고 방안",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김한규 의원실 ▶ 일시 : 2025.05.23(09:30 ~ 12:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
-      "SDATE": "2025-05-23",
-      "STIME": "09:30~12:00",
-      "NAME": "김한규 의원실",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
-    {
-      "TITLE": "자본시장 선진화 및 자산운용업계 경쟁력 제고 방안",
-      "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250523&endDate=20250523&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 김한규 의원실 ▶ 일시 : 2025.05.23(09:30 ~ 12:00) ▶ 장소 : 의원회관 제2간담회의실(202호)",
-      "SDATE": "2025-05-23",
-      "STIME": "09:30~12:00",
-      "NAME": "김한규 의원실",
-      "LOCATION": "의원회관 제2간담회의실(202호)",
-      "IMGLINK": null,
-      "PHONE": null
-    },
     {
       "TITLE": "MBK 등 사모펀드 운영 가맹점주 긴급간담회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20250524&endDate=20250524&searchGubun=search",
@@ -31454,15 +31344,15 @@
       "PHONE": "(02) 6788-6726"
     },
     {
-      "TITLE": "AI 강국 실현과 일자리 보호 토론회",
+      "TITLE": "이란전쟁이 던진 질문: 우리의 드론, AI 준비되어 있는가?",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260520&endDate=20260520&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 이훈기 의원실, 참여연대, 소비자주권시민회의 ▶ 일시 : 2026.05.20(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
+      "DESCRIPTION": "▶ 주최 : 유용원 의원실, 동행미디어 시대 ▶ 일시 : 2026.05.20(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
       "SDATE": "2026-05-20",
       "STIME": "14:00",
-      "NAME": "이훈기 의원실, 참여연대, 소비자주권시민회의",
-      "LOCATION": "의원회관 신관 제2세미나실",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1779150602905.jpg",
-      "PHONE": "(02) 6788-6706"
+      "NAME": "유용원 의원실, 동행미디어 시대",
+      "LOCATION": "의원회관 제8간담회의실(211호)",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1778986240818.jpg",
+      "PHONE": "(02) 6788-6796"
     },
     {
       "TITLE": "주민지방자치법 개정과 주민자치회 2.0: 제도화 이후의 과제과 전략",
@@ -31476,15 +31366,15 @@
       "PHONE": "(02) 6788-6096"
     },
     {
-      "TITLE": "이란전쟁이 던진 질문: 우리의 드론, AI 준비되어 있는가?",
+      "TITLE": "AI 강국 실현과 일자리 보호 토론회",
       "LINK": "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260520&endDate=20260520&searchGubun=search",
-      "DESCRIPTION": "▶ 주최 : 유용원 의원실, 동행미디어 시대 ▶ 일시 : 2026.05.20(14:00) ▶ 장소 : 의원회관 제8간담회의실(211호)",
+      "DESCRIPTION": "▶ 주최 : 이훈기 의원실, 참여연대, 소비자주권시민회의 ▶ 일시 : 2026.05.20(14:00) ▶ 장소 : 의원회관 신관 제2세미나실",
       "SDATE": "2026-05-20",
       "STIME": "14:00",
-      "NAME": "유용원 의원실, 동행미디어 시대",
-      "LOCATION": "의원회관 제8간담회의실(211호)",
-      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1778986240818.jpg",
-      "PHONE": "(02) 6788-6796"
+      "NAME": "이훈기 의원실, 참여연대, 소비자주권시민회의",
+      "LOCATION": "의원회관 신관 제2세미나실",
+      "IMGLINK": "https://ampos.nanet.go.kr:7443/repo-link/apos/COVER/2026/APOS_COVER1779150602905.jpg",
+      "PHONE": "(02) 6788-6706"
     },
     {
       "TITLE": "피지컬 AI 시대, 일자리와 보안",
