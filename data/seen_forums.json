@@ -109,11 +109,18 @@
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260820&endDate=20260820&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260821&endDate=20260821&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260822&endDate=20260822&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260824&endDate=20260824&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260825&endDate=20260825&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260826&endDate=20260826&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260827&endDate=20260827&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260828&endDate=20260828&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260831&endDate=20260831&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260901&endDate=20260901&searchGubun=search",
-  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260909&endDate=20260909&searchGubun=search"
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260902&endDate=20260902&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260903&endDate=20260903&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260904&endDate=20260904&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260909&endDate=20260909&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260910&endDate=20260910&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20260916&endDate=20260916&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261001&endDate=20261001&searchGubun=search"
 ]
