@@ -181,5 +181,7 @@
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261123&endDate=20261123&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261124&endDate=20261124&searchGubun=search",
   "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261125&endDate=20261125&searchGubun=search",
-  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261126&endDate=20261126&searchGubun=search"
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261126&endDate=20261126&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261202&endDate=20261202&searchGubun=search",
+  "https://ampos.nanet.go.kr:7443/seminarList.do#fromDate=20261209&endDate=20261209&searchGubun=search"
 ]
